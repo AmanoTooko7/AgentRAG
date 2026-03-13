@@ -2,7 +2,7 @@
 
 <img width="3264" height="1693" alt="整体架构图" src="https://github.com/user-attachments/assets/3ffeee3d-0cdb-4117-aff2-aefa158536a4" />
 
-
+## Basic
 Environment: 6* RTX 3080 memory 10G; cuda12.8;ubuntu.
 V2_Py_project/environment provide .yaml and requirements.txt, you can try which more convenient to config env.
 
@@ -12,4 +12,5 @@ This project is answering Single question running by main-singleQ.py, you should
 3. For re-ranker you should config `RERANKER_PATH` in `V2_Py_project\src\re_ranker.py`
 4. Regarding the models mentioned in second and third points above you can download [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2); [bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3)
 
-
+## Sundry
+LLM can use ollama or vllm for local runing, our vllm version is `0.14.1`;
