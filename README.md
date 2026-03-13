@@ -13,9 +13,10 @@ This project is answering Single question running by main-singleQ.py, you should
 4. Regarding the models mentioned in second and third points above you can download [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2); [bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3)
 
 ## Sundry
-1.LLM can use ollama or vllm for local runing, our vllm version is `0.14.1`;
-2.Wiki's retriever use [google/embeddinggemma-300m](https://huggingface.co/google/embeddinggemma-300m)
-3.Our system ofen use `llama3-8b`/`qwen3-8b` so sometime encounter `No tool calls generated` in `Query generator agent`, so within the `query_generator_node` function, code can be rewritten to force a database lookup for each query generated.
+1. LLM can use ollama or vllm for local runing, our vllm version is `0.14.1`;
+2. Wiki's retriever use [google/embeddinggemma-300m](https://huggingface.co/google/embeddinggemma-300m)
+3. Our system ofen use `llama3-8b`/`qwen3-8b` so sometime encounter `No tool calls generated` in `Query generator agent`, so within the `query_generator_node` function, code can be rewritten to force a database lookup for each query generated.
+
 
 
 
