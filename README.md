@@ -13,7 +13,7 @@ This project is answering single question running by `main-singleQ.py`, but you 
 
 ## Sundry
 1. LLM can use `ollama` or `vllm` for local runing, our `vllm` version is `0.14.1`.
-2. Our system ofen use `llama3-8b` so sometime encounter `No tool calls generated` in `Query_generator_agent`, within the `Query_generator_agent` function, code can be rewritten to force a database lookup for each query generated.
+2. Our system ofen use `llama3-8b-instruct` so sometime encounter `No tool calls generated` in `Query_generator_agent`, within the `Query_generator_agent` function, code can be rewritten to force a database lookup for each query generated.
 
 
 
