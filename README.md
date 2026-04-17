@@ -1,6 +1,7 @@
 **The documentation has not yet been finalised and will be updated subsequently.**
 
-<img width="3264" height="1693" alt="整体架构图" src="https://github.com/user-attachments/assets/3ffeee3d-0cdb-4117-aff2-aefa158536a4" />
+<img width="3264" height="1693" alt="整体架构图" src="https://github.com/user-attachments/assets/c356a158-1ab6-4949-a2b9-d4c17de4c5ed" />
+
 
 ## Basic
 Environment: 6* RTX 3080, memory 10G; cuda12.8;ubuntu;`V2_Py_project/environment` provide `.yaml` and `requirements.txt`, you can try which more convenient to config env.
