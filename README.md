@@ -1,6 +1,6 @@
 **The documentation has not yet been finalised and will be updated subsequently.**
 
-<img width="3264" height="1693" alt="整体架构图" src="https://github.com/user-attachments/assets/c356a158-1ab6-4949-a2b9-d4c17de4c5ed" />
+<img alt="整体架构图" src="https://github.com/user-attachments/assets/c356a158-1ab6-4949-a2b9-d4c17de4c5ed" />
 
 
 ## Basic
