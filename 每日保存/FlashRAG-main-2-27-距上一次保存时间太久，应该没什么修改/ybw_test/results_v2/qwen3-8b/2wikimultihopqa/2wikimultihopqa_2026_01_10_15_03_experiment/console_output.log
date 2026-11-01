@@ -1,0 +1,60 @@
+📥 加载数据集...
+Loading dev dataset from: /home/lab/ybw/FlashRAG-main/datasets_flashRAG/2wikimultihopqa/dev.jsonl...
+✅ 数据集加载成功，共 3 条
+   [1m评估数据: Who is the mother of the director of film Polish-Russian War (Film)?[0m
+🛠️ 初始化 Pipeline...
+🚀 [MyV2Pipeline] 正在初始化 V2 LangGraph...
+✅ V2 Graph compiled successfully.
+[1m🏃 运行...——————————————————————————————————————————————[0m
+🔥 [MyV2Pipeline] 开始推理 (总数: 3, 剩余: 3)...
+  0%|                                                                         | 0/3 [00:00<?, ?it/s]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify the director of the film 'Polish-Russian War' and confirm their full name and nationality.", "Determine the mother's name of the identified director, including any relevant biographical or familial information."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the director of the film 'Polish-Russian War' and confirm their full name and nationality.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_ff78af9a39a740c8a9bc41', 'function': {'arguments': '{"query": "director of Polish-Russian War full name nationality"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 31, 'prompt_tokens': 431, 'total_tokens': 462, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-51c2187a-686a-9a28-8d16-17b5e26e87a7', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--513b5cb2-2192-4199-a24c-3b39ebc57f79-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'director of Polish-Russian War full name nationality'}, 'id': 'call_ff78af9a39a740c8a9bc41', 'type': 'tool_call'}] usage_metadata={'input_tokens': 431, 'output_tokens': 31, 'total_tokens': 462, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'director of Polish-Russian War full name nationality[0m'
+查询向量是：Given a search query, retrieve relevant passages:director of Polish-Russian War full name nationality
+📊 Retrieval Stats: Dense(200) + Sparse(200) -> Merged(399)
+📚 [WikiRetriever] 返回 399 docs (Sent to Re-ranker).
+🧾 Top-1 Preview: Titile: "Antoni Madaliński"
+Content: "Antoni Madaliński Antoni Madaliński (1739–1805) – Polish Lieutenant General, commander of 1st Greater Polish National Cavalry Brigade during Kościuszko Uprising....
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 399 docs...
+[1msub_answer_generator_node:[0m
+Identify the director of the film 'Polish-Russian War' and confirm their full name and nationality.
+The director of the film "Polish-Russian War" is Xawery Żuławski. His full name is Xawery Żuławski, and he is Polish.
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer identifies Xawery Żuławski as the director of the film 'Polish-Russian War' and confirms his full name and nationality. This information directly aligns with the remaining step in the Master Plan, which is to determine the mother's name of the identified director. The sub-answer does not introduce any new analytical dimension or invalidate assumptions; it simply provides the necessary foundation for the next step. Since there is no contradiction, new requirement, or shift in scope, the current plan remains valid and does not need adjustment.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Determine the mother's name of the identified director, including any relevant biographical or familial information.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_7996eb901d3742e2834c86', 'function': {'arguments': '{"query": "Xawery Żuławski mother name biographical information"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 1177, 'total_tokens': 1212, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-a3137a6b-4db3-9e3b-825f-e46663eb7d66', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--9383c35a-462b-417b-98f9-ffbf0c23ec99-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Xawery Żuławski mother name biographical information'}, 'id': 'call_7996eb901d3742e2834c86', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1177, 'output_tokens': 35, 'total_tokens': 1212, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Xawery Żuławski mother name biographical information[0m'
+查询向量是：Given a search query, retrieve relevant passages:Xawery Żuławski mother name biographical information
+📊 Retrieval Stats: Dense(200) + Sparse(200) -> Merged(399)
+📚 [WikiRetriever] 返回 399 docs (Sent to Re-ranker).
+🧾 Top-1 Preview: Titile: "Xawery Dunikowski"
+Content: "sculptures by Dunikowski titled ""Kobiety brzemienne"" (Pregnant Women). In the same year Dunikowski became the professor of the Academy of Fine Arts in Warsaw, t...
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 399 docs...
+[1msub_answer_generator_node:[0m
+Determine the mother's name of the identified director, including any relevant biographical or familial information.
+The context provided does not contain information about the mother of any identified director. Therefore, the answer is: NOT FOUND.
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer confirms that the context provided does not contain information about the mother of any identified director. The search through the retrieved documents did not yield any relevant biographical details about the director's mother. This result aligns with the original goal, which is to identify the mother of the director of the film 'Polish-Russian War.' Since no director by that name was found in the provided documents, and no further steps were planned, the current plan remains valid. The sub-answer does not introduce new dimensions or invalidate assumptions—it simply confirms the lack of available data.", 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+<answer>NOT FOUND</answer>
+ 33%|█████████████████████▋                                           | 1/3 [00:24<00:48, 24.49s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+ 33%|█████████████████████▋                                           | 1/3 [00:24<00:49, 24.73s/it]

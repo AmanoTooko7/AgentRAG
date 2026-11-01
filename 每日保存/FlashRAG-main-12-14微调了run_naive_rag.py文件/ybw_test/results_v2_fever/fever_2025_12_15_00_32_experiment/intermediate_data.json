@@ -1,0 +1,19 @@
+[
+    {
+        "id": "test_7701",
+        "question": "Manchester by the Sea is a town.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    }
+]

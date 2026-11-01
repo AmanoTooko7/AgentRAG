@@ -1,0 +1,44 @@
+[
+    {
+        "id": "dev_1951",
+        "question": "who was the bluegrass band on the andy griffith show",
+        "golden_answers": [
+            "The Dillards"
+        ],
+        "output": {
+            "retrieval_result": [
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"The Dillards\"\nContent: \"Bounsall (electric guitar, banjo, mandolin, fiddle), Byron Berline (fiddle), Irv Dugan (bass), Bill Bryson (bass), Glen D. Hardin (keyboards), Seth Papas (drums), Buddy Blackmon (banjo), Rick McEwen (bass), Ric Williams (drums), Joe Villegas (bass), Eddie Ponder (drums), Pete Grant (banjo, steel guitar), Steve Cooley (banjo, guitar, upright bass), Wilburn \"\"Cody\"\" Pace (banjo, fiddle, Richard Godfrey (drums), Shane Lail (guitar), Jim Glaspy (banjo, guitar) and Billy Constable (guitar). Though The Dillards were already an established bluegrass band, their biggest claim to fame is performing musically as members of the fictional Darling family on \"\"The Andy Griffith Show\"\", introducing bluegrass to many\"",
+                    "score": 0.99
+                },
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"The Country Gentlemen\"\nContent: \"The Country Gentlemen The Country Gentlemen were a bluegrass band that originated during the 1950s in the area of Washington, D.C., United States, and recorded and toured with various members until the death in 2004 of Charlie Waller, one of the group's founders who in its later years served as the group's leader. The classic line-up from 1960–64 consisted of co-founders Charlie Waller on guitar and John Duffey on mandolin, with Eddie Adcock on banjo and Tom Gray on bass. They were inducted into the International Bluegrass Music Hall of Honor in 1996. The band started on July 4, 1957\"",
+                    "score": 0.99
+                },
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"Greg Corbett\"\nContent: \"Greg Corbett Gregory James \"\"Greg\"\" Corbett (August 27, 1972 – August 24, 2014) was an American banjo player from North Carolina. Corbett was best known for his work with the bluegrass bands The Country Gentlemen and The Circuit Riders. The son of Jimmy and Phebe Corbett, Greg began playing at a young age in groups such as the Dark Mountain Band. He joined The Country Gentlemen in 1991 as the group's banjo player. He played with the group until the group's founder Charlie Waller died in 2004. Corbett went on to found the group The Circuit Riders along with other\"",
+                    "score": 0.99
+                }
+            ],
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on the given documents. Answer concisely. Output ONLY the entity or short phrase. Do not output full sentences.\n\nThe following are given documents:\nDoc 1(Title: Titile: \"The Dillards\") Content: \"Bounsall (electric guitar, banjo, mandolin, fiddle), Byron Berline (fiddle), Irv Dugan (bass), Bill Bryson (bass), Glen D. Hardin (keyboards), Seth Papas (drums), Buddy Blackmon (banjo), Rick McEwen (bass), Ric Williams (drums), Joe Villegas (bass), Eddie Ponder (drums), Pete Grant (banjo, steel guitar), Steve Cooley (banjo, guitar, upright bass), Wilburn \"\"Cody\"\" Pace (banjo, fiddle, Richard Godfrey (drums), Shane Lail (guitar), Jim Glaspy (banjo, guitar) and Billy Constable (guitar). Though The Dillards were already an established bluegrass band, their biggest claim to fame is performing musically as members of the fictional Darling family on \"\"The Andy Griffith Show\"\", introducing bluegrass to many\"\nDoc 2(Title: Titile: \"The Country Gentlemen\") Content: \"The Country Gentlemen The Country Gentlemen were a bluegrass band that originated during the 1950s in the area of Washington, D.C., United States, and recorded and toured with various members until the death in 2004 of Charlie Waller, one of the group's founders who in its later years served as the group's leader. The classic line-up from 1960–64 consisted of co-founders Charlie Waller on guitar and John Duffey on mandolin, with Eddie Adcock on banjo and Tom Gray on bass. They were inducted into the International Bluegrass Music Hall of Honor in 1996. The band started on July 4, 1957\"\nDoc 3(Title: Titile: \"Greg Corbett\") Content: \"Greg Corbett Gregory James \"\"Greg\"\" Corbett (August 27, 1972 – August 24, 2014) was an American banjo player from North Carolina. Corbett was best known for his work with the bluegrass bands The Country Gentlemen and The Circuit Riders. The son of Jimmy and Phebe Corbett, Greg began playing at a young age in groups such as the Dark Mountain Band. He joined The Country Gentlemen in 1991 as the group's banjo player. He played with the group until the group's founder Charlie Waller died in 2004. Corbett went on to found the group The Circuit Riders along with other\"\n"
+                },
+                {
+                    "role": "user",
+                    "content": "Question: who was the bluegrass band on the andy griffith show\nAnswer:"
+                }
+            ],
+            "pred": "The Dillards",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    }
+]

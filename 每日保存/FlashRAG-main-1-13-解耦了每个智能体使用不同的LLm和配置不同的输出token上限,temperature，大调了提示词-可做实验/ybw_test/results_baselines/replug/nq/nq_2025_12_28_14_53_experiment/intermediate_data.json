@@ -1,0 +1,98 @@
+[
+    {
+        "id": "dev_1951",
+        "question": "who was the bluegrass band on the andy griffith show",
+        "golden_answers": [
+            "The Dillards"
+        ],
+        "output": {
+            "retrieval_result": [
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"The Dillards\"\nContent: \"Bounsall (electric guitar, banjo, mandolin, fiddle), Byron Berline (fiddle), Irv Dugan (bass), Bill Bryson (bass), Glen D. Hardin (keyboards), Seth Papas (drums), Buddy Blackmon (banjo), Rick McEwen (bass), Ric Williams (drums), Joe Villegas (bass), Eddie Ponder (drums), Pete Grant (banjo, steel guitar), Steve Cooley (banjo, guitar, upright bass), Wilburn \"\"Cody\"\" Pace (banjo, fiddle, Richard Godfrey (drums), Shane Lail (guitar), Jim Glaspy (banjo, guitar) and Billy Constable (guitar). Though The Dillards were already an established bluegrass band, their biggest claim to fame is performing musically as members of the fictional Darling family on \"\"The Andy Griffith Show\"\", introducing bluegrass to many\"",
+                    "score": 1.0
+                },
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"The Country Gentlemen\"\nContent: \"The Country Gentlemen The Country Gentlemen were a bluegrass band that originated during the 1950s in the area of Washington, D.C., United States, and recorded and toured with various members until the death in 2004 of Charlie Waller, one of the group's founders who in its later years served as the group's leader. The classic line-up from 1960–64 consisted of co-founders Charlie Waller on guitar and John Duffey on mandolin, with Eddie Adcock on banjo and Tom Gray on bass. They were inducted into the International Bluegrass Music Hall of Honor in 1996. The band started on July 4, 1957\"",
+                    "score": 0.99
+                },
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"Greg Corbett\"\nContent: \"Greg Corbett Gregory James \"\"Greg\"\" Corbett (August 27, 1972 – August 24, 2014) was an American banjo player from North Carolina. Corbett was best known for his work with the bluegrass bands The Country Gentlemen and The Circuit Riders. The son of Jimmy and Phebe Corbett, Greg began playing at a young age in groups such as the Dark Mountain Band. He joined The Country Gentlemen in 1991 as the group's banjo player. He played with the group until the group's founder Charlie Waller died in 2004. Corbett went on to found the group The Circuit Riders along with other\"",
+                    "score": 0.98
+                }
+            ],
+            "pred": "The Dillards",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_5234",
+        "question": "who has held the english throne the longest",
+        "golden_answers": [
+            "Queen Elizabeth II"
+        ],
+        "output": {
+            "retrieval_result": [
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"Prince Philip, Duke of Edinburgh\"\nContent: \"Grant Act 2011. Any part of the allowance that is not used to meet official expenditure is liable for tax. In practice, the entire allowance is used to fund his official duties. During his wife's Golden Jubilee in 2002, the Duke was commended by the Speaker of the British House of Commons for his role in supporting the Queen during her reign. The Duke of Edinburgh's time as royal consort exceeds that of any other consort in British history; however, Queen Elizabeth The Queen Mother (his mother-in-law), who died aged 101, has had the longest lifespan to date. In April\"",
+                    "score": 1.0
+                },
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"British royal family\"\nContent: \"British royal family The British royal family comprises Queen Elizabeth II and her close relations. There is no strict legal or formal definition of who is or is not a member of the British royal family. Those who at the time are entitled to the style His or Her Royal Highness (HRH), and any styled His or Her Majesty (HM), are normally considered members, including those so styled before the beginning of the current monarch's reign. By this criterion, a list of the current royal family will usually include the monarch, the children and male-line grandchildren of the monarch and\"",
+                    "score": 0.99
+                },
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"British royal family\"\nContent: \"Kingdom, on behalf of the relevant state. British royal family The British royal family comprises Queen Elizabeth II and her close relations. There is no strict legal or formal definition of who is or is not a member of the British royal family. Those who at the time are entitled to the style His or Her Royal Highness (HRH), and any styled His or Her Majesty (HM), are normally considered members, including those so styled before the beginning of the current monarch's reign. By this criterion, a list of the current royal family will usually include the monarch, the children\"",
+                    "score": 0.98
+                }
+            ],
+            "pred": "Queen Elizabeth The Queen Mother",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5714285714285715,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_8233",
+        "question": "who has the most world cups in soccer",
+        "golden_answers": [
+            "Brazil"
+        ],
+        "output": {
+            "retrieval_result": [
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"FIFA World Cup\"\nContent: \"FIFA World Cup The FIFA World Cup, often simply called the World Cup, is an international association football competition contested by the senior men's national teams of the members of the \"\"\"\" (FIFA), the sport's global governing body. The championship has been awarded every four years since the inaugural tournament in 1930, except in 1942 and 1946 when it was not held because of the Second World War. The current champion is France, which won its second title at the 2018 tournament in Russia. The current format of the competition involves a qualification phase, which currently takes place over the\"",
+                    "score": 1.0
+                },
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"FIFA World Cup\"\nContent: \"two titles each; and England and Spain with one title each. The World Cup is the most prestigious association football tournament in the world, as well as the most widely viewed and followed sporting event in the world, exceeding even the Olympic Games; the cumulative viewership of all matches of the 2006 World Cup was estimated to be 26.29 billion with an estimated 715.1 million people watching the final match, a ninth of the entire population of the planet. 17 countries have hosted the World Cup. Brazil, France, Italy, Germany and Mexico have each hosted twice, while Uruguay, Switzerland, Sweden,\"",
+                    "score": 0.99
+                },
+                {
+                    "id": "unknown",
+                    "contents": "Titile: \"FIFA World Cup\"\nContent: \"two gold medals at the 1924 and 1928 Summer Olympics and their two World Cup titles in 1930 and 1950). With five titles, Brazil are the most successful World Cup team and also the only nation to have played in every World Cup (21) to date. Brazil were also the first team to win the World Cup for the third (1970), fourth (1994) and fifth (2002) time. Italy (1934 and 1938) and Brazil (1958 and 1962) are the only nations to have won consecutive titles. West Germany (1982–1990) and Brazil (1994–2002) are the only nations to appear in three consecutive\"",
+                    "score": 0.98
+                }
+            ],
+            "pred": "France",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    }
+]

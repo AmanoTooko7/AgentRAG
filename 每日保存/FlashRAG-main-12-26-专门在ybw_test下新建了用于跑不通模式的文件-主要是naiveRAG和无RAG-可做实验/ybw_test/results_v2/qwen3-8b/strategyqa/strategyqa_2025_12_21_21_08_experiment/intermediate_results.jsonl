@@ -1,0 +1,300 @@
+{"id": "train_487", "question": "Is dopamine snorted nasally by drug users?", "pred": "no", "gold": ["no"]}
+{"id": "train_1308", "question": "Should a Celiac sufferer avoid spaghetti?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_2058", "question": "Would a honey badger's dentures be different from a wolverine's?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2096", "question": "Was Iggy Pop named after his father?", "pred": "no", "gold": ["yes"]}
+{"id": "train_420", "question": "Are there multiple Star Wars TV shows produced by Disney?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_914", "question": "Would Othello be Shakespeare's play to buy Scheherazade most time with king?", "pred": "no", "gold": ["no"]}
+{"id": "train_2279", "question": "Do Shinto practitioners keep to a kosher diet?", "pred": "no", "gold": ["no"]}
+{"id": "train_1722", "question": "Would E.T. the Extra-Terrestrial alien hypothetically love Friendly's?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2243", "question": "Is the tibia required for floor exercises?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_2010", "question": "Does Elizabeth II reign over the Balearic Islands?", "pred": "no", "gold": ["no"]}
+{"id": "train_1806", "question": "Can you get a ride on Amtrak to the Underworld?", "pred": "no", "gold": ["no"]}
+{"id": "train_982", "question": "Are there options for students who struggle to understand the writing style of Othello?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_10", "question": "Can you buy Casio products at Petco?", "pred": "no", "gold": ["no"]}
+{"id": "train_330", "question": "Were number of states in Ancient Greece underwhelming compared to US states in 1900?", "pred": "no", "gold": ["no"]}
+{"id": "train_453", "question": "Did Christopher Columbus condone multiple deadly sins?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1176", "question": "Were deaths from Apollo 13 mission eclipsed by other space missions?", "pred": "no", "gold": ["yes"]}
+{"id": "train_401", "question": "Would Kelly Clarkson's voice shake glass?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1841", "question": "Can COVID-19 spread to maritime pilots?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_47", "question": "Can a strawberry get worms similar to dogs?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2008", "question": "Will speed reader devour The Great Gatsby before the Raven?", "pred": "no", "gold": ["no"]}
+{"id": "train_1287", "question": "Will the small intenstine break down a cotton ball?", "pred": "no", "gold": ["no"]}
+{"id": "train_861", "question": "Is the skull formed as one whole bone?", "pred": "no", "gold": ["no"]}
+{"id": "train_1627", "question": "Would it be possible to fit a football field in Alcatraz Island?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1030", "question": "Was Darth Vader monogamous?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1424", "question": "Could the Powepuff Girls make the background to the Azerbaijani flag?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1460", "question": "Was milliner in Alice in Wonderland (1951 film) likely in need of succimer?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1541", "question": "NATO doesn't recognize double triangle flag countries?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2103", "question": "Has Drew Carey outshined Doug Davidson's tenure?", "pred": "Error", "gold": ["yes"]}
+{"id": "train_312", "question": "Does Princess Peach's dress resemble a peach fruit?", "pred": "no", "gold": ["no"]}
+{"id": "train_1394", "question": "Does Justin Bieber vote in October?", "pred": "no", "gold": ["yes"]}
+{"id": "train_367", "question": "Would a birdwatcher pursue their hobby at a Philadelphia Eagles game?", "pred": "no", "gold": ["no"]}
+{"id": "train_2283", "question": "Are amoebas safe from breast cancer?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2203", "question": "Would a caracal be defeated by Javier Sotomayor in a high jump competition?", "pred": "no", "gold": ["no"]}
+{"id": "train_1196", "question": "Are eagles and young bears both used as labels for skills-training youth groups?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1178", "question": "Is Tange Sazen hypothetically an ideal choice for a secretary job?", "pred": "Error", "gold": ["no"]}
+{"id": "train_1873", "question": "Does Nigella Lawson care about solubility?", "pred": "no", "gold": ["yes"]}
+{"id": "train_577", "question": "Do bodies movie during hanging?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1265", "question": "Is a bengal fox likely to see the Superbowl?", "pred": "no", "gold": ["no"]}
+{"id": "train_101", "question": "Will Tokyo Tower be repainted only once during President Trump's first term?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1510", "question": "Did Charlemagne have a bar mitzvah?", "pred": "no", "gold": ["no"]}
+{"id": "train_1489", "question": "Could casualties from deadliest war rival France's population?", "pred": "yes", "gold": ["no"]}
+{"id": "train_1888", "question": "Was the man who played the male lead in Mrs. Doubtfire known for his humour?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1729", "question": "Do sand cats avoid eating all of the prey of eels?", "pred": "no", "gold": ["no"]}
+{"id": "train_371", "question": "Would Christopher Hitchens be very unlikely to engage in tonsure?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1633", "question": "Does a Disney princess on Broadway have red hair?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2271", "question": "Is a paleo dieter unlikely to color beverages green for St. Patrick's Day?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_2041", "question": "Will Elijah Cummings cast a vote in the 2020 presidential election?", "pred": "yes", "gold": ["no"]}
+{"id": "train_476", "question": "Could Sainsbury's buy Tesco?", "pred": "no", "gold": ["no"]}
+{"id": "train_1742", "question": "Is hanging a viable execution method on a ship at sea?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2074", "question": "Did Alan Rickman have an improperly functioning organ?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2011", "question": "Can a microwave melt a Toyota Prius battery?", "pred": "no", "gold": ["no"]}
+{"id": "train_1630", "question": "Would someone with leukophobia enjoy looking at the Flag of the United States?", "pred": "yes", "gold": ["no"]}
+{"id": "train_2148", "question": "Is Cape Town south of the Equator?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1059", "question": "Did Richard Wagner support the Nazis?", "pred": "no", "gold": ["no"]}
+{"id": "train_1720", "question": "Is the use of the word Gypsy by non-Romani people considered okay?", "pred": "no", "gold": ["no"]}
+{"id": "train_1962", "question": "Did Lionel Richie ever have dinner with Abraham Lincoln?", "pred": "no", "gold": ["no"]}
+{"id": "train_2101", "question": "Is eggplant deadly to most atopic individuals? ", "pred": "no", "gold": ["no"]}
+{"id": "train_2121", "question": "Can Darth Vader hypothetically outdunk Bill Walton without using The Force?", "pred": "Error", "gold": ["no"]}
+{"id": "train_103", "question": "Can Clouded leopards chase down many Pronghorn antelopes?", "pred": "no", "gold": ["no"]}
+{"id": "train_919", "question": "Can Roman numerals fill the normal number of Sudoku box options?", "pred": "no", "gold": ["no"]}
+{"id": "train_528", "question": "Could a white cockatoo have lived through the entire Thirty Years' War?", "pred": "no", "gold": ["yes"]}
+{"id": "train_200", "question": "Was Martin Luther same sect as Martin Luther King Jr.?", "pred": "no", "gold": ["no"]}
+{"id": "train_2143", "question": "Do sun bears stay active during winter?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1758", "question": "Is it best to avoid kola nuts with colitis?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1925", "question": "Are the brooms from curling good for using on house floors?", "pred": "no", "gold": ["no"]}
+{"id": "train_583", "question": "Would Swiss Guard defeat the Marines?", "pred": "no", "gold": ["no"]}
+{"id": "train_1974", "question": "Is eating a Dicopomorpha echmepterygis size Uranium pellet fatal?", "pred": "Error", "gold": ["no"]}
+{"id": "train_937", "question": "Is overfeeding Lactobacillus unwise for people without dental insurance?", "pred": "no", "gold": ["yes"]}
+{"id": "train_499", "question": "Would someone on antidepressants need to be cautious of some citrus fruits?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1871", "question": "Is Jack Black unlikely to compete with Bear McCreary for an award?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1922", "question": "Is a construction worker required to build a portfolio?", "pred": "yes", "gold": ["no"]}
+{"id": "train_2234", "question": "Is the largest city in New Mexico also known as Yootó?", "pred": "no", "gold": ["no"]}
+{"id": "train_1028", "question": "Does Pantheon in Paris have a unique name?", "pred": "no", "gold": ["no"]}
+{"id": "train_1646", "question": "Did University of Pittsburgh founder have great deal in common with Judith Sheindlin?", "pred": "Error", "gold": ["yes"]}
+{"id": "train_1260", "question": "Would hypothermia be a concern for a human wearing zoot suit on Triton?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_2245", "question": "Is a platypus immune from cholera?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2055", "question": "Are multiple Christmas Carol's named after Saints?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1961", "question": "Would JPEG be a good format for saving an image of Da Vinci's Vitruvian Man?", "pred": "no", "gold": ["no"]}
+{"id": "train_1773", "question": "Was Mesopotamia part of what is now China?", "pred": "no", "gold": ["no"]}
+{"id": "train_829", "question": "Did Alan Turing suffer the same fate as Abraham Lincoln?", "pred": "Error", "gold": ["no"]}
+{"id": "train_1205", "question": "Does a person need a college degree to become a bartender?", "pred": "no", "gold": ["no"]}
+{"id": "train_1101", "question": "Is Phobos (moon) name origin similar to Roman god Pavor?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_37", "question": "Would a broadcast from Spirit make the news in 2020?", "pred": "no", "gold": ["yes"]}
+{"id": "train_135", "question": "Is week old chlorine water safe to drink?", "pred": "no", "gold": ["yes"]}
+{"id": "train_613", "question": "Is ABBA's 1970's genre still relevant today?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1876", "question": "Are pennies commonly used in Canada?", "pred": "no", "gold": ["no"]}
+{"id": "train_2141", "question": "Could the endowment of Johns Hopkins University pay off the MBTA debt?", "pred": "no", "gold": ["no"]}
+{"id": "train_2005", "question": "Was King Kong (2005 film) solvent?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1474", "question": "Could morphine cure HIV?", "pred": "no", "gold": ["no"]}
+{"id": "train_818", "question": "Does welding with acetylene simulate the temperature of a star?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1065", "question": "Did Cleopatra have ethnicity closer to Egyptians than Greeks?", "pred": "no", "gold": ["no"]}
+{"id": "train_1988", "question": "Is San Diego County the home of a Shamu?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1911", "question": "Are ground bell peppers the main ingredient of black pepper?", "pred": "no", "gold": ["no"]}
+{"id": "train_2094", "question": "Did Tom Bosley enjoy video games on the PlayStation 4?", "pred": "no", "gold": ["no"]}
+{"id": "train_2036", "question": "Is it impossible to tell if someone is having a stroke?", "pred": "no", "gold": ["no"]}
+{"id": "train_1778", "question": "Was P. G. Wodehouse's favorite book The Hunger Games?", "pred": "no", "gold": ["no"]}
+{"id": "train_2284", "question": "Are selfies more dangerous than plague in modern times?", "pred": "no", "gold": ["yes"]}
+{"id": "train_137", "question": "Would it be typical for a Rede Globo anchor to say Konnichiwa to the viewers?", "pred": "no", "gold": ["no"]}
+{"id": "train_1188", "question": "Are months based on the solar cycle?", "pred": "no", "gold": ["no"]}
+{"id": "train_1297", "question": "Is Shakespeare famous because of the infinitive form?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1874", "question": "Can E6000 cure before a hoverboard finishes the Daytona 500? ", "pred": "no", "gold": ["yes"]}
+{"id": "train_402", "question": "Is a railroad engineer needed during NASCAR events?", "pred": "no", "gold": ["no"]}
+{"id": "train_1795", "question": "Can Aerosmith legally drive in the carpool lane?", "pred": "Error", "gold": ["yes"]}
+{"id": "train_2110", "question": "Can a Reconstruction era coin buy DJI Mavic Pro Drone?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1060", "question": "If Goofy were a pet, would he need heartworm prevention?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1855", "question": "Did Julio Gonzalez like acetylene?", "pred": "no", "gold": ["yes"]}
+{"id": "train_749", "question": "Are paratroopers good at mountain rescue?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1743", "question": "Can you hunt Iberian wolves in the Southern United States?", "pred": "no", "gold": ["no"]}
+{"id": "train_263", "question": "Can you use the T-Mobile tuesdays app if you aren't a T-Mobile customer?", "pred": "no", "gold": ["no"]}
+{"id": "train_1091", "question": "Can you worship Ahura Mazda at a mosque?", "pred": "no", "gold": ["no"]}
+{"id": "train_1516", "question": "Do citizens of Cheshire sing La Marseillaise?", "pred": "no", "gold": ["no"]}
+{"id": "train_395", "question": "Would it be common to find a penguin in Miami?", "pred": "no", "gold": ["no"]}
+{"id": "train_797", "question": "Would a goblin shark eat at Crossroads Kitchen?", "pred": "no", "gold": ["no"]}
+{"id": "train_1684", "question": "Does a giant green lady stand in New York Harbor?", "pred": "no", "gold": ["yes"]}
+{"id": "train_599", "question": "Did the population of the Warsaw Ghetto record secret police on cell phones?", "pred": "no", "gold": ["no"]}
+{"id": "train_1840", "question": "Is 500GB USB device enough to save 10 hours of Netflix shows a day?", "pred": "yes", "gold": ["no"]}
+{"id": "train_57", "question": "Would a week be enough time to watch every episode of Ugly Betty?", "pred": "no", "gold": ["yes"]}
+{"id": "train_377", "question": "Does Magnus Carlsen enjoy KFC?", "pred": "no", "gold": ["no"]}
+{"id": "train_0", "question": "Are more people today related to Genghis Khan than Julius Caesar?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1848", "question": "Are people more likely than normal to get sunburn at Burning Man?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_2238", "question": "Can you chew argon?", "pred": "no", "gold": ["no"]}
+{"id": "train_340", "question": "Does the central processing unit usually have a dedicated fan?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_814", "question": "Was Achilles a direct descendent of Gaia?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1015", "question": "Can the Very Large Telescope observe the largest mountain on Earth?", "pred": "no", "gold": ["no"]}
+{"id": "train_494", "question": "Could you go to New York Public Library and the Six Flags Great Escape in the same day?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_182", "question": "Is Rick and Morty considered an anime?", "pred": "no", "gold": ["no"]}
+{"id": "train_1099", "question": "Will twenty pea pods contents cover entire chess board?", "pred": "Error", "gold": ["yes"]}
+{"id": "train_1463", "question": "Can you buy Reddit at Walmart?", "pred": "no", "gold": ["no"]}
+{"id": "train_633", "question": "Does Post Malone have a fear of needles?", "pred": "no", "gold": ["no"]}
+{"id": "train_21", "question": "Does actress Leila George lack the height to be a model?", "pred": "no", "gold": ["no"]}
+{"id": "train_1283", "question": "Did Rosalind Franklin contribute to work that led to Whole Genome Sequencing?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_2015", "question": "Can you put bitcoin in your pocket?", "pred": "no", "gold": ["yes"]}
+{"id": "train_552", "question": "Were veterans of the War in Vietnam (1945–46) given free education by the Soviet Union?", "pred": "no", "gold": ["no"]}
+{"id": "train_2235", "question": "Is the tongue part of a creature's head?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_913", "question": "Did Jon Brower Minnoch suffer from anorexia nervosa?", "pred": "no", "gold": ["no"]}
+{"id": "train_1937", "question": "Do the James Bond and Doctor Who series have a similarity in format?", "pred": "no", "gold": ["yes"]}
+{"id": "train_537", "question": "Do all shooting sports involve bullets?", "pred": "no", "gold": ["no"]}
+{"id": "train_2067", "question": "Can you find a snow leopard in the Yucatan?", "pred": "no", "gold": ["no"]}
+{"id": "train_1190", "question": "Is there a popular Broadway character who is a missionary?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_345", "question": "Would it be difficult to host Stanley Cup Finals at Rock in Rio?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1711", "question": "Did Subway have a sex offender as a spokesperson?", "pred": "no", "gold": ["yes"]}
+{"id": "train_655", "question": "Did children read Harry Potter and the Philosopher's Stone during the Albanian Civil War?", "pred": "no", "gold": ["yes"]}
+{"id": "train_554", "question": "Have rhinoceroses been killed to improve human sex lives?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1253", "question": "Would an explosion at a gunpowder storage facility result in a supersonic shock wave?", "pred": "no", "gold": ["no"]}
+{"id": "train_2079", "question": "Will a sloth explode if it's not upside down?", "pred": "no", "gold": ["no"]}
+{"id": "train_1687", "question": "Is it dark is Basel during the day in Los Angeles?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1599", "question": "Was a nuclear bomb used in the Napoleonic Wars?", "pred": "no", "gold": ["no"]}
+{"id": "train_608", "question": "Does parsley sink in milk?", "pred": "yes", "gold": ["no"]}
+{"id": "train_2130", "question": "Would Emmanuel Macron celebrate Cinco de Mayo?", "pred": "no", "gold": ["no"]}
+{"id": "train_805", "question": "Does giant panda have colors that differ from yin yang?", "pred": "no", "gold": ["no"]}
+{"id": "train_1540", "question": "Did Julius Caesar read books on Pharmacology?", "pred": "no", "gold": ["no"]}
+{"id": "train_434", "question": "Was the Mentalist filmed in black and white?", "pred": "no", "gold": ["no"]}
+{"id": "train_1594", "question": "Are sables related to wolverines?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_300", "question": "Is the Liberty Bell still in its original location?", "pred": "no", "gold": ["no"]}
+{"id": "train_210", "question": "Could a Gladiator's weapon crush a diamond?", "pred": "no", "gold": ["no"]}
+{"id": "train_1421", "question": "Do people with mood disorders need permanent institutionalization?", "pred": "no", "gold": ["no"]}
+{"id": "train_1447", "question": "Does having lip piercings lead to more expensive dental bills?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_105", "question": "Can voice actors for Goofy and Bugs Bunny each get one stripe from American flag?", "pred": "no", "gold": ["yes"]}
+{"id": "train_104", "question": "Does the anatomy of a camel lend itself to jokes on Wednesdays?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2090", "question": "Would Alexander Graham Bell hypothetically support Nazi eugenics?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1949", "question": "Can oysters be preserved without refrigeration? ", "pred": "no", "gold": ["yes"]}
+{"id": "train_1342", "question": "Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?", "pred": "yes", "gold": ["no"]}
+{"id": "train_1243", "question": "Does Happy Gilmore Productions CEO own a Torah?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1843", "question": "Did occupants of Vellore Fort need to defend themselves from Grizzly Bears?", "pred": "no", "gold": ["no"]}
+{"id": "train_1335", "question": "Did Saint Augustine use the Julian calendar?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_497", "question": "Can a Toyota Supra make a vlog?", "pred": "yes", "gold": ["no"]}
+{"id": "train_2038", "question": "Could all of the 2008 Summer Olympics women find a hookup athlete partner?", "pred": "no", "gold": ["yes"]}
+{"id": "train_699", "question": "Do Muslims have a different idea of Seraphim than Christians?", "pred": "no", "gold": ["no"]}
+{"id": "train_630", "question": "Would Hapshetsut be considered a monarch?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_2128", "question": "Did Metallica band members cutting their hair hurt their sales?", "pred": "no", "gold": ["yes"]}
+{"id": "train_847", "question": "Could Chuck Norris ride a horse?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1776", "question": "Are some types of pancakes named after coins?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1377", "question": "Does the Constitution of the Philippines copy text from the British constitution?", "pred": "no", "gold": ["no"]}
+{"id": "train_1879", "question": "Can you order an Alfa Romeo at Starbucks?", "pred": "no", "gold": ["no"]}
+{"id": "train_955", "question": "Can you see the moon in Wembley Arena?", "pred": "yes", "gold": ["no"]}
+{"id": "train_284", "question": "Can a Goblin shark hypothetically ride a bike if it had limbs?", "pred": "no", "gold": ["no"]}
+{"id": "train_2241", "question": "Does a lapidary work with items that are studied by geologists?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1634", "question": "Can you find Bob Marley's face in most smoke shops?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_139", "question": "Were weather phenomena avoided when naming minor league baseball teams?", "pred": "no", "gold": ["no"]}
+{"id": "train_800", "question": "Are birds important to badminton?", "pred": "no", "gold": ["yes"]}
+{"id": "train_710", "question": "Does Siri know geometry?", "pred": "no", "gold": ["yes"]}
+{"id": "train_185", "question": "Would a pescatarian be unable to eat anchovy pizza?", "pred": "yes", "gold": ["no"]}
+{"id": "train_2231", "question": "Does Lupita Nyongo have citizenship in paternal Family of Barack Obama's origin country?", "pred": "no", "gold": ["yes"]}
+{"id": "train_197", "question": "Would Franz Ferdinand have survived with armadillo armor?", "pred": "no", "gold": ["no"]}
+{"id": "train_1850", "question": "Did Rahul Dravid ever kick a field goal?", "pred": "no", "gold": ["no"]}
+{"id": "train_772", "question": "Is dysphoria around one's pelvis treatable without surgery?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1981", "question": "Will Conan the Barbarian hypothetically last a short time inside of Call of Duty?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_83", "question": "Do manta rays live in water above the safe temperature for cold food storage?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2170", "question": "Did the Democratic Party's nominee for President of the U.S. in 1908 watch TV?", "pred": "no", "gold": ["no"]}
+{"id": "train_895", "question": "Does Jerry Seinfeld hang out at the Budweiser Party Deck?", "pred": "no", "gold": ["no"]}
+{"id": "train_2117", "question": "Can a sesame seed grow in the human body?", "pred": "no", "gold": ["no"]}
+{"id": "train_564", "question": "Can you transport a primate in a backpack?", "pred": "no", "gold": ["yes"]}
+{"id": "train_656", "question": "Would Arnold Schwarzenegger have a hard time picking up a red fox in 1967?", "pred": "yes", "gold": ["no"]}
+{"id": "train_761", "question": "Is the most recent Democrat President in the US known for his painting practice?", "pred": "no", "gold": ["no"]}
+{"id": "train_1597", "question": "Can you buy a fair trade laptop?", "pred": "no", "gold": ["no"]}
+{"id": "train_1117", "question": "Does New Year's Day always occur on a Wednesday?", "pred": "no", "gold": ["no"]}
+{"id": "train_2183", "question": "Would the current president of Ohio University hypothetically wear a jockstrap?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1696", "question": "Can you see live harbor seals in Washington DC?", "pred": "no", "gold": ["yes"]}
+{"id": "train_322", "question": "Did the Nepalese Civil War take place near India?", "pred": "Error", "gold": ["yes"]}
+{"id": "train_1569", "question": "Is starving Hamas agent eating pig bad?", "pred": "no", "gold": ["no"]}
+{"id": "train_1248", "question": "Does cell biology teach about the life cycle of Al Qaeda?", "pred": "no", "gold": ["no"]}
+{"id": "train_766", "question": "Did Elle Fanning play an essential part in ending apartheid?", "pred": "no", "gold": ["no"]}
+{"id": "train_1409", "question": "Was being a mail carrier considered one of the most dangerous jobs?", "pred": "no", "gold": ["yes"]}
+{"id": "train_715", "question": "Was a USB flash drive used in The Godfather?", "pred": "no", "gold": ["no"]}
+{"id": "train_1079", "question": "Would Mary, mother of Jesus have hypothetically prayed to Artemis if she was Greek?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1900", "question": "Will Elijah Cummings vote for Joe Biden in the next presidential elections?", "pred": "no", "gold": ["no"]}
+{"id": "train_1702", "question": "Is pi in excess of square root of 5?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1915", "question": "Can Spartina Patens thrive in the Sahara Desert?", "pred": "no", "gold": ["no"]}
+{"id": "train_724", "question": "Does March begin on the same day of the week as February during leap years?", "pred": "no", "gold": ["no"]}
+{"id": "train_1334", "question": "Do Koalas prefer Eucalyptus over meat?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2127", "question": "Could Moulin Rouge have been hypothetically used as Spain's Spanish American War triage center?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1821", "question": "Can lettuce result in spontaneous abortion?", "pred": "no", "gold": ["yes"]}
+{"id": "train_491", "question": "Can food be cooked in the cosmic microwave background?", "pred": "no", "gold": ["no"]}
+{"id": "train_2159", "question": "Did number of Imams Reza Shah believed in exceed number of Jesus's disciples?", "pred": "no", "gold": ["no"]}
+{"id": "train_2149", "question": "Will silicon wedding rings outsell bromine wedding rings?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1121", "question": "Does acupuncture cause pain in many people?", "pred": "no", "gold": ["no"]}
+{"id": "train_387", "question": "Does a Starbucks passion tea have ginger in it?", "pred": "no", "gold": ["no"]}
+{"id": "train_877", "question": "Does menthol make cigarettes less addictive?", "pred": "no", "gold": ["no"]}
+{"id": "train_947", "question": "Would a CEO typically clean the toilets in a company's building?", "pred": "no", "gold": ["no"]}
+{"id": "train_20", "question": "Is average number of peas in a pod enough commas for a billion?", "pred": "Error", "gold": ["yes"]}
+{"id": "train_381", "question": "Would James Cotton's instrument be too strident for a smooth jazz band?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1860", "question": "Are coopers required in the beverage industry?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1353", "question": "Could a Porsche 992 Turbo S defeat Usain Bolt in a 100 meter sprint?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1671", "question": "Do Leafhoppers compete with Log Cabin syrup producers for resources?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2232", "question": "Did Amy Winehouse always perform live perfectly?", "pred": "no", "gold": ["no"]}
+{"id": "train_747", "question": "Do people put creatures from the Black Sea on their pizza?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_111", "question": "Could a silverfish reach the top of the Empire State Building?", "pred": "no", "gold": ["no"]}
+{"id": "train_1441", "question": "Would 2019 Natalie Portman avoid a Snickers bar due to her diet?", "pred": "no", "gold": ["yes"]}
+{"id": "train_642", "question": "Can someone sell their time through the Toronto Star?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1440", "question": "Are Mayors safe from harm from the federal government?", "pred": "no", "gold": ["no"]}
+{"id": "train_2205", "question": "Is Kim Kardashian a guru?", "pred": "no", "gold": ["no"]}
+{"id": "train_886", "question": "Do tourists prefer Tuvalu to Niue?", "pred": "no", "gold": ["no"]}
+{"id": "train_449", "question": "Do beeswax alternatives to cling wrap use plsatic?", "pred": "no", "gold": ["no"]}
+{"id": "train_1148", "question": "Does store bought milk have cream at the top?", "pred": "no", "gold": ["no"]}
+{"id": "train_2276", "question": "Do you have to pass through circle of lust to find Saladin in Dante's Inferno?", "pred": "no", "gold": ["no"]}
+{"id": "train_878", "question": "Did France win the French Revolution?", "pred": "yes", "gold": ["no"]}
+{"id": "train_1207", "question": "Would Hades and Osiris hypothetically compete for real estate in the Underworld?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1098", "question": "Was the Joker an enemy of the Avengers?", "pred": "no", "gold": ["no"]}
+{"id": "train_543", "question": "Would three newborn kittens fit on a standard Amtrak coach seat?", "pred": "no", "gold": ["yes"]}
+{"id": "train_415", "question": "Did the Berlin Wall prevent any athletes from competing in the 1936 Summer Olympics?", "pred": "no", "gold": ["no"]}
+{"id": "train_1080", "question": "Is there radiation where Nikola Tesla once worked?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_394", "question": "Is Maruti Suzuki Baleno an efficient car for Linus Torvald's family?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1786", "question": "Can a Bengal cat survive eating only pancakes?", "pred": "no", "gold": ["no"]}
+{"id": "train_701", "question": "Can a Muslim eat a McRib sandwich?", "pred": "no", "gold": ["no"]}
+{"id": "train_247", "question": "Will parma ham be ready for New Year's if the pig is slaughtered in December?", "pred": "no", "gold": ["no"]}
+{"id": "train_1459", "question": "Was Saint Vincent and the Grenadines named by an Italian explorer?", "pred": "no", "gold": ["yes"]}
+{"id": "train_759", "question": "Would Edward II of England have been born without Vikings?", "pred": "no", "gold": ["no"]}
+{"id": "train_435", "question": "Would the Ku Klux Klan welcome Opal Tometi into their group?", "pred": "no", "gold": ["no"]}
+{"id": "train_2075", "question": "Would four shoes be insufficient for a set of octuplets?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1284", "question": "Is the most expensive color in the world Blue?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1133", "question": "Is there any absolute way to prevent abortion?", "pred": "no", "gold": ["no"]}
+{"id": "train_261", "question": "Can a Sphynx cat be used for wool?", "pred": "no", "gold": ["no"]}
+{"id": "train_1192", "question": "Would Robert Stack have been interested in Tower of London during 1400s for his 14 season show?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1288", "question": "Is University of Pittsburgh easier to enter than FBI?", "pred": "no", "gold": ["yes"]}
+{"id": "train_661", "question": "Did Methuselah live at least 800 years as long as Sarah?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1068", "question": "Did Woodrow Wilson consider Blacks to be equal members of society?", "pred": "no", "gold": ["no"]}
+{"id": "train_1049", "question": "Would a student in eleventh grade be unable to run for president of the United States?", "pred": "no", "gold": ["yes"]}
+{"id": "train_257", "question": "Does Neville Longbottom have more courage as a child than as an adult?", "pred": "no", "gold": ["no"]}
+{"id": "train_56", "question": "Did any country in Portuguese Colonial War share Switzerlands role in WWII?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1686", "question": "Is honey associated with queens?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1052", "question": "Could a cat ride Panzer VIII Maus tank missile from Barcelona to Madrid?", "pred": "no", "gold": ["no"]}
+{"id": "train_1697", "question": "Are all the elements plants need for photosynthesis present in atmosphere of Mars?", "pred": "no", "gold": ["yes"]}
+{"id": "train_63", "question": "Is double duty an incorrect phrase for host of Dancing With The Stars?", "pred": "no", "gold": ["no"]}
+{"id": "train_234", "question": "Can cancer cause excess adrenaline production?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_963", "question": "Should a finished website have lorem ipsum paragraphs?", "pred": "no", "gold": ["no"]}
+{"id": "train_94", "question": "Does rock star Keith Richards play a captain of a boat in a movie?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1269", "question": "Are leaves from coca good for gaining weight?", "pred": "no", "gold": ["no"]}
+{"id": "train_503", "question": "Can the Persian Gulf fit in New Jersey?", "pred": "no", "gold": ["no"]}
+{"id": "train_384", "question": "Would someone typically confuse a sweet potato with a pineapple?", "pred": "no", "gold": ["no"]}
+{"id": "train_1434", "question": "Can you carry a Chrysler in a laptop bag?", "pred": "no", "gold": ["no"]}
+{"id": "train_1290", "question": "Do women often need new shoes during their pregnancy?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1867", "question": "Does Adobe Suite have video game engine coding?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_155", "question": "Is polyamory allowed in the Catholic Church?", "pred": "no", "gold": ["no"]}
+{"id": "train_1655", "question": "Is a slime mold safe from cerebral palsy?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1294", "question": "Can a minor replicate the double-slit experiment?", "pred": "no", "gold": ["yes"]}
+{"id": "train_883", "question": "Is myocardial infarction a brain problem?", "pred": "no", "gold": ["no"]}
+{"id": "train_1895", "question": "Was Jackson Pollock straight edge?", "pred": "no", "gold": ["no"]}
+{"id": "train_1745", "question": "Does the word swastika have meaning in sanskrit?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_489", "question": "Is Michael an unpopular name in the United States?", "pred": "no", "gold": ["no"]}
+{"id": "train_1532", "question": "Would it be impossible to keep an ocean sunfish and a goldfish in the same tank?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2053", "question": "Would Jon Brower Minnoch break a chair before Voyager 2 launch mass?", "pred": "no", "gold": ["no"]}
+{"id": "train_1593", "question": "Are some Brazilian Navy ships built in Britian?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1195", "question": "Could ancient Tony Bennett have a baby in 2020?", "pred": "no", "gold": ["yes"]}
+{"id": "train_236", "question": "Would a silicon shortage be bad for Intel's sales?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1788", "question": "Is Glycol something United Airlines would buy?", "pred": "no", "gold": ["yes"]}
+{"id": "train_96", "question": "Would an eleventh-grader be eligible for Medicare?", "pred": "no", "gold": ["no"]}
+{"id": "train_1152", "question": "Did the phone Alexander Graham Bell use have call waiting?", "pred": "no", "gold": ["no"]}
+{"id": "train_1186", "question": "Could someone in a coma experience fear?", "pred": "yes", "gold": ["no"]}
+{"id": "train_501", "question": "Could Durian cause someone's stomach to feel unwell?", "pred": "yes", "gold": ["yes"]}
+{"id": "train_1216", "question": "Does Hammurabi's Code violate Christians Golden Rule?", "pred": "no", "gold": ["yes"]}
+{"id": "train_1706", "question": "Does the texture of leaves remain the same independent of their coloring changing?", "pred": "no", "gold": ["no"]}
+{"id": "train_1306", "question": "Could $1 for each 2009 eclipse buy a copy of TIME magazine in 2020?", "pred": "no", "gold": ["yes"]}
+{"id": "train_2220", "question": "Is viscosity unimportant in making jello shots?", "pred": "no", "gold": ["no"]}
+{"id": "train_1402", "question": "Would a binge watch of entire Young and the Restless take longer than a leap year?", "pred": "no", "gold": ["yes"]}
+{"id": "train_808", "question": "Would a northern fur seal pass a driving test?", "pred": "no", "gold": ["no"]}
+{"id": "train_229", "question": "Would a customer be happy if their grocery store meat tasted like game?", "pred": "no", "gold": ["no"]}
+{"id": "train_461", "question": "Was latest Republican governor of New Jersey as of 2020 heftiest politician ever?", "pred": "no", "gold": ["no"]}
+{"id": "train_664", "question": "Is Bill Gates the wealthiest of the Baby Boomers?", "pred": "no", "gold": ["no"]}
+{"id": "train_502", "question": "Did the swallow play a role in a famous film about King Arthur?", "pred": "no", "gold": ["yes"]}
+{"id": "train_484", "question": "Can too many oranges cause diarrhea?", "pred": "yes", "gold": ["yes"]}

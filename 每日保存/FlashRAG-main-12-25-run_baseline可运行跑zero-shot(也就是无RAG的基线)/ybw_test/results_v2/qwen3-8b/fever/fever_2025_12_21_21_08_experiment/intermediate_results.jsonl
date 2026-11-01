@@ -1,0 +1,300 @@
+{"id": "dev_1951", "question": "Living monastically is done by monks.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_5234", "question": "Sonny Bono was alive and well on January 6, 1998.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8233", "question": "Musala is 2,925 meters.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_8385", "question": "Faye Resnick works in interior design.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_1681", "question": "Wilhelmina Slater is portrayed in a period romance television series.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_3658", "question": "The New York City Landmarks Preservation Commission consists of 11 commissioners.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9847", "question": "Matthew Vaughn is in the film industry.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_10182", "question": "Vera Wang is not a fashion designer from the United States.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_9118", "question": "Pearl (Steven Universe) exists as a magical gemstone.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_6891", "question": "Gaius Julius Caesar was a politician.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_9380", "question": "Ann Biderman was denied American citizenship.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_8975", "question": "Estelle Getty was an actress.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_8042", "question": "Absinthe has psychoactive properties that are exaggerated.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_9609", "question": "The Punisher stars Jon Bernthal as the comic book character of the same title.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7226", "question": "Lee Daniels received a nomination for Best Director.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_3931", "question": "Tremont Street Subway originally served several closely spaced stations.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_41", "question": "Jayasudha is an actor that stars in Daag.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_10063", "question": "The House of the Spirits is about the life of a young lady named Clara during the military authoritarian in pig", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_1322", "question": "Due Date was shot in the United States.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_1814", "question": "Stan Beeman is a fictional setting.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4706", "question": "Sleipnir is a fish.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_1606", "question": "Johnny Galecki has appeared in just one American sitcom.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_7367", "question": "The Selma and Montgomery marches were part of a broader voting rights movement throughout the American North.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_188", "question": "Moonlight's filming began in 1815.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8032", "question": "Sands Hotel and Casino started as a casino with 200 rooms.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_5148", "question": "Buffy the Vampire Slayer is unaffiliated with Joss Whedon.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_3444", "question": "Victoria Palace Theatre is in Oxford Street.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_6508", "question": "Foot Locker is a retailer.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4120", "question": "Fred Armisen is a frog.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_5696", "question": "Pitch Perfect 2 centers on a fictional educational institution.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_5843", "question": "Serotonin causes neuromodulation.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_6166", "question": "Betsy Hodges became the mayor of Minneapolis in 2014.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8414", "question": "Caleb McLaughlin is involved with creative work.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_1250", "question": "Ann Richards was the Governor of Texas for one year.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_5577", "question": "You Only Live Twice was directed by a German man.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1469", "question": "Osamu Tezuka's mother only had to erase notes in his notebook.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_9133", "question": "Ice-T signed to Sire Records in 1987.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8815", "question": "Robinson Crusoe on Mars was produced by Paramount Pictures.", "pred": "REFUTES", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_4786", "question": "Earl Scruggs was born on January 6th, 1924.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4712", "question": "Jamaica is the place where Island Records was founded.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_7494", "question": "Grease possessed a musical soundtrack.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_2308", "question": "Wilhelmina Slater is portrayed in a comedy-drama television series.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_9460", "question": "The Challenge XXX: Dirty 30 is a contestant in a reality game show.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_5062", "question": "Color of Night won a Golden Raspberry Award in 1994.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_405", "question": "Colombiana was released in 1911.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_6043", "question": "The Hunger Games is a thought process.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_5956", "question": "James, Viscount Severn has no relation to Prince Edward.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_7554", "question": "Elizabeth I was the first daughter of Henry VIII.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_6917", "question": "Battle of the Bastards aired in the United States.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_1485", "question": "James Jones missed the playoffs once in 2007-2008.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_6533", "question": "Julie Bowen has an acting career.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_9596", "question": "TV Land has a television series on TV Land.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9084", "question": "The Paper only stars Adam Sandler.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8166", "question": "Ted Cruz was miscarried.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_1907", "question": "The Hunchback of Notre Dame is based off of a book.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_6970", "question": "Commodore is a naval rank in America.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8296", "question": "Jenny McCarthy started her career in 1993.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_9833", "question": "World Wrestling Entertainment, Inc. produced the NXT Tag Team Championship.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8045", "question": "Animated programs have been produced by Fred Seibert.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_6523", "question": "Bonobos' estimated population is less than 50,000.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_8595", "question": "Battle of the Bastards had a viewership of 10 million in its initial broadcast.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_4237", "question": "The Winds of Winter is a grave digger.", "pred": "SUPPORTS", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_6880", "question": "Innovation is often also seen as the application of better solutions that meet new requirements.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9240", "question": "Chumlee is the stage name of Tom Brady.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_7851", "question": "Roberto Orci wrote.", "pred": "REFUTES", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_8404", "question": "Anna Nicole Smith had a modelling career.", "pred": "REFUTES", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_8486", "question": "Azithromycin is sold under different trade names.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_415", "question": "Avenged Sevenfold is the fourth live album of Avenged Sevenfold.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_9429", "question": "Pharmacology deals with the elucidation of molecular and organismal function in relation to chemicals.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_3678", "question": "Fabian Nicieza is a writer.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_2113", "question": "Wales has a large region rich in coal deposits called the South Wales Coalfield.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_800", "question": "Vedam has Deeksha Seth in a starring role.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_8572", "question": "Gamal Abdel Nasser's only funeral was in Britain.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1680", "question": "The Concert for Bangladesh was attended by 40,000 sheets.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_10195", "question": "Delino DeShields played major league baseball before his son was born.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_7035", "question": "Parkinson's disease has afflicted people.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_7701", "question": "Manchester by the Sea is a town.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_2333", "question": "Down with Love is a romantic comedy movie from 2003.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7898", "question": "Baloch people rarely speak a branch which has existed since Median.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_3750", "question": "Damon Albarn's debut album was released in 2010.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1999", "question": "Sleipnir appears nowhere.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_10267", "question": "Sebastian Vettel is not a person.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_7484", "question": "John S. McCain Jr. graduated in 1931.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_7690", "question": "Lucy Hale's first name is Heather.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8939", "question": "The Vandals established kingdoms in 1908 and 1910.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_4112", "question": "Fist of Legend is a remake of an 1872 film.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_9171", "question": "The American Civil War started in Virginia.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_6587", "question": "Henry Condell had a widow that was buried on the 3rd.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_5040", "question": "US Airways Flight 1549 had 1978 people on board.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8980", "question": "The United States dollar is the sole currency in China.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8223", "question": "Stomp the Yard is a movie.", "pred": "Error", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS", "SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_7846", "question": "Sky UK is a company.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_6585", "question": "Pulmonary embolism is indicated by low blood oxygen levels.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7095", "question": "Lois Lane's name was rejected from Lola Lane's name.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_3318", "question": "Dakota Fanning was involved with creative work.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4823", "question": "Sebastian Stan hasn't acted in a miniseries.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_4407", "question": "\"Love the Way You Lie\" failed to receive any Grammy nominations.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_151", "question": "Bret Easton Ellis wrote the screenplay for The Canyons.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_542", "question": "Carlos Santana was known.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_2455", "question": "Ian Brennan directs.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_9785", "question": "There is a novel named The Hunger Games.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_7507", "question": "Jed Whedon was born in December 1974.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_8567", "question": "Balibo (film) is incapable of being about an investigation of deaths.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8020", "question": "Estonia is a place.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_5897", "question": "Jarhead starred Harrison Ford as U.S. Marine Anthony Swofford.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_3274", "question": "Giada at Home aired on an American basic cable channel called the Cartoon Network.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4261", "question": "NBC aired Highway to Heaven.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_7955", "question": "Moscovium is a transactinide element.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7645", "question": "Sausage Party is a motion picture.", "pred": "Error", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_8376", "question": "Islamabad is a city.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8145", "question": "Louie (season 1) began airing in the 2010s.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7114", "question": "David Attenborough served as the program director for BBC Television.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9139", "question": "Live Nation Entertainment is a worldwide entertainment company.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_550", "question": "Ludwig van Beethoven was born in Bonn.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4752", "question": "Ron Weasley is only part of the Game of Thrones series.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_5188", "question": "In 2016, Sausage Party was released.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_7498", "question": "Richard Fortus has recorded zero studio albums with Guns N' Roses.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1611", "question": "Matthias Corvinus had one of the largest collections of books in Europe during the Enlightenment.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_7183", "question": "Annabelle is at The Museum of Natural History.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_8440", "question": "Samsung entered the electronics industry in the 1960's.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4240", "question": "Veeram is an Indian Tamil film.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7420", "question": "Ned Stark is the dishonorable lord of Winterfell.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_2999", "question": "The Chrysler Building was the world's tallest building for 8 months.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_6975", "question": "Kevin Bacon was in a 2004 film.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7850", "question": "Ian Gillan is only Japanese.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1053", "question": "Saturn Corporation has no other names.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_4365", "question": "Veeru Devgan is a stunt performer.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_6064", "question": "There is a film called The Big Country.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_1583", "question": "Touchscreens are only used in computers.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_3188", "question": "The horse has changed in size as it evolved.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_6738", "question": "Benjamin Franklin was a spokesman.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_2397", "question": "Excuse My French is an American rapper's album.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_7362", "question": "Benzodiazepine is a genre of music.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_229", "question": "West Ham United F.C. is not a football club.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1510", "question": "The first inauguration of Bill Clinton made him President.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_3", "question": "The Cretaceous ended.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_7392", "question": "The Burj Khalifa contains escalators.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9513", "question": "Maria Theresa reigned for 40 years.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8955", "question": "Barbarella is a 1998 film.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_1360", "question": "Production took place in Sydney for the movie Australia (2008 film).", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9996", "question": "There does not exist a singing talent competition that goes by the name of NXT Tag Team Championship.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_3257", "question": "Southpaw's director is solely Quentin Tarantino.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4060", "question": "Marjorie Gross wrote for TV.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_1979", "question": "G I R L is the stylized form of Girl.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_10175", "question": "The Quiet is a 2005 American drama thriller film directed by an Indian.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_731", "question": "Liam Neeson has been nominated for an award.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_8953", "question": "The SpongeBob SquarePants Movie was directed by Stephen Hillenburg.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4399", "question": "Tim Roth is Spider-Man.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_10410", "question": "There exists a real person, it goes by the name of Daenerys Targaryen.", "pred": "SUPPORTS", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_5853", "question": "Elizabeth of York was single.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_2535", "question": "Saturn Corporation is known by another name.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_84", "question": "Boyhood is about Mason Evans, Jr's childhood.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_5135", "question": "Nina Jacobson worked for Buena Vista Motion Pictures Group until July.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_9552", "question": "Dan Trachtenberg is a host of podcasts.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_9409", "question": "The American Civil War was fought by volunteers and conscripts.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8060", "question": "Ryan Seacrest was the host of American Idol (season 8).", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_2209", "question": "The Dark Tower is a series.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8942", "question": "Faye Resnick has been on television.", "pred": "REFUTES", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_3652", "question": "Smriti Mandhana was born July 20.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_7749", "question": "Psych (season 2) began on the USA Network.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9632", "question": "Saw II has yet to be released on DVD.", "pred": "SUPPORTS", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_2149", "question": "Trevor Griffiths was born on April 4, 1935.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_9799", "question": "Rehab was awarded in 2011.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8269", "question": "In the 1994 genocide in Rwanda, there was zero casualties.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4762", "question": "Kuching is located in Ohio.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1383", "question": "Bruce Shand was born on June 11th, 2007.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_6844", "question": "The Romani people originated in Northern India 50,000 years ago.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_2623", "question": "Island Records was founded in 1960.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_2217", "question": "Fantastic Four (2005 film) was released in 2006.", "pred": "SUPPORTS", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_9601", "question": "Two and a Half Men starred Charlie Sheen in 1998.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_5013", "question": "Harvard University is incapable of having a undergraduate college.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8318", "question": "VH1 was the channel where Celebrity Rehab with Dr. Drew aired.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_6750", "question": "Ron Dennis is the Global Consultant for Minsheng Investment Corporation.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_6396", "question": "Simon Pegg is a producer.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_2433", "question": "Roland Emmerich campaigns for the LGBT community.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_8520", "question": "Morgan Fairchild was in Paper Dolls.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_3222", "question": "There is a science fiction film with Riddick.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_6160", "question": "Julie Bowen refused to ever become an actress.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_231", "question": "Middle-earth is a real place.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_1738", "question": "The Adventures of Pluto Nash stars Eddie Murphy.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_6379", "question": "SpongeBob SquarePants is media that's been franchised.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_1203", "question": "Qui-Gon Jinn is married to Liam Neeson.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_841", "question": "The Good Wife is part of the drama genre.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_5685", "question": "Jason Bourne is a famous army general.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_5790", "question": "Salt River Valley is on the Utah-Arizona border.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_422", "question": "Luis Fonsi's husband is Luis Alfonso Rodríguez López-Cepero.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_419", "question": "Hedda Gabler's world premiere took place before January 31st, 1891.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8362", "question": "Practical Magic is solely a Canadian romantic comedy film.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_7799", "question": "Designated Survivor (TV series) is a movie.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_5370", "question": "One True Thing was undirected.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4975", "question": "Fabian Nicieza only created characters for television.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_7375", "question": "Faye Resnick is a person.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_5341", "question": "Fringe aired in 2008.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_1988", "question": "Down With Love is a romantic movie.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8152", "question": "Georges Gilles de la Tourette described symptoms of Down syndrome.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_7644", "question": "Dissociative identity disorder is a mental disorder.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9365", "question": "Temple Mount is related to Judaism.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_10135", "question": "George W. Bush is the only president of US to graduate from university in Connecticut.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_2797", "question": "Ripon College is located in Wisconsin.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_2521", "question": "Omar Khadr was convicted.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9687", "question": "In 1995 The Blue Dog Coalition was created.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8513", "question": "Kung Fu Panda was in last place at the box office.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_3391", "question": "Luke Cage did not appear in a comic book series.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_7104", "question": "The Wonder Years received a Peabody Award.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_10212", "question": "Agent Raghav – Crime Branch is certainly not a television serial.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_5511", "question": "Ghost was reviewed, favorably, by Richard Nixon in 2015.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_7517", "question": "Anneliese van der Pol is best known for her role on That's So Raven.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9801", "question": "Leslie Alexander is from the state of New Jersey.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_3822", "question": "Mohra is a work.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_1138", "question": "James VI and I was a major advocate of a single parliament for Ireland.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_8967", "question": "The Paper only stars Samuel L. Jackson.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_6539", "question": "Aestheticism concerns itself with fine art and other things.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_559", "question": "Daag is a home.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_3202", "question": "The Crips had an estimated 30,000 to 35,000 members in Baltimore.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_2840", "question": "T2 Trainspotting is set in Aberdeen.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_741", "question": "Chile is in South America.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8925", "question": "A staging area is only an unused piece of land.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_789", "question": "TakePart is the digital division of Participant Media.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7402", "question": "American Idol (season 8) was hosted by Ryan Seacrest.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_3088", "question": "Victoria (Dance Exponents song) reached Number 6 on the singles chart.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_7927", "question": "The Selma to Montgomery marches were in defiance of segregationist repression.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_335", "question": "Alice Cooper was born on February 4th, 1948.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_2115", "question": "In the End was the only track on Hybrid Theory.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_8682", "question": "Temple Grandin is a biographical film from 2010.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_3583", "question": "Finding Dory was written by anyone except Andrew Stanton.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8468", "question": "The Dodo has been depicted with a naked arm.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_2256", "question": "Keith Urban is a Algerian pop music artist's second studio album.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_2627", "question": "James Earl Jones is not known for his voice roles.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_3047", "question": "Exercise raises resting heart rate in the long term.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_6389", "question": "Pocahontas did not become something of a celebrity.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_4469", "question": "Brazzers is a not pornographic production company.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_6969", "question": "Aubrey Anderson-Emmons is an actress that is a child.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_8732", "question": "The Paper stars a horse.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_6784", "question": "Jon Bernthal stars in The Punisher.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_1288", "question": "The Good Wife is a movie.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_6278", "question": "Brown University's main campus is located in the College Hill Historic District of Boston.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_4995", "question": "Brick (film) is a 2006 film only.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_3067", "question": "In 1982 the single Victoria (Dance Exponents Song) was released.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_5637", "question": "Prince Charles and Lady Diana were married in July 1981.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_2862", "question": "Angela Bassett received zero degrees from Yale University.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4316", "question": "The horse was referred to as a Eohippus when it had multiple toes.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7600", "question": "The 2003 NCAA Division I Men's Basketball Tournament was played.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS", "SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_6811", "question": "A player-coach is unable to become a assistant coach.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4713", "question": "Ingushetia was incapable of being established after Chechen-Ingush ASSR split into two.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_7662", "question": "Planet Hollywood Las Vegas is operated by all entities except an American gaming corporation.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_2899", "question": "Knocked Up is only a TV show.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_5337", "question": "Phoenix, Arizona is the most populous country.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_8508", "question": "GLOW is an Amazon TV series.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_7897", "question": "Jason Bourne has Julia Stiles as part of the cast.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7284", "question": "Truman Capote's lifelong friend was Harper Lee, author of To Kill a Mockingbird.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_1967", "question": "DJ Quik has only ever been a plumber his whole life.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_8638", "question": "Faye Resnick does not write.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_8596", "question": "Jack Nicholson is in Ragtime, although he does not appear in the credits.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4486", "question": "The Indian Army does not use conscription.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_1549", "question": "Goosebumps (film) was written by Darren Lemke in 2000.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_3511", "question": "The Beach is an adventure drama novel.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_3790", "question": "CHiPs is based on a TV series that is also names CHiPs.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_80", "question": "The Faroe Islands are no longer part of the Kingdom of Mercia.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1525", "question": "Noel Fisher portrayed a fictional character.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_7440", "question": "Night of the Living Dead is a 1990 American horror film.", "pred": "SUPPORTS", "gold": ["REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_5413", "question": "The X-Files starred Harrison Ford.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_6684", "question": "The American Civil War began in 1861.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_8930", "question": "John Frusciante was incapable of releasing eleven solo albums.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_2989", "question": "Eva Green did not make her film debut in a film directed by Bernardo Bertolucci.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_445", "question": "Aerobic exercise is good for heart health.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_5766", "question": "Some level of success is had by Scream.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_2568", "question": "John Deighton had healthy legs his entire life.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_5762", "question": "The English Wikipedia is an edition of an expensive online encyclopedia.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_9207", "question": "One drama film is An Education.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_9377", "question": "Gory Guerrero was born on January 1st, 1911.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8820", "question": "Ron Dennis serves as the Global Consultant for Minsheng Investment Corporation.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_3547", "question": "The 1974 crime film The Sugarland Express was American auteur Steven Spielberg's directorial debut.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_1797", "question": "Jennifer Lopez made an album.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_10170", "question": "There did not exist an investigation into the causes of difficulties between guards and prisoners that goes by the name of The Stanford prison experiment.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4595", "question": "Premam didn't have a theatrical run in Chennai.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_9106", "question": "Pattie Boyd and George Harrison divorced in 1977.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9306", "question": "Two and a Half Men originally aired on NBC.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_3513", "question": "Bruce Shand full name is Bruce Middleton Hope Shand.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_9336", "question": "Simon Cowell is a English bulldog.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_4828", "question": "Tinker Tailor Soldier Spy stars Gary Oldman.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9221", "question": "Ice-T made an album.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4392", "question": "Poseidon grossed money.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_9105", "question": "Ed Decter works in the film industry.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_2172", "question": "Chile is a food.", "pred": "SUPPORTS", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_1662", "question": "PacSun sells products designed for young adults.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4320", "question": "Fortunes of War omits Kenneth Branagh.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_1579", "question": "San Diego Comic-Con was founded in 1990.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES"]}
+{"id": "dev_7144", "question": "The Paper stars Marisa Tomei.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_2806", "question": "Brazzers is based in Canada.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_1737", "question": "Flaked was renewed for a six episode season.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_990", "question": "Brick (film) is a mystery television show.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_5836", "question": "Lois Lane's name was taken from Lola Lane's name.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_3039", "question": "Down With Love is a romantic comedy.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_10323", "question": "There existed a republic of the Soviet Union in 2012 called The Latvian Soviet Socialist Republic.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_1741", "question": "Superhero name Captain America uses the Captain America's shield.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8300", "question": "Timur participated in the Siege of Smyrna.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_5137", "question": "Nymphomaniac (film) is part of the \"Depression Trilogy\" along with Antichrist.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4534", "question": "Tiber Oil Field is located in the Keathley Canyon block 102 of the Mexican sector of the Gulf of Mexico.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_9635", "question": "Bonobos were separated from the ancestors of the common chimpanzee.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_1047", "question": "Knocked Up grossed $219 million worldwide.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}

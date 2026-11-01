@@ -1,0 +1,498 @@
+[
+    {
+        "id": "dev_1951",
+        "question": "Where did Dürrüaden Kadın's husband die?",
+        "golden_answers": [
+            "Constantinople"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Dürrüaden Kadın",
+                    "Mehmed V"
+                ],
+                "sent_id": [
+                    0,
+                    8
+                ]
+            },
+            "context": {
+                "title": [
+                    "Where Was I",
+                    "Place of origin",
+                    "Beaulieu-sur-Loire",
+                    "Motherland (disambiguation)",
+                    "Place of birth",
+                    "Mehmed V",
+                    "Dürrüaden Kadın",
+                    "Valley of Death",
+                    "Sennedjem",
+                    "Dance of Death (disambiguation)"
+                ],
+                "content": [
+                    [
+                        "\" Where Was I?\" may refer to:"
+                    ],
+                    [
+                        "In Switzerland, the place of origin( literally\" home place\" or\" citizen place\") denotes where a Swiss citizen has their municipal citizenship.",
+                        "It is not to be confused with the place of birth or place of residence, although two or all three of these locations may be identical depending on the person's circumstances."
+                    ],
+                    [
+                        "Beaulieu- sur- Loire is a commune in the Loiret department in north -central France.",
+                        "It is also the place of death of Jacques MacDonald, a French general who served in the Napoleonic Wars"
+                    ],
+                    [
+                        "Motherland is the place of one's birth, the place of one's ancestors, or the place of origin of an ethnic group.",
+                        "Motherland may also refer to:"
+                    ],
+                    [
+                        "The place of birth( POB) or birthplace is the place where a person was born.",
+                        "This place is often used in legal documents, together with name and date of birth, to uniquely identify a person.",
+                        "As a general rule with respect to passports, the place of birth is determined to be the country that currently has\" sovereignty\" over the actual place of birth, regardless of when the birth actually occurred.",
+                        "The place of birth is not necessarily the place where the parents of the new baby live.",
+                        "If the baby is born in a hospital in another place, that place is the place of birth.",
+                        "In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth.",
+                        "Some countries place less or no importance on the place of birth, instead using alternative geographical characteristics for the purpose of identity documents.",
+                        "For example, Sweden has used the concept of\" födelsehemortdomicile of birth\") since 1947.",
+                        "This means that the domicile of the baby's mother is the registered place of birth.",
+                        "The location of the maternity ward or other physical birthplace is considered unimportant.",
+                        "Similarly, Switzerland uses the concept of\" Heimatortlieu d'origineluogo d'origineplace of origin\" in German, French and Italian respectively).",
+                        "A child born to Swiss parents is automatically assigned the place of origin of the parent with the same last name, so the child either gets their mother's or father's place of origin.",
+                        "A child born to one Swiss parent and one foreign parent acquires the place of origin of their Swiss parent.",
+                        "In a Swiss passport and identity card, the holder's place of origin is stated, not their place of birth.",
+                        "In some countries( primarily in the Americas), the place of birth automatically determines the nationality of the baby, a practice often referred to by the Latin phrase\" jus soli\".",
+                        "Almost all countries outside the Americas instead attribute nationality based on the nationality( ies) of the baby's parents( referred to as\" jus sanguinis\").",
+                        "There can be some confusion regarding the place of birth if the birth takes place in an unusual way: when babies are born on an airplane or at sea, difficulties can arise.",
+                        "The place of birth of such a person depends on the law of the countries involved, which include the nationality of the plane or ship, the nationality( ies) of the parents and/ or the location of the plane or ship( if the birth occurs in the territorial waters or airspace of a country).",
+                        "Some administrative forms may request the applicant's\" country of birth\".",
+                        "It is important to determine from the requester whether the information requested refers to the applicant's\" place of birth\" or\" nationality at birth\".",
+                        "For US citizens born abroad who under the US Constitution acquire US citizenship at the time of birth, the nationality at birth will be USA( American), while the place of birth would be the country in which the actual birth takes place."
+                    ],
+                    [
+                        "Mehmed V Reşâd",
+                        "(Ottoman Turkish:",
+                        "محمد خامس",
+                        "\"Meḥmed-",
+                        "i ẖâmis\", or)",
+                        "(2 November 1844 – 3 July 1918) reigned as the 35th and penultimate Ottoman Sultan .",
+                        "He was the son of Sultan Abdulmejid I.",
+                        "He was succeeded by his half-brother Mehmed VI.",
+                        "His nine-year reign was marked by the cession of the Empire's North African territories and the Dodecanese Islands, including Rhodes, in the Italo-Turkish War, the traumatic loss of almost all of the Empire's European territories west of Constantinople (now Istanbul) in the First Balkan War, and the entry of the Empire into World War I\nin 1914, which would ultimately lead to the end of the Ottoman Empire."
+                    ],
+                    [
+                        "Dürrüaden Kadın (born Hatice Voçibe; 16 May 1860 – 17 October 1909) was the third wife of Sultan Mehmed V of the Ottoman Empire."
+                    ],
+                    [
+                        "Valley of Death may refer to:"
+                    ],
+                    [
+                        "The Ancient Egyptian artisan Sennedjem lived in Set Maat( translated as\" The Place of Truth\"), contemporary Deir el- Medina, on the west bank of the Nile, opposite Thebes, during the reigns of Seti I and Ramesses II.",
+                        "Sennedjem had the title\" Servant in the Place of Truth\".",
+                        "He was buried along with his wife, Iyneferti, and family in a tomb in the village necropolis.",
+                        "His tomb was discovered January 31, 1886.",
+                        "When Sennedjem's tomb was found, in it there was regular furniture from his home, including a stool and a bed, which he actually used when he was alive.",
+                        "His titles included Servant in the Place of Truth, meaning that he worked on the excavation and decoration of the nearby royal tombs."
+                    ],
+                    [
+                        "Dance of Death, also called\" Danse Macabre\", is a late- medieval allegory of the universality of death.",
+                        "Dance of Death or The Dance of Death may also refer to:"
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Topkapı Palace",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_5234",
+        "question": "Which film has the director who died later, Blazing The Overland Trail or Come On Marines!?",
+        "golden_answers": [
+            "Blazing the Overland Trail",
+            "Blazing The Overland Trail"
+        ],
+        "metadata": {
+            "type": "bridge_comparison",
+            "supporting_facts": {
+                "title": [
+                    "Blazing the Overland Trail",
+                    "Come On Marines!",
+                    "Spencer Gordon Bennet",
+                    "Henry Hathaway"
+                ],
+                "sent_id": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Henry Hathaway",
+                    "Come On In",
+                    "Come On Marines!",
+                    "Come On Come On (disambiguation)",
+                    "Spencer Gordon Bennet",
+                    "Come On Baby",
+                    "Ben Palmer",
+                    "Hop Harrigan (serial)",
+                    "Overland Trail",
+                    "Blazing the Overland Trail"
+                ],
+                "content": [
+                    [
+                        "Henry Hathaway( March 13, 1898 – February 11, 1985) was an American film director and producer.",
+                        "He is best known as a director of Westerns, especially starring Randolph Scott and John Wayne.",
+                        "He directed Gary Cooper in seven films."
+                    ],
+                    [
+                        "Come On In may refer to:"
+                    ],
+                    [
+                        "Come On Marines! is a 1934 American Pre-Code drama film directed by Henry Hathaway and starring Richard Arlen and Ida Lupino."
+                    ],
+                    [
+                        "Come On Come",
+                        "On is a 1992 album by Mary Chapin Carpenter.",
+                        "Come On Come On and variants may also refer to:"
+                    ],
+                    [
+                        "Spencer Gordon Bennet( January 5, 1893 – October 8, 1987) was an American film producer and director.",
+                        "Known as the\" King of Serial Directors\", he directed more film serials than any other director."
+                    ],
+                    [
+                        "C'mon Baby or Come On Baby may refer to:"
+                    ],
+                    [
+                        "Ben Palmer is a British film and television director who is known for being the director of\" Bo' Selecta\" and\" The Inbetweeners\"."
+                    ],
+                    [
+                        "Hop Harrigan( aka Hop Harrigan America's Ace of the Airways)( 1946) is a Columbia film serial, based on the Hop Harrigan comic books by DC Comics.",
+                        "The serial comprised 15 two- reel chapters with Derwin Abrahams as the director, and Sam Katzman, the producer.",
+                        "Columbia Pictures was one of the last Hollywood studios to continue in postwar years with the serial format.",
+                        "By 1947, Universal Pictures discontinued their serials, with only Republic Pictures and Columbia continuing with serials.",
+                        "The last serial was Columbia's\" Blazing the Overland Trail\"( 1956)."
+                    ],
+                    [
+                        "The Overland Trail( also known as the Overland Stage Line) was a stagecoach and wagon trail in the American West during the 19th century.",
+                        "While portions of the route had been used by explorers and trappers since the 1820s, the Overland Trail was most heavily used in the 1860s as an alternative route to the Oregon, California, and Mormon trails through central Wyoming.",
+                        "The Overland Trail was famously used by the Overland Stage Company owned by Ben Holladay to run mail and passengers to Salt Lake City, Utah, via stagecoaches in the early 1860s.",
+                        "Starting from Atchison, Kansas, the trail descended into Colorado before looping back up to southern Wyoming and rejoining the Oregon Trail at Fort Bridger.",
+                        "The stage line operated until 1869 when the completion of the First Transcontinental Railroad eliminated the need for mail service via Thais' stagecoach."
+                    ],
+                    [
+                        "Blazing the Overland Trail( 1956) is a Columbia Pictures serial directed by veteran serial specialist Spencer Gordon Bennet and produced by another serial specialist, Sam Katzman.",
+                        "It was the 57th and last serial produced by Columbia and the last serial ever produced by any studio( both major or minor).",
+                        "Republic Pictures, the only other serial- producing studio in the mid 1950s, had ceased its serial production the previous year with\" King of the Carnival\"."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_8233",
+        "question": "Who is the father of the director of film My 20Th Century?",
+        "golden_answers": [
+            "György Enyedi (geographer)",
+            "György Enyedi"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "My 20th Century",
+                    "Ildikó Enyedi"
+                ],
+                "sent_id": [
+                    0,
+                    2
+                ]
+            },
+            "context": {
+                "title": [
+                    "Peter Hamel",
+                    "Inoue Masaru (bureaucrat)",
+                    "Obata Toramori",
+                    "Ian Barry (director)",
+                    "Paul Brooke",
+                    "Yasuichi Oshima",
+                    "Lars Eliasson",
+                    "Ildikó Enyedi",
+                    "My 20th Century",
+                    "Cleomenes II"
+                ],
+                "content": [
+                    [
+                        "Peter Hamel( 1911–1979) was a German screenwriter and a director of film and television.",
+                        "He appeared as himself in the 1948 comedy\" Film Without a Title\".",
+                        "He is the father of the composer Peter Michael Hamel."
+                    ],
+                    [
+                        "Viscount was the first Director of Railways in Japan and is known as the\" father of the Japanese railways\"."
+                    ],
+                    [
+                        "He was the father of Obata Masamori."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Paul Brooke( born 22 November 1944) is a retired English actor of film, television and radio.",
+                        "He is the father of actor Tom Brooke."
+                    ],
+                    [
+                        "He is the father of manga artist Towa Oshima."
+                    ],
+                    [
+                        "He is the father of the later Member of Parliament Anna Eliasson."
+                    ],
+                    [
+                        "Ildikó Enyedi (born 15 November 1955) is a Hungarian film director and screenwriter.",
+                        "She has directed eight films since 1989.",
+                        "Her father, György Enyedi, was a geographer and economist who played a major role in the long-term development of regional science."
+                    ],
+                    [
+                        "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi.",
+                        "It premiered at the Toronto Festival of Festivals.",
+                        "Enyedi won the Golden Camera award at the 1989 Cannes Film Festival.",
+                        "The film was selected as the Hungarian entry for the Best Foreign Language Film at the 62nd Academy Awards, but was not accepted as a nominee."
+                    ],
+                    [
+                        "Cleomenes II( died 309 BC) was Agiad King of Sparta from 369 to 309 BC.",
+                        "The son of Cleombrotus I, he succeeded his brother Agesipolis II.",
+                        "He was the father of Acrotatus I, the father of Areus I, and of Cleonymus, the father of Leonidas II."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Unknown",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_8385",
+        "question": "Where was the place of death of the director of film The Touch (1971 Film)?",
+        "golden_answers": [
+            "Fårö"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "The Touch (1971 film)",
+                    "Ingmar Bergman"
+                ],
+                "sent_id": [
+                    0,
+                    10
+                ]
+            },
+            "context": {
+                "title": [
+                    "S. N. Mathur",
+                    "The Time, the Place and the Girl (1946 film)",
+                    "Brian Kennedy (gallery director)",
+                    "Ian Barry (director)",
+                    "Olav Aaraas",
+                    "Ingmar Bergman",
+                    "The Touch (1971 film)",
+                    "Peter Levin",
+                    "Dana Blankstein",
+                    "Jesse E. Hobson"
+                ],
+                "content": [
+                    [
+                        "S.N. Mathur was the Director of the Indian Intelligence Bureau between September 1975 and February 1980.",
+                        "He was also the Director General of Police in Punjab."
+                    ],
+                    [
+                        "The Time, the Place and the Girl is a 1946 American musical film directed by David Butler.",
+                        "It is unrelated to the 1929 film\" The Time, the Place and the Girl\"."
+                    ],
+                    [
+                        "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+                        "He is currently the director of the Peabody Essex Museum.",
+                        "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+                        "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+                        "He was born in Fredrikstad.",
+                        "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+                        "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+                    ],
+                    [
+                        "Ernst Ingmar Bergman (14 July 1918 – 30 July 2007) was a Swedish director, writer, and producer who worked in film, television, theatre and radio.",
+                        "Considered to be among the most accomplished and influential filmmakers of all time, Bergman's films include \"Smiles of a Summer Night\" (1955),",
+                        "\"The Seventh Seal\" (1957)",
+                        ", \"Wild Strawberries\" (1957), \"Persona\" (1966), \"Cries and Whispers\" (1972),",
+                        "\"Scenes from a Marriage\" (1973), and \"Fanny and Alexander\" (1982); the last two exist in extended television versions.",
+                        "Bergman directed over sixty films and documentaries for cinematic release and for television screenings, most of which he also wrote.",
+                        "He also directed over 170 plays.",
+                        "He eventually forged a creative partnership with his cinematographers Gunnar Fischer and Sven Nykvist.",
+                        "Among his company of actors were Harriet and Bibi Andersson, Liv Ullmann, Gunnar Björnstrand, Erland Josephson, Ingrid Thulin and Max von Sydow.",
+                        "Most of his films were set in Sweden, and many films from \"Through a Glass Darkly\" (1961)",
+                        "onward were filmed on the island of Fårö.",
+                        "Philip French referred to Bergman as \"one of the greatest artists of the 20th century ...",
+                        "he found in literature and the performing arts a way of both recreating and questioning the human condition.\"",
+                        "Director Martin Scorsese commented; \"If you were alive in the 50s and the 60s and of a certain age, a teenager on your way to becoming an adult, and you wanted to make movies",
+                        ", I don't see how you couldn't be influenced by Bergman ...",
+                        "It's impossible to overestimate the effect that those films had on people.\""
+                    ],
+                    [
+                        "The Touch  is a 1971 romantic drama film directed by Ingmar Bergman and starring Max von Sydow, Bibi Andersson, Elliott Gould, and Sheila Reid.",
+                        "The film tells the story of an affair between a married woman and an impetuous foreigner.",
+                        "It contains references to the Virgin Mary and the Holocaust.",
+                        "Produced by ABC Pictures, \"The Touch\" was Bergman's first English language film, but shot on the island of Gotland in Sweden in 1970.",
+                        "Cinematographer Sven Nykvist shot it in Eastmancolor.",
+                        "Gould, cast over Paul Newman and Robert Redford, believed Bergman's screenplay was semi-autobiographical.",
+                        "The film received mixed to negative reviews and was a box office bomb.",
+                        "It has since had a limited re-release by the Film Society of Lincoln Center in 2011 and a home media release by The Criterion Collection in 2018."
+                    ],
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ],
+                    [
+                        "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+                        "Prior to SRI, he was the director of the Armour Research Foundation."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Loznica, Sanjak of Zvornik",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_10603",
+        "question": "Which film has the director died later, The Glass Wall or Where Does It Hurt??",
+        "golden_answers": [
+            "Where Does It Hurt?"
+        ],
+        "metadata": {
+            "type": "bridge_comparison",
+            "supporting_facts": {
+                "title": [
+                    "The Glass Wall",
+                    "Where Does It Hurt?",
+                    "Maxwell Shane",
+                    "Rod Amateau"
+                ],
+                "sent_id": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Querelle",
+                    "Mohsen Eslamzadeh",
+                    "Thulasi (1987 film)",
+                    "Maxwell Shane",
+                    "Robert White Johnson",
+                    "Le Masque de la Méduse",
+                    "The Glass Wall",
+                    "Death of Garry Hoy",
+                    "Where Does It Hurt?",
+                    "Rod Amateau"
+                ],
+                "content": [
+                    [
+                        "Querelle is a 1982 West German- French English- language drama film directed by Rainer Werner Fassbinder and starring Brad Davis, adapted from French author Jean Genet's 1947 novel\" Querelle of Brest\".",
+                        "It marked Fassbinder's final film as a writer/ director; it was posthumously released just months after the director died of a drug overdose in June 1982."
+                    ],
+                    [
+                        "Mohsen Eslamzadeh is an Iranian documentary filmmaker.",
+                        "He is the director of\" Alone Among The Taliban\".",
+                        "This film has won the best documentary award at the 44th Athens International Film and Video Festival in the United States.",
+                        "This film has won the best documentary award at the 12th Marbella International Film Festival in Spain.",
+                        "This film has won the Shahid Avini Award offers."
+                    ],
+                    [
+                        "Thulasi is a 1987 Tamil romantic drama film directed by Ameerjan.",
+                        "The film features Murali and Seetha in lead roles.",
+                        "The film, produced by P. S. V. Hariharan, had musical score by Sampath Selvam and was released on 27 November 1987.",
+                        "The music director died before the release of the film."
+                    ],
+                    [
+                        "Maxwell Shane (August 26, 1905 – October 25, 1983) was an American movie and television director, screenwriter, and producer."
+                    ],
+                    [
+                        "Robert White Johnson is an American songwriter and musician, based on Nashville, best known for co-writing\" Where Does My Heart Beat Now\", which was a major hit for Celine Dion."
+                    ],
+                    [
+                        "Le masque de la Méduse is a 2009 fantasy horror film directed by Jean Rollin.",
+                        "The film is a modern-day telling of the Greek mythological tale of the Gorgon and was inspired by the 1964 classic Hammer Horror film of the same name and the 1981 cult classic\" Clash of the Titans\".",
+                        "It was Rollin's final film, as the director died in 2010."
+                    ],
+                    [
+                        "The Glass Wall is a 1953 American black- and- white drama film noir directed by Maxwell Shane and starring Vittorio Gassman and Gloria Grahame.",
+                        "The film was produced and distributed by Columbia Pictures.",
+                        "The title refers to the design of the United Nations headquarters in New York City.",
+                        "It tied with two other films for the 1953 Golden Leopard, the top prize at the Locarno International Film Festival."
+                    ],
+                    [
+                        "Garry Hoy( January 1, 1955 – July 9, 1993) was a lawyer for the law firm of Holden Day Wilson in Toronto who became notorious for the circumstances of his death.",
+                        "In an attempt to prove to a group of prospective articling students that the glass windows of the Toronto- Dominion Centre were unbreakable, Hoy threw himself at a glass wall on the 24th floor.",
+                        "The glass did not break, but the window frame gave way and he fell to his death."
+                    ],
+                    [
+                        "Where Does it Hurt? is a 1972 American comedy film written and directed by Rod Amateau and starring Peter Sellers, Jo Ann Pflug, Rick Lenz, Pat Morita, and Harold Gould.",
+                        "The film is a darkly satirical look at capitalism in a hospital environment."
+                    ],
+                    [
+                        "Rodney\" Rod\" Amateau( December 20, 1923 – June 29, 2003) was an American film and television screenwriter, director, and producer.",
+                        "Among the programs that he directed were\" The Dennis Day ShowThe Many Loves of Dobie GillisMister EdGilligan's Island The Bob Cummings Show\" and\" The New Phil Silvers Show\".",
+                        "He produced\" My Mother the Car\" and\" Supertrain\", and wrote the story for the 1988 film\" Sunset\".",
+                        "Amateau also directed a few episodes of\" The Dukes of Hazzard\", and appeared in a handful of episodes as an actor as well.",
+                        "In 1987, he directed, produced and co-wrote\" The Garbage Pail Kids Movie\", which is considered to be one of the worst films ever made.",
+                        "From 1945 to 1949, he was married to actress Coleen Gray, who sued him for child support in 1955.",
+                        "From 1959 to 1962, he was married to Sandra Burns, daughter of George Burns and Gracie Allen."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Not found",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    }
+]

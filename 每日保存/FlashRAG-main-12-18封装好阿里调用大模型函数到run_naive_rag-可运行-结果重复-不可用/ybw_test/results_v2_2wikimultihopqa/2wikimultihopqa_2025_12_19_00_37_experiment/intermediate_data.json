@@ -1,0 +1,97 @@
+[
+    {
+        "id": "dev_7701",
+        "question": "Who is the father-in-law of Basilina?",
+        "golden_answers": [
+            "Constantius Chlorus",
+            "Flavius Valerius Constantius"
+        ],
+        "metadata": {
+            "type": "inference",
+            "supporting_facts": {
+                "title": [
+                    "Basilina",
+                    "Julius Constantius"
+                ],
+                "sent_id": [
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Harry Smith (athlete)",
+                    "Barthold A. Butenschøn Sr.",
+                    "Basilina",
+                    "Peter Burroughs",
+                    "John Adams (merchant)",
+                    "Ludwig von Westphalen",
+                    "Ogawa Mataji",
+                    "James Armour (Master mason)",
+                    "John Vernou Bouvier III",
+                    "Julius Constantius"
+                ],
+                "content": [
+                    [
+                        "Harry James Smith( July 30, 1888 – November 20, 1962) was an American long- distance runner.",
+                        "He was most notable for competing in the 1912 Olympics in Stockholm.",
+                        "He was also the father of Hart wrestling family matriarch Helen Hart and the father- in- law of Stu Hart."
+                    ],
+                    [
+                        "Hans Barthold Andresen Butenschøn( 27 December 1877 – 28 November 1971) was a Norwegian businessperson.",
+                        "He was born in Kristiania as a son of Nils August Andresen Butenschøn and Hanna Butenschøn, and grandson of Nicolay Andresen.",
+                        "Together with Mabel Anette Plahte( 1877 – 1973, a daughter of Frithjof M. Plahte) he had the son Hans Barthold Andresen Butenschøn Jr. and was through him the father- in- law of Ragnhild Butenschøn and grandfather of Peter Butenschøn.",
+                        "Through his daughter Marie Claudine he was the father- in- law of Joakim Lehmkuhl, through his daughter Mabel Anette he was the father- in- law of Harald Astrup( a son of Sigurd Astrup) and through his daughter Nini Augusta he was the father- in- law of Ernst Torp.",
+                        "He took commerce school and agricultural school.",
+                        "He was hired in the family company N. A. Andresen& Co, and became a co-owner in 1910.",
+                        "He eventually became chief executive officer.",
+                        "The bank changed its name to Andresens Bank in 1913 and merged with Bergens Kreditbank in 1920.",
+                        "The merger was dissolved later in the 1920s.",
+                        "He was also a landowner, owning Nedre Skøyen farm and a lot of land in Enebakk.",
+                        "He chaired the board of Nydalens Compagnie from 1926, having not been a board member before that.",
+                        "He also chaired the supervisory council of Forsikringsselskapet Viking and Nedre Glommen salgsforening, and was a supervisory council member of Filharmonisk Selskap.",
+                        "He was a member of the gentlemen's club SK Fram since 1890, and was proclaimed a lifetime member in 1964.",
+                        "He was buried in Enebakk."
+                    ],
+                    [
+                        "Basilina (died 332) was the wife of Julius Constantius and the mother of Roman Emperor Julian, who in her honour gave the name \"Basilinopolis\" to a city in Bithynia",
+                        "(modern Pazarköy near Gemlik, in Turkey)."
+                    ],
+                    [
+                        "Peter Burroughs( born 27 January 1947) is a British television and film actor, the director of Willow Management.",
+                        "He is the father- in- law of actor and TV presenter Warwick Davis."
+                    ],
+                    [
+                        "John Adams( 1672 or 1673 – 1745) was an American- born Canadian merchant and member of the Nova Scotia Council.",
+                        "He was the father- in- law of Henry Newton( politician)."
+                    ],
+                    [
+                        "Johann Ludwig von Westphalen( 11 July 1770 – 3 March 1842) was a liberal Prussian civil servant and the father- in- law of Karl Marx."
+                    ],
+                    [
+                        "Viscount was a general in the early Imperial Japanese Army.",
+                        "He was also the father- in- law of Field Marshal Gen Sugiyama."
+                    ],
+                    [
+                        "James Armour (15 January 1730 – 20 September 1798) was a master mason and father of Jean Armour, and therefore the father-in-law of the poet Robert Burns."
+                    ],
+                    [
+                        "John Vernou\" Black Jack\" Bouvier III( May 19, 1891 – August 3, 1957) was an American Wall Street stockbroker and socialite.",
+                        "He was the father of First Lady Jacqueline Kennedy Onassis and of socialite Lee Radziwill, and was the father- in- law of John F. Kennedy."
+                    ],
+                    [
+                        "Julius Constantius (died September 337) was a politician of the Roman Empire and a member of the Constantinian dynasty, being a son of Emperor Constantius Chlorus and his second wife Flavia Maximiana Theodora, a younger half-brother of Emperor Constantine the Great and the father of Emperor Julian."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Not found",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    }
+]

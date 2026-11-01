@@ -1,0 +1,435 @@
+📥 加载数据集...
+Loading dev dataset from: /home/lab/ybw/FlashRAG-main/datasets_flashRAG/2wikimultihopqa/dev.jsonl...
+✅ 数据集加载成功，共 10 条
+   [1m评估数据: Who is the mother of the director of film Polish-Russian War (Film)?[0m
+🛠️ 初始化 Pipeline...
+🚀 [MyV2Pipeline] 正在初始化 V2 LangGraph...
+✅ V2 Graph compiled successfully.
+[1m🏃 运行...——————————————————————————————————————————————[0m
+🔥 [MyV2Pipeline] 开始推理 (总数: 10, 剩余: 10)...
+  0%|                                                                        | 0/10 [00:00<?, ?it/s]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify the director of the film 'Polish-Russian War' and confirm their full name and nationality", "Determine the mother's name of the identified director, including any relevant biographical details"]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the director of the film 'Polish-Russian War' and confirm their full name and nationality'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_200a376ff3cb4613b538a9', 'function': {'arguments': '{"query": "director of Polish-Russian War full name nationality"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 31, 'prompt_tokens': 428, 'total_tokens': 459, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-d7f40c1f-68b7-9fc2-bb36-d453e12c9990', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--1328aeee-c3fc-490e-bcfc-ee8963caf898-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'director of Polish-Russian War full name nationality'}, 'id': 'call_200a376ff3cb4613b538a9', 'type': 'tool_call'}] usage_metadata={'input_tokens': 428, 'output_tokens': 31, 'total_tokens': 459, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'director of Polish-Russian War full name nationality[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the director of the film 'Polish-Russian War' and confirm their full name and nationality
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer indicates that the director of the film 'Polish-Russian War' could not be identified from the retrieved documents. This means the initial step of identifying the director has failed, which is a prerequisite for determining the mother's name. Since the plan’s remaining steps depend on the successful identification of the director, this failure invalidates the assumption that the director is known. Therefore, the current plan cannot proceed without first resolving this issue.", 'decision': 'replan', 'feedback_for_planner': '{"key_insight": "The sub-answer reveals that the director of \'Polish-Russian War\' was not found in the provided documents, making it impossible to determine the mother\'s name.", "change_type": "Modification", "suggested_steps": "Revisit the identification of the director by expanding the search scope or verifying the film\'s correct title and director. Only after confirming the director can the next step of identifying their mother be undertaken."}'}
+Routing to Re_strategist
+--- 🧠 Entering Re_Strategist Node ---
+Mode: Re-Planning
+[1mRe_strategist_node:[0m
+ ["Identify the director of the film 'Polish-Russian War' and confirm their full name and nationality", "Revisit the identification of the director of 'Polish-Russian War' by expanding the search scope or verifying the film's correct title and director.", "Determine the mother's name of the identified director, including any relevant biographical details"]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Revisit the identification of the director of 'Polish-Russian War' by expanding the search scope or verifying the film's correct title and director.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_675813e0284c47b0a919bd', 'function': {'arguments': '{"query": "Director of Polish-Russian War film full name nationality"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 1081, 'total_tokens': 1113, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-9695f401-b99c-9e62-bbc5-9715bb32a7a2', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--81a5e6a2-8fa6-48b0-9302-fd28366c9031-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Director of Polish-Russian War film full name nationality'}, 'id': 'call_675813e0284c47b0a919bd', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1081, 'output_tokens': 32, 'total_tokens': 1113, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Director of Polish-Russian War film full name nationality[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Revisit the identification of the director of 'Polish-Russian War' by expanding the search scope or verifying the film's correct title and director.
+The context provided does not mention a film titled "Polish-Russian War" or its director. Therefore, the information about the director of the film "Polish-Russian War" cannot be determined from the given context. The correct answer is: NOT FOUND.
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer confirms that there is no film titled 'Polish-Russian War' in the provided context, and therefore the director of such a film cannot be identified. This directly impacts the remaining step in the Master Plan, which is to determine the mother's name of the identified director. Since the director cannot be identified, the subsequent step of finding the mother's name is no longer feasible. This invalidates the assumption that a director exists for the film in question, which is a foundational premise for the remaining steps. Thus, the plan must be modified to address this issue.", 'decision': 'replan', 'feedback_for_planner': '{"key_insight": "The sub-answer reveals that the film \'Polish-Russian War\' does not exist in the provided context, making it impossible to identify its director and, consequently, the director\'s mother.", "change_type": "Modification", "suggested_steps": "Reassess the initial identification of the film title and director. Consider alternative titles or sources. If the film cannot be confirmed, revise the goal to reflect the current findings and adjust the plan accordingly."}'}
+Routing to Re_strategist
+--- 🧠 Entering Re_Strategist Node ---
+Mode: Re-Planning
+[1mRe_strategist_node:[0m
+ ["Identify the director of the film 'Polish-Russian War' and confirm their full name and nationality", "Revisit the identification of the director of 'Polish-Russian War' by expanding the search scope or verifying the film's correct title and director.", "Reassess the initial identification of the film title 'Polish-Russian War' by exploring alternative titles, checking for possible misspellings, or consulting external databases to confirm its existence and director.", 'Determine if the film can be linked to any known Polish or Russian directors, and if so, identify the most likely candidate based on available evidence.', "If the film's director cannot be confirmed, revise the goal to reflect that the film may not exist in the provided context and adjust the plan accordingly."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 3[0m: 'Reassess the initial identification of the film title 'Polish-Russian War' by exploring alternative titles, checking for possible misspellings, or consulting external databases to confirm its existence and director.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_0b4a6d2b1a7947e78e2f21', 'function': {'arguments': '{"query": "Polish-Russian War film director alternative titles misspellings external databases"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 36, 'prompt_tokens': 1341, 'total_tokens': 1377, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-516b8e53-f00d-9bc2-94a4-2f1a8e462b20', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--06b4dbab-14de-4d69-bc50-64223f39daf3-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Polish-Russian War film director alternative titles misspellings external databases'}, 'id': 'call_0b4a6d2b1a7947e78e2f21', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1341, 'output_tokens': 36, 'total_tokens': 1377, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Polish-Russian War film director alternative titles misspellings external databases[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Reassess the initial identification of the film title 'Polish-Russian War' by exploring alternative titles, checking for possible misspellings, or consulting external databases to confirm its existence and director.
+The provided context does not contain specific information about the film title 'Polish-Russian War' or any alternative titles, misspellings, or director details related to it. Therefore, based on the given context, it is not possible to reassess the initial identification of the film title. 
+
+Answer: NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer confirms that the film title 'Polish-Russian War' is not found in the provided context, and no alternative titles, misspellings, or director details are available. This aligns with the current Master Plan's second step, which already includes a contingency for when the film's director cannot be confirmed. The sub-answer does not introduce any new analytical dimension, nor does it invalidate assumptions in the plan. It merely reinforces the need to revise the goal if the film cannot be identified. Since the remaining steps still logically follow and do not require adjustment, there is no need to trigger a replan.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 4[0m: 'Determine if the film can be linked to any known Polish or Russian directors, and if so, identify the most likely candidate based on available evidence.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_45ba10f49b814d8bac39ae', 'function': {'arguments': '{"query": "Polish-Russian War film director Polish Russian directors"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 1234, 'total_tokens': 1266, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-032f6cf4-d044-9b3e-b9c3-e673d6041cf8', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--f6d58ba6-ed31-4588-96cc-1c31f65ae279-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Polish-Russian War film director Polish Russian directors'}, 'id': 'call_45ba10f49b814d8bac39ae', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1234, 'output_tokens': 32, 'total_tokens': 1266, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Polish-Russian War film director Polish Russian directors[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Determine if the film can be linked to any known Polish or Russian directors, and if so, identify the most likely candidate based on available evidence.
+Based on the provided context, Victor Ginzburg is identified as a Russian-American director. There is no direct mention of any Polish directors in the context. Therefore, the film can be linked to a known Russian director, Victor Ginzburg.
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer identifies Victor Ginzburg as a Russian-American director associated with the film in question, based on the provided context. The plan's remaining step is to revise the goal if the film's director cannot be confirmed. However, the sub-answer confirms that a known Russian director (Victor Ginzburg) is linked to the film, which means the original goal remains valid and does not require revision. There is no contradiction, new dimension, or requirement that necessitates changing the plan. The finding supports the existing reasoning path without altering its fundamental logic.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 5[0m: 'If the film's director cannot be confirmed, revise the goal to reflect that the film may not exist in the provided context and adjust the plan accordingly.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_ec4e4f4869984e6da91c5a', 'function': {'arguments': '{"query": "Victor Ginzburg filmography Polish-Russian War"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 33, 'prompt_tokens': 1253, 'total_tokens': 1286, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-7d4c61e4-5e5e-9fcb-96c8-5b3ce9d9dd9e', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--e08afc25-64c6-40ae-aea0-2f7aaaf615e8-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Victor Ginzburg filmography Polish-Russian War'}, 'id': 'call_ec4e4f4869984e6da91c5a', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1253, 'output_tokens': 33, 'total_tokens': 1286, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Victor Ginzburg filmography Polish-Russian War[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+If the film's director cannot be confirmed, revise the goal to reflect that the film may not exist in the provided context and adjust the plan accordingly.
+The film "Victim (2011 film)" is mentioned in the context, and its director is stated as Alex Pillai. Therefore, the film's director can be confirmed based on the provided context. As such, there is no need to revise the goal or adjust the plan, as the film does exist in the provided context with a confirmed director.
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer confirms that the film 'Victim (2011 film)' exists in the provided context and its director is Alex Pillai. This directly answers the original question about the mother of the director, which would require identifying Alex Pillai's mother. However, the current Master Plan has no remaining steps, indicating that the plan has already reached its conclusion or is incomplete. Since the sub-answer does not introduce a new dimension, invalidate assumptions, or create a new requirement, it merely reinforces the existing finding and supports the final goal. No replanning is needed.", 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+<answer>NOT FOUND</answer>
+ 10%|██████▍                                                         | 1/10 [00:42<06:22, 42.54s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify the release dates of both films 'Blind Shaft' and 'The Mask Of Fu Manchu' to determine which one was released first."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the release dates of both films 'Blind Shaft' and 'The Mask Of Fu Manchu' to determine which one was released first.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_a97980246de74f4d89f945', 'function': {'arguments': '{"query": "Release dates of Blind Shaft and The Mask Of Fu Manchu"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 428, 'total_tokens': 463, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-54958c30-decd-9c6d-92b6-070032f47242', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--7a93c1a8-8249-4cb0-a44f-f15fafe70df4-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Release dates of Blind Shaft and The Mask Of Fu Manchu'}, 'id': 'call_a97980246de74f4d89f945', 'type': 'tool_call'}] usage_metadata={'input_tokens': 428, 'output_tokens': 35, 'total_tokens': 463, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Release dates of Blind Shaft and The Mask Of Fu Manchu[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the release dates of both films 'Blind Shaft' and 'The Mask Of Fu Manchu' to determine which one was released first.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer indicates that the retrieval process did not find any documents containing the release dates of 'Blind Shaft' or 'The Mask Of Fu Manchu'. This means the current plan has not yet obtained the necessary information to answer the original question. Since the remaining steps in the Master Plan are empty, and no further steps have been defined, this is a clear indication that the plan is incomplete. However, it does not introduce a new analytical dimension or invalidate existing assumptions—it simply reveals that the initial search was insufficient. The next logical step would be to refine the search strategy or expand the data sources.", 'decision': 'replan', 'feedback_for_planner': '{"key_insight": "The sub-answer indicates that the initial search for release dates of both films was unsuccessful, suggesting that the current approach to document retrieval is inadequate or incomplete.", "change_type": "Addition", "suggested_steps": "Expand the search scope by including more relevant databases or sources such as film databases (e.g., IMDb, Box Office Mojo), historical film catalogs, or academic resources. Implement a more targeted query to specifically retrieve release dates of these two films."}'}
+Routing to Re_strategist
+--- 🧠 Entering Re_Strategist Node ---
+Mode: Re-Planning
+[1mRe_strategist_node:[0m
+ ["Identify the release dates of both films 'Blind Shaft' and 'The Mask Of Fu Manchu' to determine which one was released first.", "Expand the search scope by querying specialized film databases (e.g., IMDb, Box Office Mojo) and historical film catalogs to retrieve the release dates of 'Blind Shaft' and 'The Mask Of Fu Manchu'.", "Identify the release dates of both films 'Blind Shaft' and 'The Mask Of Fu Manchu' to determine which one was released first."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Expand the search scope by querying specialized film databases (e.g., IMDb, Box Office Mojo) and historical film catalogs to retrieve the release dates of 'Blind Shaft' and 'The Mask Of Fu Manchu'.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_1b571dfc52d540d991adab', 'function': {'arguments': '{"query": "Release dates of Blind Shaft and The Mask Of Fu Manchu"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 1176, 'total_tokens': 1211, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-de945bbd-caf6-996b-bc72-94c732158543', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--8e24e951-7dc0-44cb-bc63-33089decb64b-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Release dates of Blind Shaft and The Mask Of Fu Manchu'}, 'id': 'call_1b571dfc52d540d991adab', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1176, 'output_tokens': 35, 'total_tokens': 1211, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Release dates of Blind Shaft and The Mask Of Fu Manchu[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Expand the search scope by querying specialized film databases (e.g., IMDb, Box Office Mojo) and historical film catalogs to retrieve the release dates of 'Blind Shaft' and 'The Mask Of Fu Manchu'.
+The provided context does not contain any information about the release dates of 'Blind Shaft' or 'The Mask Of Fu Manchu'. Therefore, I cannot answer based on the given context. To retrieve this information, you would need to consult specialized film databases such as IMDb or Box Office Mojo, and historical film catalogs.
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer indicates that the current context does not contain the necessary information about the release dates of 'Blind Shaft' or 'The Mask Of Fu Manchu'. It suggests expanding the search scope by querying specialized film databases and historical catalogs. This aligns with the remaining step in the Master Plan, which is to identify the release dates of both films. The sub-answer does not introduce a new analytical dimension or invalidate existing assumptions; it merely reinforces the need to proceed with the planned action. Since no factual contradiction or logical inconsistency is present, and the plan's goal remains unchanged, there is no need to alter the research trajectory.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 3[0m: 'Identify the release dates of both films 'Blind Shaft' and 'The Mask Of Fu Manchu' to determine which one was released first.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_06547a8da1ca42e2b54427', 'function': {'arguments': '{"query": "Release dates of Blind Shaft and The Mask Of Fu Manchu"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 1235, 'total_tokens': 1270, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-a5489f61-7d9d-9063-b920-7c2227153934', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--fccb3cb8-c86c-4c28-8c9e-6b8d81d7c24f-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Release dates of Blind Shaft and The Mask Of Fu Manchu'}, 'id': 'call_06547a8da1ca42e2b54427', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1235, 'output_tokens': 35, 'total_tokens': 1270, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Release dates of Blind Shaft and The Mask Of Fu Manchu[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the release dates of both films 'Blind Shaft' and 'The Mask Of Fu Manchu' to determine which one was released first.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer indicates that the retrieved documents do not contain information about the release dates of 'Blind Shaft' or 'The Mask Of Fu Manchu'. The content of the retrieved documents is unrelated to the films in question, focusing instead on topics such as martial arts actresses, kidnapping in China, and the Three Character Classic. This means that the current step of identifying release dates has not yielded the necessary information. However, this does not introduce a new analytical dimension or invalidate assumptions in the plan. It simply reveals that the current search strategy may need refinement or that additional sources are required. Since the goal remains unchanged and the next logical step would be to search for more relevant sources, there is no need to replan.", 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+A: <answer>The Mask Of Fu Manchu</answer>
+ 20%|████████████▊                                                   | 2/10 [01:08<04:21, 32.73s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ['Identify the full name and historical context of John V, Prince of Anhalt-Zerbst, including his lineage and relevant historical period.', "Determine the date of death of John V's father by researching the biographical details of his parent, specifically focusing on the death date of the paternal figure."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the full name and historical context of John V, Prince of Anhalt-Zerbst, including his lineage and relevant historical period.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_a58000eeccd24bff97a82c', 'function': {'arguments': '{"query": "John V Prince of Anhalt-Zerbst full name historical context lineage relevant historical period"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 40, 'prompt_tokens': 457, 'total_tokens': 497, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-1a07efc1-8d41-95d9-a02b-e9baf750a3ab', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--37a71ff8-89f4-401f-8b69-1122e96fdc8e-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'John V Prince of Anhalt-Zerbst full name historical context lineage relevant historical period'}, 'id': 'call_a58000eeccd24bff97a82c', 'type': 'tool_call'}] usage_metadata={'input_tokens': 457, 'output_tokens': 40, 'total_tokens': 497, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'John V Prince of Anhalt-Zerbst full name historical context lineage relevant historical period[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the full name and historical context of John V, Prince of Anhalt-Zerbst, including his lineage and relevant historical period.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer attempts to identify John V, Prince of Anhalt-Zerbst, and his lineage, but it does not provide any direct information about his father or his father's death date. The retrieved documents mention the Bülow family, Johannes Gutenberg, and the Crowninshield family, none of which are directly related to John V or his father. These documents do not introduce new analytical dimensions or contradict the original plan. They merely expand on unrelated historical families, which supports the broader context without altering the specific goal of determining the death date of John V's father. Therefore, the current plan remains valid and requires no adjustment.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Determine the date of death of John V's father by researching the biographical details of his parent, specifically focusing on the death date of the paternal figure.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_1daee9a8e4d8437eaaae79', 'function': {'arguments': '{"query": "John V Prince of Anhalt-Zerbst father death date"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 1190, 'total_tokens': 1225, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-dc910e7c-23c4-9031-b4bf-bd73c06ae04a', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--68690d3f-6db8-43bb-be3f-1c23f45e6326-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'John V Prince of Anhalt-Zerbst father death date'}, 'id': 'call_1daee9a8e4d8437eaaae79', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1190, 'output_tokens': 35, 'total_tokens': 1225, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'John V Prince of Anhalt-Zerbst father death date[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Determine the date of death of John V's father by researching the biographical details of his parent, specifically focusing on the death date of the paternal figure.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer indicates that no information was found about John V, Prince of Anhalt-Zerbst's father. The retrieved documents mention several individuals named John (Locke, Dalton, Spencer), but none are identified as John V's father. This means the current plan has not yet uncovered the necessary biographical details to determine the death date of the paternal figure. Since the search is still ongoing and no contradictory or invalidating information has been found, the plan remains valid and requires further exploration.", 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+<answer>NOT FOUND</answer>
+ 30%|███████████████████▏                                            | 3/10 [01:22<02:48, 24.12s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify the director of the film 'Wearing Velvet Slippers Under A Golden Umbrella' and determine the specific award they received for their work on this film."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the director of the film 'Wearing Velvet Slippers Under A Golden Umbrella' and determine the specific award they received for their work on this film.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_b7e445125f5c4b47820d0c', 'function': {'arguments': '{"query": "Director of \'Wearing Velvet Slippers Under A Golden Umbrella\' and specific award received for this film"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 44, 'prompt_tokens': 434, 'total_tokens': 478, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-578e0632-4ffc-9c3d-9815-83e83edc7a7b', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--78628793-2fd2-46eb-a1f2-f8c1aa382673-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': "Director of 'Wearing Velvet Slippers Under A Golden Umbrella' and specific award received for this film"}, 'id': 'call_b7e445125f5c4b47820d0c', 'type': 'tool_call'}] usage_metadata={'input_tokens': 434, 'output_tokens': 44, 'total_tokens': 478, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Director of 'Wearing Velvet Slippers Under A Golden Umbrella' and specific award received for this film[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the director of the film 'Wearing Velvet Slippers Under A Golden Umbrella' and determine the specific award they received for their work on this film.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer indicates that the director of the film 'Wearing Velvet Slippers Under A Golden Umbrella' was not found in the retrieved documents. The search focused on identifying the director and the specific award they received, but no relevant information was uncovered. This does not introduce a new analytical dimension or invalidate assumptions about the plan. It simply confirms that the current approach has not yet yielded the required information. The remaining steps are still valid as they aim to identify the director and the award, and this sub-answer does not alter the fundamental logic of the plan.", 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+<answer>NOT FOUND</answer>
+ 40%|█████████████████████████▌                                      | 4/10 [01:29<01:44, 17.50s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify the director of the film 'Ronnie Rocket' and determine their place of birth."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the director of the film 'Ronnie Rocket' and determine their place of birth.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_ca91a12d939141d588e700', 'function': {'arguments': '{"query": "Director of Ronnie Rocket and their place of birth"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 406, 'total_tokens': 438, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-53dd4442-0398-9ec9-a692-edc93537e913', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--afdc1822-ce08-4fc3-a6a5-4672c9b164a7-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Director of Ronnie Rocket and their place of birth'}, 'id': 'call_ca91a12d939141d588e700', 'type': 'tool_call'}] usage_metadata={'input_tokens': 406, 'output_tokens': 32, 'total_tokens': 438, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Director of Ronnie Rocket and their place of birth[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the director of the film 'Ronnie Rocket' and determine their place of birth.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer indicates that the information required to identify the director of 'Ronnie Rocket' and their place of birth was not found in the retrieved documents. The content of the retrieved documents is unrelated to film directors, movies, or biographical data. This does not introduce a new analytical dimension or invalidate assumptions in the plan. It merely reveals that the current search strategy is insufficient for retrieving the necessary information. The remaining steps are still logically valid but require a different approach or additional sources.", 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+<answer>NOT FOUND</answer>
+ 50%|████████████████████████████████                                | 5/10 [01:36<01:09, 13.81s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify Charles Bretagne Marie De La Trémoille's known family tree and determine his paternal lineage.", "Research the identity of Charles Bretagne Marie De La Trémoille's paternal grandfather using verified historical or genealogical records."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify Charles Bretagne Marie De La Trémoille's known family tree and determine his paternal lineage.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_cb8af5b6e1a84472a1eec6', 'function': {'arguments': '{"query": "Charles Bretagne Marie De La Trémoille family tree paternal lineage"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 37, 'prompt_tokens': 439, 'total_tokens': 476, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-d908a2f6-e77d-9626-a46f-415285ffb438', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--0d30452f-b740-445b-ae0b-510b53e66aca-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Charles Bretagne Marie De La Trémoille family tree paternal lineage'}, 'id': 'call_cb8af5b6e1a84472a1eec6', 'type': 'tool_call'}] usage_metadata={'input_tokens': 439, 'output_tokens': 37, 'total_tokens': 476, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Charles Bretagne Marie De La Trémoille family tree paternal lineage[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify Charles Bretagne Marie De La Trémoille's known family tree and determine his paternal lineage.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer provides information about the La Trémoille family, including details about François de La Trémoille and his lineage. It mentions that Charles Bretagne Marie De La Trémoille's father was killed at the Battle of Marignano, and that François de La Trémoille (1505–1541) succeeded Louis II in his titles. This suggests a potential link to the paternal grandfather through François's father, Charles, prince de Talmond. However, the sub-answer does not directly identify Charles Bretagne Marie De La Trémoille's paternal grandfather or provide a clear path to determine it. The information is relevant but does not introduce a new analytical dimension or invalidate existing assumptions. It merely reinforces the need to trace the paternal lineage further.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Research the identity of Charles Bretagne Marie De La Trémoille's paternal grandfather using verified historical or genealogical records.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_93b16d09681e49aea28172', 'function': {'arguments': '{"query": "Charles Bretagne Marie De La Trémoille paternal grandfather genealogical records"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 39, 'prompt_tokens': 1229, 'total_tokens': 1268, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-4851dfbc-452a-9333-a5c8-dcdfbbdd5494', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--ca886e4c-1d48-4034-9883-5e9488efdb6d-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Charles Bretagne Marie De La Trémoille paternal grandfather genealogical records'}, 'id': 'call_93b16d09681e49aea28172', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1229, 'output_tokens': 39, 'total_tokens': 1268, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Charles Bretagne Marie De La Trémoille paternal grandfather genealogical records[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Research the identity of Charles Bretagne Marie De La Trémoille's paternal grandfather using verified historical or genealogical records.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': 'The latest sub-answer indicates that the paternal grandfather of Charles Bretagne Marie De La Trémoille is Jean Charles Lamoral of Ligne-La Trémoïlle, who was the son of Henri-Florent Lamoral de Ligne and Charlotte de La Trémoille. This directly answers the original question without introducing new dimensions or invalidating existing assumptions. The information aligns with the goal and provides a clear conclusion. There are no further steps needed as the answer has been found.', 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+<answer>Louis II</answer>
+ 60%|██████████████████████████████████████▍                         | 6/10 [01:50<00:55, 13.89s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify the full name and historical context of Ștefan I. Nenițescu to determine his father's identity and lineage.", "Research the birthplace of Ștefan I. Nenițescu's father using reliable historical or genealogical sources."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the full name and historical context of Ștefan I. Nenițescu to determine his father's identity and lineage.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_7b4a1639fb934aaabfee62', 'function': {'arguments': '{"query": "Ștefan I. Nenițescu full name historical context father lineage"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 39, 'prompt_tokens': 454, 'total_tokens': 493, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-6f289252-2fdd-9b93-a98f-32441ab113b3', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--cb6e904f-6efb-43c6-898d-d2ec5251570e-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Ștefan I. Nenițescu full name historical context father lineage'}, 'id': 'call_7b4a1639fb934aaabfee62', 'type': 'tool_call'}] usage_metadata={'input_tokens': 454, 'output_tokens': 39, 'total_tokens': 493, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Ștefan I. Nenițescu full name historical context father lineage[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the full name and historical context of Ștefan I. Nenițescu to determine his father's identity and lineage.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer does not provide direct information about the father of Ștefan I. Nenițescu, but instead discusses Mircea Demetriade and his family background. There is no mention of Ștefan I. Nenițescu or his father in the retrieved documents. The content about Mircea Demetriade, while informative, does not contradict or expand the original plan, which is focused on researching the birthplace of Ștefan I. Nenițescu's father. Therefore, the sub-answer merely reinforces the need to continue with the original plan without introducing new dimensions or invalidating assumptions.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Research the birthplace of Ștefan I. Nenițescu's father using reliable historical or genealogical sources.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_920806a58e544ec09db80e', 'function': {'arguments': '{"query": "Ștefan I. Nenițescu father birthplace genealogical sources"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 40, 'prompt_tokens': 1138, 'total_tokens': 1178, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-c3dda70f-3176-9070-89c4-06d15eeb4229', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--04f3a991-4390-4fde-8d30-733c4c084229-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Ștefan I. Nenițescu father birthplace genealogical sources'}, 'id': 'call_920806a58e544ec09db80e', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1138, 'output_tokens': 40, 'total_tokens': 1178, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Ștefan I. Nenițescu father birthplace genealogical sources[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Research the birthplace of Ștefan I. Nenițescu's father using reliable historical or genealogical sources.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer indicates that the birthplace of Gheorghe Ghica, a notable member of the Ghica family, is Veles in central Macedonia. However, this information pertains to a different individual (Gheorghe Ghica) and not directly to Ștefan I. Nenițescu's father. The retrieved documents also mention potential inaccuracies in family records and suggest that the Ghica family may have been mislabeled as 'Albanians of Romania.' While these findings introduce some historical ambiguity, they do not contradict or fundamentally alter the research goal, which remains focused on identifying the birthplace of Ștefan I. Nenițescu’s father. The current plan does not require adjustment based on this sub-answer, as it does not introduce new requirements or invalidate existing assumptions.", 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+<answer>NOT FOUND</answer>
+ 70%|████████████████████████████████████████████▊                   | 7/10 [02:05<00:41, 13.95s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ['Identify the countries associated with North Marion High School and Seoul High School', 'Compare the countries to determine if they are the same']
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the countries associated with North Marion High School and Seoul High School'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_bd3956424b5a4030bbdd4c', 'function': {'arguments': '{"query": "North Marion High School countries Seoul High School countries"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 409, 'total_tokens': 441, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-7f91fe60-749c-91d4-a9b3-81cea7f89c14', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--2f4d9f7b-df22-45cd-b3a4-5eaacda2a19d-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'North Marion High School countries Seoul High School countries'}, 'id': 'call_bd3956424b5a4030bbdd4c', 'type': 'tool_call'}] usage_metadata={'input_tokens': 409, 'output_tokens': 32, 'total_tokens': 441, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'North Marion High School countries Seoul High School countries[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the countries associated with North Marion High School and Seoul High School
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer from the execution history attempts to identify the countries associated with North Marion High School and Seoul High School. However, the retrieved documents do not provide any information about North Marion High School. The only relevant document is about Seoul Science High School, which is located in Seoul, South Korea. Since there is no data on North Marion High School, the plan to 'Compare the countries to determine if they are the same' cannot be executed yet. This does not introduce a new analytical dimension or invalidate existing assumptions, but it reveals an incomplete data set that must be addressed before proceeding. The current step is necessary but not sufficient for the final goal.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Compare the countries to determine if they are the same'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_44d5282b7b10448ba80f77', 'function': {'arguments': '{"query": "North Marion High School country Seoul Science High School country"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 33, 'prompt_tokens': 1035, 'total_tokens': 1068, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-fa446f6b-ca9c-9132-a6a1-fe8850889467', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--a3a2d5b5-fae8-4630-916a-11ba22eca6c7-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'North Marion High School country Seoul Science High School country'}, 'id': 'call_44d5282b7b10448ba80f77', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1035, 'output_tokens': 33, 'total_tokens': 1068, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'North Marion High School country Seoul Science High School country[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Compare the countries to determine if they are the same
+The countries associated with the schools mentioned in the context are different. Wasilla High School is located in the United States, while Gyeongsin High School is located in South Korea. Fargo South High School is also located in the United States. Therefore, the countries are not the same.
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': 'The latest sub-answer clearly states that the countries associated with the schools mentioned are different: Wasilla High School is in the United States, and Gyeongsin High School is in South Korea. This directly answers the original question about whether North Marion High School (Oregon) and Seoul High School are located in the same country. The sub-answer does not introduce any new analytical dimension or invalidate assumptions in the plan. It simply confirms the conclusion based on the information retrieved. Since the master plan has no remaining steps, this finding completes the task without requiring further action.', 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+A: <answer>no</answer>
+ 80%|███████████████████████████████████████████████████▏            | 8/10 [02:18<00:27, 13.66s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify the directors of the films 'El Extraño Viaje' and 'Love In Pawn' and determine their birth years.", 'Compare the birth years of the two directors to determine which one was born later.']
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the directors of the films 'El Extraño Viaje' and 'Love In Pawn' and determine their birth years.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_4ef0e5ac1f7a4da988fa3d', 'function': {'arguments': '{"query": "Directors of \'El Extraño Viaje\' and \'Love In Pawn\' and their birth years"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 43, 'prompt_tokens': 437, 'total_tokens': 480, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-80a49124-601d-91a6-ba7f-28a4b11cbbc3', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--1fa57fab-685a-43fb-9abd-38cf218afe9f-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': "Directors of 'El Extraño Viaje' and 'Love In Pawn' and their birth years"}, 'id': 'call_4ef0e5ac1f7a4da988fa3d', 'type': 'tool_call'}] usage_metadata={'input_tokens': 437, 'output_tokens': 43, 'total_tokens': 480, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Directors of 'El Extraño Viaje' and 'Love In Pawn' and their birth years[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the directors of the films 'El Extraño Viaje' and 'Love In Pawn' and determine their birth years.
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer provides information about the director Paolo Sorrentino, who was born in 1970, and mentions other individuals with birth years but does not explicitly identify the directors of 'El Extraño Viaje' or 'Love In Pawn'. The current plan is to compare the birth years of the two directors. However, the retrieved documents do not clearly state which director corresponds to which film. Therefore, the sub-answer does not provide a direct contradiction, nor does it introduce a new dimension that changes the research scope. It merely reinforces the need to identify the correct directors before comparing their birth years.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Compare the birth years of the two directors to determine which one was born later.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_38ed81d1e2a547d68f32d7', 'function': {'arguments': '{"query": "Leonardo Favio birth year Paolo Sorrentino birth year"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 1186, 'total_tokens': 1221, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-f4e51015-372d-9676-8c5b-8520a448df51', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--5a49855d-af3d-4b8d-a80f-e1838fbde6db-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Leonardo Favio birth year Paolo Sorrentino birth year'}, 'id': 'call_38ed81d1e2a547d68f32d7', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1186, 'output_tokens': 35, 'total_tokens': 1221, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Leonardo Favio birth year Paolo Sorrentino birth year[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Compare the birth years of the two directors to determine which one was born later.
+The sub-question refers to comparing the birth years of two directors, but none of the provided context mentions any directors. Therefore, the answer is: 'NOT FOUND'.
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': 'The latest sub-answer reveals that the question is about comparing the birth years of two directors, but none of the provided context mentions any directors. This means the current plan lacks the necessary information to answer the question. However, this does not introduce a new analytical dimension or invalidate assumptions in the existing plan—it simply highlights that the required data is missing. The remaining steps are still logically valid and do not depend on false premises.', 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+A: <answer>Love In Pawn</answer>
+ 90%|█████████████████████████████████████████████████████████▌      | 9/10 [02:31<00:13, 13.68s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ["Identify the parentage of Antiochus X Eusebes to determine his mother's lineage", "Determine the identity of Antiochus X Eusebes' mother and her father (maternal grandfather)"]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the parentage of Antiochus X Eusebes to determine his mother's lineage'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_169b7fc440b54b7787e5c9', 'function': {'arguments': '{"query": "Antiochus X Eusebes parentage mother lineage"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 434, 'total_tokens': 469, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-9c996988-494a-9d3e-8113-5c54adb5e6af', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--c2acc24f-798a-4279-9b48-06e3845f66b5-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Antiochus X Eusebes parentage mother lineage'}, 'id': 'call_169b7fc440b54b7787e5c9', 'type': 'tool_call'}] usage_metadata={'input_tokens': 434, 'output_tokens': 35, 'total_tokens': 469, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Antiochus X Eusebes parentage mother lineage[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Identify the parentage of Antiochus X Eusebes to determine his mother's lineage
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+[1mreflection_agent_node:[0m
+{'assessment': "The latest sub-answer identifies Antiochus X Eusebes' mother as Laodice VII Thea, whose father is Antiochus VIII Grypus of the Seleucid Empire. This directly answers the master plan's goal of determining the maternal grandfather of Antiochus X Eusebes. The information aligns with the existing plan and does not introduce new dimensions or invalidate prior assumptions. It merely confirms the lineage path that was already in scope.", 'decision': 'continue', 'feedback_for_planner': ''}
+Routing to: Query Generator (Continue Loop)
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 2[0m: 'Determine the identity of Antiochus X Eusebes' mother and her father (maternal grandfather)'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_a697b63597c84dc0a7ff3d', 'function': {'arguments': '{"query": "Antiochus X Eusebes mother lineage maternal grandfather"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 1128, 'total_tokens': 1163, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-ff3cb3d7-0c29-9759-8a11-357b3c456306', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--f3b7af5f-550a-4292-86a3-9949dcdd6e25-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'Antiochus X Eusebes mother lineage maternal grandfather'}, 'id': 'call_a697b63597c84dc0a7ff3d', 'type': 'tool_call'}] usage_metadata={'input_tokens': 1128, 'output_tokens': 35, 'total_tokens': 1163, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'Antiochus X Eusebes mother lineage maternal grandfather[0m'
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 100 docs...
+[1msub_answer_generator_node:[0m
+Determine the identity of Antiochus X Eusebes' mother and her father (maternal grandfather)
+NOT FOUND
+--- 🧠🧠 Entering Reflection Agent Node ---
+⚠️ Safety Check: Plan is complete, but RA decided to continue. Overriding to 'end'.
+[1mreflection_agent_node:[0m
+{'assessment': 'The latest sub-answer indicates that the maternal grandfather of Antiochus X Eusebes is not directly identified in the retrieved documents. The only relevant information pertains to Antiochus I Theos of Commagene, whose maternal grandfather was Antiochus VIII Grypus. However, this information is about a different individual (Antiochus I) and does not address Antiochus X Eusebes. Since there is no direct mention of Antiochus X Eusebes or his family tree in the provided documents, the current plan remains unaltered. The sub-answer does not introduce new dimensions or invalidate existing assumptions, but rather highlights the lack of available information on the target subject.', 'decision': 'end', 'feedback_for_planner': ''}
+Routing to: Final Synthesis
+--- 🖋️ Entering Final Synthesis Node ---
+[1mfianl_synthesis_node:[0m
+<answer>Antiochus VIII Grypus</answer>
+100%|███████████████████████████████████████████████████████████████| 10/10 [02:46<00:00, 13.95s/it]100%|███████████████████████████████████████████████████████████████| 10/10 [02:46<00:00, 16.63s/it]
+{'em': 0.2, 'f1': 0.2, 'acc': 0.2}
+⏱️  167.20 秒
+📊 评估结果已保存到: /home/lab/ybw/FlashRAG-main/ybw_test/results_v2/qwen3-8b/2wikimultihopqa/2wikimultihopqa_2026_01_09_00_12_experiment

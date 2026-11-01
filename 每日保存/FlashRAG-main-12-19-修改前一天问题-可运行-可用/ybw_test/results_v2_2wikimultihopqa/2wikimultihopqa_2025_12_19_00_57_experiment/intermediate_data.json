@@ -1,0 +1,952 @@
+[
+    {
+        "id": "dev_1951",
+        "question": "Where did Dürrüaden Kadın's husband die?",
+        "golden_answers": [
+            "Constantinople"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Dürrüaden Kadın",
+                    "Mehmed V"
+                ],
+                "sent_id": [
+                    0,
+                    8
+                ]
+            },
+            "context": {
+                "title": [
+                    "Where Was I",
+                    "Place of origin",
+                    "Beaulieu-sur-Loire",
+                    "Motherland (disambiguation)",
+                    "Place of birth",
+                    "Mehmed V",
+                    "Dürrüaden Kadın",
+                    "Valley of Death",
+                    "Sennedjem",
+                    "Dance of Death (disambiguation)"
+                ],
+                "content": [
+                    [
+                        "\" Where Was I?\" may refer to:"
+                    ],
+                    [
+                        "In Switzerland, the place of origin( literally\" home place\" or\" citizen place\") denotes where a Swiss citizen has their municipal citizenship.",
+                        "It is not to be confused with the place of birth or place of residence, although two or all three of these locations may be identical depending on the person's circumstances."
+                    ],
+                    [
+                        "Beaulieu- sur- Loire is a commune in the Loiret department in north -central France.",
+                        "It is also the place of death of Jacques MacDonald, a French general who served in the Napoleonic Wars"
+                    ],
+                    [
+                        "Motherland is the place of one's birth, the place of one's ancestors, or the place of origin of an ethnic group.",
+                        "Motherland may also refer to:"
+                    ],
+                    [
+                        "The place of birth( POB) or birthplace is the place where a person was born.",
+                        "This place is often used in legal documents, together with name and date of birth, to uniquely identify a person.",
+                        "As a general rule with respect to passports, the place of birth is determined to be the country that currently has\" sovereignty\" over the actual place of birth, regardless of when the birth actually occurred.",
+                        "The place of birth is not necessarily the place where the parents of the new baby live.",
+                        "If the baby is born in a hospital in another place, that place is the place of birth.",
+                        "In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth.",
+                        "Some countries place less or no importance on the place of birth, instead using alternative geographical characteristics for the purpose of identity documents.",
+                        "For example, Sweden has used the concept of\" födelsehemortdomicile of birth\") since 1947.",
+                        "This means that the domicile of the baby's mother is the registered place of birth.",
+                        "The location of the maternity ward or other physical birthplace is considered unimportant.",
+                        "Similarly, Switzerland uses the concept of\" Heimatortlieu d'origineluogo d'origineplace of origin\" in German, French and Italian respectively).",
+                        "A child born to Swiss parents is automatically assigned the place of origin of the parent with the same last name, so the child either gets their mother's or father's place of origin.",
+                        "A child born to one Swiss parent and one foreign parent acquires the place of origin of their Swiss parent.",
+                        "In a Swiss passport and identity card, the holder's place of origin is stated, not their place of birth.",
+                        "In some countries( primarily in the Americas), the place of birth automatically determines the nationality of the baby, a practice often referred to by the Latin phrase\" jus soli\".",
+                        "Almost all countries outside the Americas instead attribute nationality based on the nationality( ies) of the baby's parents( referred to as\" jus sanguinis\").",
+                        "There can be some confusion regarding the place of birth if the birth takes place in an unusual way: when babies are born on an airplane or at sea, difficulties can arise.",
+                        "The place of birth of such a person depends on the law of the countries involved, which include the nationality of the plane or ship, the nationality( ies) of the parents and/ or the location of the plane or ship( if the birth occurs in the territorial waters or airspace of a country).",
+                        "Some administrative forms may request the applicant's\" country of birth\".",
+                        "It is important to determine from the requester whether the information requested refers to the applicant's\" place of birth\" or\" nationality at birth\".",
+                        "For US citizens born abroad who under the US Constitution acquire US citizenship at the time of birth, the nationality at birth will be USA( American), while the place of birth would be the country in which the actual birth takes place."
+                    ],
+                    [
+                        "Mehmed V Reşâd",
+                        "(Ottoman Turkish:",
+                        "محمد خامس",
+                        "\"Meḥmed-",
+                        "i ẖâmis\", or)",
+                        "(2 November 1844 – 3 July 1918) reigned as the 35th and penultimate Ottoman Sultan .",
+                        "He was the son of Sultan Abdulmejid I.",
+                        "He was succeeded by his half-brother Mehmed VI.",
+                        "His nine-year reign was marked by the cession of the Empire's North African territories and the Dodecanese Islands, including Rhodes, in the Italo-Turkish War, the traumatic loss of almost all of the Empire's European territories west of Constantinople (now Istanbul) in the First Balkan War, and the entry of the Empire into World War I\nin 1914, which would ultimately lead to the end of the Ottoman Empire."
+                    ],
+                    [
+                        "Dürrüaden Kadın (born Hatice Voçibe; 16 May 1860 – 17 October 1909) was the third wife of Sultan Mehmed V of the Ottoman Empire."
+                    ],
+                    [
+                        "Valley of Death may refer to:"
+                    ],
+                    [
+                        "The Ancient Egyptian artisan Sennedjem lived in Set Maat( translated as\" The Place of Truth\"), contemporary Deir el- Medina, on the west bank of the Nile, opposite Thebes, during the reigns of Seti I and Ramesses II.",
+                        "Sennedjem had the title\" Servant in the Place of Truth\".",
+                        "He was buried along with his wife, Iyneferti, and family in a tomb in the village necropolis.",
+                        "His tomb was discovered January 31, 1886.",
+                        "When Sennedjem's tomb was found, in it there was regular furniture from his home, including a stool and a bed, which he actually used when he was alive.",
+                        "His titles included Servant in the Place of Truth, meaning that he worked on the excavation and decoration of the nearby royal tombs."
+                    ],
+                    [
+                        "Dance of Death, also called\" Danse Macabre\", is a late- medieval allegory of the universality of death.",
+                        "Dance of Death or The Dance of Death may also refer to:"
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Vadildebağı Palace",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_5234",
+        "question": "Which film has the director who died later, Blazing The Overland Trail or Come On Marines!?",
+        "golden_answers": [
+            "Blazing the Overland Trail",
+            "Blazing The Overland Trail"
+        ],
+        "metadata": {
+            "type": "bridge_comparison",
+            "supporting_facts": {
+                "title": [
+                    "Blazing the Overland Trail",
+                    "Come On Marines!",
+                    "Spencer Gordon Bennet",
+                    "Henry Hathaway"
+                ],
+                "sent_id": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Henry Hathaway",
+                    "Come On In",
+                    "Come On Marines!",
+                    "Come On Come On (disambiguation)",
+                    "Spencer Gordon Bennet",
+                    "Come On Baby",
+                    "Ben Palmer",
+                    "Hop Harrigan (serial)",
+                    "Overland Trail",
+                    "Blazing the Overland Trail"
+                ],
+                "content": [
+                    [
+                        "Henry Hathaway( March 13, 1898 – February 11, 1985) was an American film director and producer.",
+                        "He is best known as a director of Westerns, especially starring Randolph Scott and John Wayne.",
+                        "He directed Gary Cooper in seven films."
+                    ],
+                    [
+                        "Come On In may refer to:"
+                    ],
+                    [
+                        "Come On Marines! is a 1934 American Pre-Code drama film directed by Henry Hathaway and starring Richard Arlen and Ida Lupino."
+                    ],
+                    [
+                        "Come On Come",
+                        "On is a 1992 album by Mary Chapin Carpenter.",
+                        "Come On Come On and variants may also refer to:"
+                    ],
+                    [
+                        "Spencer Gordon Bennet( January 5, 1893 – October 8, 1987) was an American film producer and director.",
+                        "Known as the\" King of Serial Directors\", he directed more film serials than any other director."
+                    ],
+                    [
+                        "C'mon Baby or Come On Baby may refer to:"
+                    ],
+                    [
+                        "Ben Palmer is a British film and television director who is known for being the director of\" Bo' Selecta\" and\" The Inbetweeners\"."
+                    ],
+                    [
+                        "Hop Harrigan( aka Hop Harrigan America's Ace of the Airways)( 1946) is a Columbia film serial, based on the Hop Harrigan comic books by DC Comics.",
+                        "The serial comprised 15 two- reel chapters with Derwin Abrahams as the director, and Sam Katzman, the producer.",
+                        "Columbia Pictures was one of the last Hollywood studios to continue in postwar years with the serial format.",
+                        "By 1947, Universal Pictures discontinued their serials, with only Republic Pictures and Columbia continuing with serials.",
+                        "The last serial was Columbia's\" Blazing the Overland Trail\"( 1956)."
+                    ],
+                    [
+                        "The Overland Trail( also known as the Overland Stage Line) was a stagecoach and wagon trail in the American West during the 19th century.",
+                        "While portions of the route had been used by explorers and trappers since the 1820s, the Overland Trail was most heavily used in the 1860s as an alternative route to the Oregon, California, and Mormon trails through central Wyoming.",
+                        "The Overland Trail was famously used by the Overland Stage Company owned by Ben Holladay to run mail and passengers to Salt Lake City, Utah, via stagecoaches in the early 1860s.",
+                        "Starting from Atchison, Kansas, the trail descended into Colorado before looping back up to southern Wyoming and rejoining the Oregon Trail at Fort Bridger.",
+                        "The stage line operated until 1869 when the completion of the First Transcontinental Railroad eliminated the need for mail service via Thais' stagecoach."
+                    ],
+                    [
+                        "Blazing the Overland Trail( 1956) is a Columbia Pictures serial directed by veteran serial specialist Spencer Gordon Bennet and produced by another serial specialist, Sam Katzman.",
+                        "It was the 57th and last serial produced by Columbia and the last serial ever produced by any studio( both major or minor).",
+                        "Republic Pictures, the only other serial- producing studio in the mid 1950s, had ceased its serial production the previous year with\" King of the Carnival\"."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_8233",
+        "question": "Who is the father of the director of film My 20Th Century?",
+        "golden_answers": [
+            "György Enyedi (geographer)",
+            "György Enyedi"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "My 20th Century",
+                    "Ildikó Enyedi"
+                ],
+                "sent_id": [
+                    0,
+                    2
+                ]
+            },
+            "context": {
+                "title": [
+                    "Peter Hamel",
+                    "Inoue Masaru (bureaucrat)",
+                    "Obata Toramori",
+                    "Ian Barry (director)",
+                    "Paul Brooke",
+                    "Yasuichi Oshima",
+                    "Lars Eliasson",
+                    "Ildikó Enyedi",
+                    "My 20th Century",
+                    "Cleomenes II"
+                ],
+                "content": [
+                    [
+                        "Peter Hamel( 1911–1979) was a German screenwriter and a director of film and television.",
+                        "He appeared as himself in the 1948 comedy\" Film Without a Title\".",
+                        "He is the father of the composer Peter Michael Hamel."
+                    ],
+                    [
+                        "Viscount was the first Director of Railways in Japan and is known as the\" father of the Japanese railways\"."
+                    ],
+                    [
+                        "He was the father of Obata Masamori."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Paul Brooke( born 22 November 1944) is a retired English actor of film, television and radio.",
+                        "He is the father of actor Tom Brooke."
+                    ],
+                    [
+                        "He is the father of manga artist Towa Oshima."
+                    ],
+                    [
+                        "He is the father of the later Member of Parliament Anna Eliasson."
+                    ],
+                    [
+                        "Ildikó Enyedi (born 15 November 1955) is a Hungarian film director and screenwriter.",
+                        "She has directed eight films since 1989.",
+                        "Her father, György Enyedi, was a geographer and economist who played a major role in the long-term development of regional science."
+                    ],
+                    [
+                        "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi.",
+                        "It premiered at the Toronto Festival of Festivals.",
+                        "Enyedi won the Golden Camera award at the 1989 Cannes Film Festival.",
+                        "The film was selected as the Hungarian entry for the Best Foreign Language Film at the 62nd Academy Awards, but was not accepted as a nominee."
+                    ],
+                    [
+                        "Cleomenes II( died 309 BC) was Agiad King of Sparta from 369 to 309 BC.",
+                        "The son of Cleombrotus I, he succeeded his brother Agesipolis II.",
+                        "He was the father of Acrotatus I, the father of Areus I, and of Cleonymus, the father of Leonidas II."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_8385",
+        "question": "Where was the place of death of the director of film The Touch (1971 Film)?",
+        "golden_answers": [
+            "Fårö"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "The Touch (1971 film)",
+                    "Ingmar Bergman"
+                ],
+                "sent_id": [
+                    0,
+                    10
+                ]
+            },
+            "context": {
+                "title": [
+                    "S. N. Mathur",
+                    "The Time, the Place and the Girl (1946 film)",
+                    "Brian Kennedy (gallery director)",
+                    "Ian Barry (director)",
+                    "Olav Aaraas",
+                    "Ingmar Bergman",
+                    "The Touch (1971 film)",
+                    "Peter Levin",
+                    "Dana Blankstein",
+                    "Jesse E. Hobson"
+                ],
+                "content": [
+                    [
+                        "S.N. Mathur was the Director of the Indian Intelligence Bureau between September 1975 and February 1980.",
+                        "He was also the Director General of Police in Punjab."
+                    ],
+                    [
+                        "The Time, the Place and the Girl is a 1946 American musical film directed by David Butler.",
+                        "It is unrelated to the 1929 film\" The Time, the Place and the Girl\"."
+                    ],
+                    [
+                        "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+                        "He is currently the director of the Peabody Essex Museum.",
+                        "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+                        "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+                        "He was born in Fredrikstad.",
+                        "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+                        "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+                    ],
+                    [
+                        "Ernst Ingmar Bergman (14 July 1918 – 30 July 2007) was a Swedish director, writer, and producer who worked in film, television, theatre and radio.",
+                        "Considered to be among the most accomplished and influential filmmakers of all time, Bergman's films include \"Smiles of a Summer Night\" (1955),",
+                        "\"The Seventh Seal\" (1957)",
+                        ", \"Wild Strawberries\" (1957), \"Persona\" (1966), \"Cries and Whispers\" (1972),",
+                        "\"Scenes from a Marriage\" (1973), and \"Fanny and Alexander\" (1982); the last two exist in extended television versions.",
+                        "Bergman directed over sixty films and documentaries for cinematic release and for television screenings, most of which he also wrote.",
+                        "He also directed over 170 plays.",
+                        "He eventually forged a creative partnership with his cinematographers Gunnar Fischer and Sven Nykvist.",
+                        "Among his company of actors were Harriet and Bibi Andersson, Liv Ullmann, Gunnar Björnstrand, Erland Josephson, Ingrid Thulin and Max von Sydow.",
+                        "Most of his films were set in Sweden, and many films from \"Through a Glass Darkly\" (1961)",
+                        "onward were filmed on the island of Fårö.",
+                        "Philip French referred to Bergman as \"one of the greatest artists of the 20th century ...",
+                        "he found in literature and the performing arts a way of both recreating and questioning the human condition.\"",
+                        "Director Martin Scorsese commented; \"If you were alive in the 50s and the 60s and of a certain age, a teenager on your way to becoming an adult, and you wanted to make movies",
+                        ", I don't see how you couldn't be influenced by Bergman ...",
+                        "It's impossible to overestimate the effect that those films had on people.\""
+                    ],
+                    [
+                        "The Touch  is a 1971 romantic drama film directed by Ingmar Bergman and starring Max von Sydow, Bibi Andersson, Elliott Gould, and Sheila Reid.",
+                        "The film tells the story of an affair between a married woman and an impetuous foreigner.",
+                        "It contains references to the Virgin Mary and the Holocaust.",
+                        "Produced by ABC Pictures, \"The Touch\" was Bergman's first English language film, but shot on the island of Gotland in Sweden in 1970.",
+                        "Cinematographer Sven Nykvist shot it in Eastmancolor.",
+                        "Gould, cast over Paul Newman and Robert Redford, believed Bergman's screenplay was semi-autobiographical.",
+                        "The film received mixed to negative reviews and was a box office bomb.",
+                        "It has since had a limited re-release by the Film Society of Lincoln Center in 2011 and a home media release by The Criterion Collection in 2018."
+                    ],
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ],
+                    [
+                        "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+                        "Prior to SRI, he was the director of the Armour Research Foundation."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_10603",
+        "question": "Which film has the director died later, The Glass Wall or Where Does It Hurt??",
+        "golden_answers": [
+            "Where Does It Hurt?"
+        ],
+        "metadata": {
+            "type": "bridge_comparison",
+            "supporting_facts": {
+                "title": [
+                    "The Glass Wall",
+                    "Where Does It Hurt?",
+                    "Maxwell Shane",
+                    "Rod Amateau"
+                ],
+                "sent_id": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Querelle",
+                    "Mohsen Eslamzadeh",
+                    "Thulasi (1987 film)",
+                    "Maxwell Shane",
+                    "Robert White Johnson",
+                    "Le Masque de la Méduse",
+                    "The Glass Wall",
+                    "Death of Garry Hoy",
+                    "Where Does It Hurt?",
+                    "Rod Amateau"
+                ],
+                "content": [
+                    [
+                        "Querelle is a 1982 West German- French English- language drama film directed by Rainer Werner Fassbinder and starring Brad Davis, adapted from French author Jean Genet's 1947 novel\" Querelle of Brest\".",
+                        "It marked Fassbinder's final film as a writer/ director; it was posthumously released just months after the director died of a drug overdose in June 1982."
+                    ],
+                    [
+                        "Mohsen Eslamzadeh is an Iranian documentary filmmaker.",
+                        "He is the director of\" Alone Among The Taliban\".",
+                        "This film has won the best documentary award at the 44th Athens International Film and Video Festival in the United States.",
+                        "This film has won the best documentary award at the 12th Marbella International Film Festival in Spain.",
+                        "This film has won the Shahid Avini Award offers."
+                    ],
+                    [
+                        "Thulasi is a 1987 Tamil romantic drama film directed by Ameerjan.",
+                        "The film features Murali and Seetha in lead roles.",
+                        "The film, produced by P. S. V. Hariharan, had musical score by Sampath Selvam and was released on 27 November 1987.",
+                        "The music director died before the release of the film."
+                    ],
+                    [
+                        "Maxwell Shane (August 26, 1905 – October 25, 1983) was an American movie and television director, screenwriter, and producer."
+                    ],
+                    [
+                        "Robert White Johnson is an American songwriter and musician, based on Nashville, best known for co-writing\" Where Does My Heart Beat Now\", which was a major hit for Celine Dion."
+                    ],
+                    [
+                        "Le masque de la Méduse is a 2009 fantasy horror film directed by Jean Rollin.",
+                        "The film is a modern-day telling of the Greek mythological tale of the Gorgon and was inspired by the 1964 classic Hammer Horror film of the same name and the 1981 cult classic\" Clash of the Titans\".",
+                        "It was Rollin's final film, as the director died in 2010."
+                    ],
+                    [
+                        "The Glass Wall is a 1953 American black- and- white drama film noir directed by Maxwell Shane and starring Vittorio Gassman and Gloria Grahame.",
+                        "The film was produced and distributed by Columbia Pictures.",
+                        "The title refers to the design of the United Nations headquarters in New York City.",
+                        "It tied with two other films for the 1953 Golden Leopard, the top prize at the Locarno International Film Festival."
+                    ],
+                    [
+                        "Garry Hoy( January 1, 1955 – July 9, 1993) was a lawyer for the law firm of Holden Day Wilson in Toronto who became notorious for the circumstances of his death.",
+                        "In an attempt to prove to a group of prospective articling students that the glass windows of the Toronto- Dominion Centre were unbreakable, Hoy threw himself at a glass wall on the 24th floor.",
+                        "The glass did not break, but the window frame gave way and he fell to his death."
+                    ],
+                    [
+                        "Where Does it Hurt? is a 1972 American comedy film written and directed by Rod Amateau and starring Peter Sellers, Jo Ann Pflug, Rick Lenz, Pat Morita, and Harold Gould.",
+                        "The film is a darkly satirical look at capitalism in a hospital environment."
+                    ],
+                    [
+                        "Rodney\" Rod\" Amateau( December 20, 1923 – June 29, 2003) was an American film and television screenwriter, director, and producer.",
+                        "Among the programs that he directed were\" The Dennis Day ShowThe Many Loves of Dobie GillisMister EdGilligan's Island The Bob Cummings Show\" and\" The New Phil Silvers Show\".",
+                        "He produced\" My Mother the Car\" and\" Supertrain\", and wrote the story for the 1988 film\" Sunset\".",
+                        "Amateau also directed a few episodes of\" The Dukes of Hazzard\", and appeared in a handful of episodes as an actor as well.",
+                        "In 1987, he directed, produced and co-wrote\" The Garbage Pail Kids Movie\", which is considered to be one of the worst films ever made.",
+                        "From 1945 to 1949, he was married to actress Coleen Gray, who sued him for child support in 1955.",
+                        "From 1959 to 1962, he was married to Sandra Burns, daughter of George Burns and Gracie Allen."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_1681",
+        "question": "What is the place of birth of the director of film Cradle Of Fear?",
+        "golden_answers": [
+            "London/North",
+            "North London"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Cradle of Fear",
+                    "Alex Chandon"
+                ],
+                "sent_id": [
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Dana Blankstein",
+                    "Alex Chandon",
+                    "Ian Barry (director)",
+                    "S. N. Mathur",
+                    "Red Rings of Fear",
+                    "Cradle of Fear",
+                    "Peter Levin",
+                    "Jesse E. Hobson",
+                    "Olav Aaraas",
+                    "Brian Kennedy (gallery director)"
+                ],
+                "content": [
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ],
+                    [
+                        "Alex Chandon (born 3 November 1968 in North London) is a film director, writer and digital artist."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "S.N. Mathur was the Director of the Indian Intelligence Bureau between September 1975 and February 1980.",
+                        "He was also the Director General of Police in Punjab."
+                    ],
+                    [
+                        "Red Rings of Fear, also known as Virgin Terror, Rings of Fear and Trauma, is a 1978 Italian- German- Spanish giallo film directed by Alberto Negrin."
+                    ],
+                    [
+                        "Cradle of Fear is a 2001 British horror film, directed by Alex Chandon.",
+                        "It was released direct-to-video on 4 July 2001.",
+                        "Taking inspiration from the anthology films produced by Amicus Productions in the 1970s, it features three separate half-hour segments, linked by a fourth story.",
+                        "The main narrative involves imprisoned serial killer Kemper wreaking vengeance on those responsible for his capture.",
+                        "This he does through his son:",
+                        "Dani Filth playing an unnamed character referred to in the credits as \"The Man\".\nShot on video and on a very low budget, the film received a lukewarm reception in the horror press, and is chiefly of interest to Cradle of Filth fans, as it features the entire lineup (principally Dani, but the rest crop up in cameo roles) from the band's \"Midian\" era.",
+                        "Chandon's association with Cradle of Filth began with the promo video for \"From the Cradle to Enslave\", and he went on to direct the clips for \"Her Ghost in the Fog\" and \"No Time to Cry\", plus some DVD documentaries.",
+                        "Kemper is played by David McEwen, who also appeared in the video for \"Her Ghost in the Fog\", miming to Doug Bradley's narration."
+                    ],
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+                        "Prior to SRI, he was the director of the Armour Research Foundation."
+                    ],
+                    [
+                        "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+                        "He was born in Fredrikstad.",
+                        "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+                        "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+                    ],
+                    [
+                        "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+                        "He is currently the director of the Peabody Essex Museum.",
+                        "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+                        "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_3658",
+        "question": "Who is the child of the director of film A Butterfly In The Night?",
+        "golden_answers": [
+            "Victor Bo",
+            "Víctor Bó"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "A Butterfly in the Night",
+                    "Armando Bó"
+                ],
+                "sent_id": [
+                    0,
+                    3
+                ]
+            },
+            "context": {
+                "title": [
+                    "Brian Kennedy (gallery director)",
+                    "A Butterfly in the Night",
+                    "Ian Barry (director)",
+                    "Armando Bó",
+                    "Cocktail (2010 film)",
+                    "Eric Chan",
+                    "Laurent Le Bon",
+                    "Peter Levin",
+                    "Michael Govan",
+                    "Dana Blankstein"
+                ],
+                "content": [
+                    [
+                        "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+                        "He is currently the director of the Peabody Essex Museum.",
+                        "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+                        "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+                    ],
+                    [
+                        "A Butterfly in the Night  is a 1977 Argentine comedy-drama film directed by and starring Armando Bo alongside Isabel Sarli."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Armando Bó (3 May 1914 – 8 October 1981) was an Argentine film actor, director, producer, screenwriter and score composer of the classic era.",
+                        "He is mostly known for his sexploitation films in the 1960s and 1970s starring his favorite actress and romantic partner, sex symbol Isabel Sarli.",
+                        "His works include the first nude scene in an Argentine film (\"El trueno entre las hojas\").",
+                        "Bó's son is the actor Víctor Bó and his grandson",
+                        "is the screenwriter Armando Bó."
+                    ],
+                    [
+                        "Cocktail is a 2010 Malayalam thriller film edited and directed by Arun Kumar Aravind.",
+                        "The film stars Jayasurya, Anoop Menon, Samvrutha Sunil, Fahadh Faasil, Innocent, and Mamukkoya.",
+                        "It was co-written by Anoop Menon and is an uncredited remake of the Canadian film\" Butterfly on a Wheel\".",
+                        "It was the directorial debut of film editor Arun Kumar."
+                    ],
+                    [
+                        "Eric Chan Kwok- ki, SBS, IDSM( born 1959) is a Hong Kong civil servant who is the Director of the Chief Executive's Office.",
+                        "Previously, Chan was the Director of Immigration( 2011–2016)."
+                    ],
+                    [
+                        "Laurent Le Bon( born 2 April 1969) is a French art historian who is the director of the Musée Picasso."
+                    ],
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Michael Govan( born 1963) is the director of the Los Angeles County Museum of Art since 2006.",
+                        "Prior to this, Govan worked as the director of the Dia Art Foundation in New York City."
+                    ],
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_9847",
+        "question": "Who is the child of the director of film Land Of My Fathers (Film)?",
+        "golden_answers": [
+            "William Claude Rains",
+            "Claude Rains"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Land of My Fathers (film)",
+                    "Fred Rains"
+                ],
+                "sent_id": [
+                    0,
+                    1
+                ]
+            },
+            "context": {
+                "title": [
+                    "Eric Chan",
+                    "Louis Hofmann",
+                    "Peter Levin",
+                    "Monobaz I",
+                    "Land of My Fathers (film)",
+                    "Ian Barry (director)",
+                    "Dana Blankstein",
+                    "The Big Stampede",
+                    "Hen Wlad Fy Nhadau",
+                    "Fred Rains"
+                ],
+                "content": [
+                    [
+                        "Eric Chan Kwok- ki, SBS, IDSM( born 1959) is a Hong Kong civil servant who is the Director of the Chief Executive's Office.",
+                        "Previously, Chan was the Director of Immigration( 2011–2016)."
+                    ],
+                    [
+                        "Louis Hofmann( born 3 June 1997) is a German actor who first gained attention as the lead in the 2011 German film and won the Bodil Award for Best Supporting Actor for his role as a teenage German POW in the 2015 Danish film\" Land of Mine\".",
+                        "He is also known for his role in the 2017 German Netflix Original series,\" Dark\"."
+                    ],
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Monobaz I( also known as Bazeus or Monobazus) was king of the neo Assyrian Parthian client state of Adiabene in the 20s and 30s of the 1st century CE.",
+                        "He was the husband( and brother) of Queen Helena of Adiabene.",
+                        "With Helena he fathered Izates bar Monobaz and Monobaz II.",
+                        "Monobaz II, the son of Monobaz I, is quoted in the Talmud in an account where in he was being criticized for not amassing as much wealth as his forefathers had.",
+                        "His response was this:\" My father s stored up below and I am storing up above ...",
+                        "My fathers stored in a place which can be tampered with, but I have stored in a place which can not be tampered with …",
+                        "My fathers gathered treasures of money and I have gathered treasures of souls.\"( b. Baba Batra 11 a)."
+                    ],
+                    [
+                        "Land of My Fathers is a 1921 British silent drama film directed by Fred Rains and starring John Stuart, Edith Pearson and Yvonne Thomas."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ],
+                    [
+                        "The Big Stampede is a 1932 pre-Code American film starring John Wayne( with his horse named\" Duke\") and Noah Beery.",
+                        "It is a remake of the 1927 film\" Land Beyond the Law\"."
+                    ],
+                    [
+                        "\" Hen Wlad Fy Nhadau\" is the national anthem of Wales.",
+                        "The title, taken from the first words of the song, means\" Old Land of My Fathers\" in Welsh, usually rendered in English as simply\" Land of My Fathers\".",
+                        "The words were written by Evan James and the tune composed by his son, James James, both residents of Pontypridd, Glamorgan, in January 1856.",
+                        "The earliest written copy survives and is part of the collections of the National Library of Wales."
+                    ],
+                    [
+                        "Frederick William Rains (c. 1860 – 3 December 1945) was a British actor and film director.",
+                        "He is the father of the actor Claude Rains."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_10182",
+        "question": "Who is Alfonso De Castilla Y Molina's father?",
+        "golden_answers": [
+            "Sancho IV of Castile"
+        ],
+        "metadata": {
+            "type": "inference",
+            "supporting_facts": {
+                "title": [
+                    "Alfonso de Castilla y Molina",
+                    "María de Molina"
+                ],
+                "sent_id": [
+                    1,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Alfonso de Castilla y Molina",
+                    "Sancho Alfonso, 1st Count of Alburquerque",
+                    "Héctor Barrantes",
+                    "Albert E. Austin",
+                    "María de Molina",
+                    "Albert Visetti",
+                    "Gerald Rudolff Ford",
+                    "Morris Harvey",
+                    "Jerrold Wexler",
+                    "Alfonso de Talavera"
+                ],
+                "content": [
+                    [
+                        "Alfonso de Castilla y Molina (1286 in Valladolid – 1291 in Valladolid) was a Spanish noble in the service of the Kingdom of Castile.",
+                        "He was an Infante de Castilla, son of King Sancho IV de Castilla, King of Castile and of his wife, the Queen María de Molina."
+                    ],
+                    [
+                        "Sancho Alfonso de Castilla( 1342–1374) is known in Spanish as\" Don Sancho Alfonso de Castilla, Infante de Castilla, I conde de Alburquerque\".",
+                        "He was the ninth of the ten illegitimate children of King Alfonso XI of Castile and Lady Eleanor de Guzmán.",
+                        "He was born in Seville.",
+                        "He participated in a revolt of the Castilian nobles against the despotic rule of his brother, Pedro of Castile.",
+                        "In 1373 he married Beatrice of Portugal, daughter of Peter I of Portugal and Inês de Castro.",
+                        "They had two children: Fernando Sánchez, 2nd Count of Alburquerque, and Eleanor of Alburquerque, who married Ferdinand I of Aragon.",
+                        "He also had an illegitimate daughter, Leonor Sánchez de Castilla, who married Fadrique de Castilla y Ponce de Leon, illegitimate son of Henry II, King of Castile."
+                    ],
+                    [
+                        "Héctor Barrantes Sansoni( 1939–1990) was an Argentine polo player.",
+                        "He was the stepfather of Sarah, Duchess of York."
+                    ],
+                    [
+                        "Albert Elmer Austin( November 15, 1877 – January 26, 1942) was a Republican member of the United States House of Representatives from 1939 to 1941 and member of the Connecticut House of Representatives from 1917 to 1919 and from 1921 to 1923.",
+                        "He was the stepfather of Clare Boothe Luce."
+                    ],
+                    [
+                        "María Alfonso Téllez de Meneses (c. 1265 – 1321), known as María de Molina, was queen consort of Castile and León from 1284 to 1295 by marriage to Sancho IV of Castile, and served as regent for her minor son Ferdinand IV (1295 - c.1301) and later her grandson Alfonso XI of Castile (1312-1321)."
+                    ],
+                    [
+                        "Albert Anthony Visetti( 13 May 1846–10 July 1928) was a Dalmatian musician who moved to London where he was Professor of Singing at the Royal College of Music, becoming a Fellow in 1921.",
+                        "He was the stepfather of the novelist Radclyffe Hall."
+                    ],
+                    [
+                        "Gerald Rudolff Ford( December 9, 1890 – January 26, 1962) was an American businessman, creator of Ford Industries, and Republican politician who was the stepfather of U.S. President Gerald Ford and for whom Ford legally changed his name."
+                    ],
+                    [
+                        "Morris Harvey( 1877– 1944) was a British actor and writer.",
+                        "A renowned character actor, he also wrote for the stage, including material for Broadway revues, in which he also appeared.",
+                        "He was the stepfather of film director Anthony Harvey."
+                    ],
+                    [
+                        "Jerrold Wexler( June 27, 1924 – November 10, 1992) was a noted American businessman and film producer.",
+                        "He was the brother of cinematographer Haskell Wexler and the stepfather of actress Daryl Hannah."
+                    ],
+                    [
+                        "Alfonso de Talavera, O.S.H. or Alfonso de Guzman was a Roman Catholic prelate who served as the first Bishop of Comayagua( 1531 – 1540)."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_9118",
+        "question": "Where was the performer of song ¿Y Cómo Es Él? born?",
+        "golden_answers": [
+            "Castejon",
+            "Castejón",
+            "Castejón, Cuenca"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "¿Y cómo es él?",
+                    "José Luis Perales"
+                ],
+                "sent_id": [
+                    2,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "José Luis Perales",
+                    "¿Y cómo es él?",
+                    "Billy Milano",
+                    "Jim Bob",
+                    "O Valencia!",
+                    "Bernie Bonvoisin",
+                    "Kristian Leontiou",
+                    "Astrid North",
+                    "Caspar Babypants",
+                    "Panda (Astro song)"
+                ],
+                "content": [
+                    [
+                        "José Luis Perales Morillas (born 18 January 1945 in Castejón, Cuenca Province) is a Spanish singer-songwriter.",
+                        "He has performed some of his extensive work at Carnegie Hall, New York."
+                    ],
+                    [
+                        "\"¿Y cómo es él?\" (Spanish for \"",
+                        "And what is he like?\"",
+                        ") is a song composed in 1981 by José Luis Perales and released in 1982.",
+                        "The song was originally composed for Julio Iglesias and it has been covered by Raphael among others.",
+                        "In 2010, American singer Marc Anthony covered \"¿",
+                        "Y cómo es él?",
+                        "\"",
+                        "on his album \"Iconos\".",
+                        "It was released as the lead single from the album and peaked at number 38 on the Hot Latin Songs chart.",
+                        "Anthony and Perales performed the song together live at the 11th Annual Latin Grammy Awards in 2010."
+                    ],
+                    [
+                        "Billy Milano is a Bronx- born heavy metal musician now based in Austin, Texas.",
+                        "He is the singer and- occasionally- guitarist and bassist of crossover thrash band M.O.D., and he was also the singer of its predecessor, Stormtroopers of Death.",
+                        "He was also the singer of United Forces, which also featured his Stormtroopers of Death bandmate Dan Lilker."
+                    ],
+                    [
+                        "James Robert Morrison, known as Jim Bob, is a British musician and author.",
+                        "He was the singer of indie punk band Carter the Unstoppable Sex Machine."
+                    ],
+                    [
+                        "\" O Valencia!\" is the fifth single by the indie rock band",
+                        "The Decemberists, and the first released from their fourth studio album,\" The Crane Wife\".",
+                        "The music was written by The Decemberists and the lyrics by Colin Meloy.",
+                        "It tells a story of two star- crossed lovers.",
+                        "The singer falls in love with a person who belongs to an opposing gang.",
+                        "At the end of the song, the singer's lover jumps in to defend the singer, who is confronting his lover's brother( the singer's\" sworn enemy\") and is killed by the bullet intended for the singer."
+                    ],
+                    [
+                        "Bernard Bonvoisin, known as Bernie Bonvoisin( born 9 July 1956 in Nanterre, Hauts- de- Seine), is a French hard rock singer and film director.",
+                        "He is best known for having been the singer of Trust.",
+                        "He was one of the best friends of Bon Scott the singer of AC/ DC and together they recorded the song\" Ride On\" which was one of the last songs by Bon Scott."
+                    ],
+                    [
+                        "Kristian Leontiou (born February 1982) is a British singer of Greek Cypriot descent, and is the singer for the indie rock band One eskimO."
+                    ],
+                    [
+                        "Astrid North( Astrid Karina North Radmann; 24 August 1973, Berlin – 25 June 2019, Berlin) was a German soul singer and songwriter.",
+                        "She was the singer of the German band, with whom she released five Albums.",
+                        "As guest singer of the band she published three albums."
+                    ],
+                    [
+                        "Caspar Babypants is the stage name of children's music artist Chris Ballew, who is also widely known as the singer of The Presidents of the United States of America."
+                    ],
+                    [
+                        "\" Panda\" is a song of the Chilean band Astro and is the fifth song of the homonymous album of the year 2011.",
+                        "The song was composed and produced by the singer of the band Andrés Nusser and released like third single of the album on February 1, 2013."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Blazing The Overland Trail",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    }
+]

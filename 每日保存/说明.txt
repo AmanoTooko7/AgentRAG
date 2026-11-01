@@ -1,0 +1,3 @@
+要运行FlashRAG-main的/home/lab/ybw/FlashRAG-main/ybw_test/run_ours_rag_CLI-2.py程序，
+主要问价都在/home/lab/ybw/V2_Py_project里的/home/lab/ybw/V2_Py_project/src_of_flashRAG文件夹里，
+所以在改“每日保存”中需要看V2_Py_project/src_of_flashRAG文件里的东西

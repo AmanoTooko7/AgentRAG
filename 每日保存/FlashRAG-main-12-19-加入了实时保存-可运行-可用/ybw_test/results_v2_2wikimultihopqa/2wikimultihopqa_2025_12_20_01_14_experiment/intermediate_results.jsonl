@@ -1,0 +1,3 @@
+{"id": "dev_0", "question": "Who is the mother of the director of film Polish-Russian War (Film)?", "pred": "Not found", "gold": ["Małgorzata Braunek"]}
+{"id": "dev_1", "question": "Which film came out first, Blind Shaft or The Mask Of Fu Manchu?", "pred": "The Mask Of Fu Manchu", "gold": ["The Mask Of Fu Manchu", "Mask of Fu Manchu", "The Mask of Fu Manchu"]}
+{"id": "dev_2", "question": "When did John V, Prince Of Anhalt-Zerbst's father die?", "pred": "John V, Prince of Anhalt-Zerbst's father's death date is not found in the context.", "gold": ["12 June 1516"]}

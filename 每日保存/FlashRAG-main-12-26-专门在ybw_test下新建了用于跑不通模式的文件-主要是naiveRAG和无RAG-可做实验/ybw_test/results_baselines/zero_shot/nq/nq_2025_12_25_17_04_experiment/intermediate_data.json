@@ -1,0 +1,77 @@
+[
+    {
+        "id": "dev_1951",
+        "question": "who was the bluegrass band on the andy griffith show",
+        "golden_answers": [
+            "The Dillards"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on the given document.Only give me the answer and do not output any other words.\nThe following are given documents.\n\n"
+                },
+                {
+                    "role": "user",
+                    "content": "Question: who was the bluegrass band on the andy griffith show"
+                }
+            ],
+            "pred": "The bluegrass band on the Andy Griffith Show was The Foggy Mountain Boys.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_5234",
+        "question": "who has held the english throne the longest",
+        "golden_answers": [
+            "Queen Elizabeth II"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on the given document.Only give me the answer and do not output any other words.\nThe following are given documents.\n\n"
+                },
+                {
+                    "role": "user",
+                    "content": "Question: who has held the english throne the longest"
+                }
+            ],
+            "pred": "Henry VIII",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_8233",
+        "question": "who has the most world cups in soccer",
+        "golden_answers": [
+            "Brazil"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on the given document.Only give me the answer and do not output any other words.\nThe following are given documents.\n\n"
+                },
+                {
+                    "role": "user",
+                    "content": "Question: who has the most world cups in soccer"
+                }
+            ],
+            "pred": "Brazil",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    }
+]

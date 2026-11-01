@@ -1,0 +1,52 @@
+[
+    {
+        "id": "dev_1951",
+        "question": "Living monastically is done by monks.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on the given document.Only provide one of the three answers: SUPPORTS, REFUTES, or NOT ENOUGH INFO.\nThe following are given documents.\n\n"
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Living monastically is done by monks."
+                }
+            ],
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_5234",
+        "question": "Sonny Bono was alive and well on January 6, 1998.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on the given document.Only provide one of the three answers: SUPPORTS, REFUTES, or NOT ENOUGH INFO.\nThe following are given documents.\n\n"
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Sonny Bono was alive and well on January 6, 1998."
+                }
+            ],
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    }
+]

@@ -1,0 +1,64 @@
+📥 加载数据集...
+Loading dev dataset from: /home/lab/ybw/FlashRAG-main/datasets_flashRAG/nq/dev.jsonl...
+Random sample 300 items in test set.
+✅ 数据集加载成功，共 300 条
+   [1m评估数据: who was the bluegrass band on the andy griffith show[0m
+🛠️ 初始化 Pipeline...
+🚀 [MyV2Pipeline] 正在初始化 V2 LangGraph...
+✅ V2 Graph compiled successfully.
+[1m🏃 运行...——————————————————————————————————————————————[0m
+🔥 [MyV2Pipeline] 开始推理 (总数: 300, 剩余: 300)...
+  0%|                                                                       | 0/300 [00:00<?, ?it/s]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ['Identify the specific episode or season of The Andy Griffith Show where a bluegrass band is featured and determine which band was associated with that appearance.', "Research the historical context of bluegrass music on the show and confirm the band's role in the series' musical segments."]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the specific episode or season of The Andy Griffith Show where a bluegrass band is featured and determine which band was associated with that appearance.'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_a4cb1dc911bb41248a9ed4', 'function': {'arguments': '{"query": "The Andy Griffith Show bluegrass band episode season"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 451, 'total_tokens': 483, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-2d80a7dd-2353-9db2-a963-9e0ab9b667f0', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--95b28c7b-d3c1-4ba2-9aa3-97a656b3e02c-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'The Andy Griffith Show bluegrass band episode season'}, 'id': 'call_a4cb1dc911bb41248a9ed4', 'type': 'tool_call'}] usage_metadata={'input_tokens': 451, 'output_tokens': 32, 'total_tokens': 483, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'The Andy Griffith Show bluegrass band episode season[0m'
+查询向量是：Given a search query, retrieve relevant passages:The Andy Griffith Show bluegrass band episode season
+📊 Retrieval Stats: Dense(200) + Sparse(200) -> Merged(396)
+📚 [WikiRetriever] 返回 396 docs (Sent to Re-ranker).
+🧾 Top-1 Preview: Titile: "Andy Irvine (musician)"
+Content: "never met Woody, but I corresponded with him in hospital. [...] The kind of values that Woody represented are one of my great passions."" Irvine is a card-ca...
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 396 docs...
+
+❌ Error processing sample 0: name 'target_device' is not defined
+  0%|▏                                                              | 1/300 [00:10<52:24, 10.52s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ['Identify the longest-reigning monarchs in English history and determine which individual held the throne for the most consecutive years', "Analyze the historical context, reign duration, and succession patterns to confirm the accuracy of the identified monarch's record"]
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the longest-reigning monarchs in English history and determine which individual held the throne for the most consecutive years'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_a9a56b9a8a884037b68fcb', 'function': {'arguments': '{"query": "longest-reigning monarchs England consecutive years"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 33, 'prompt_tokens': 441, 'total_tokens': 474, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-208895a5-707c-953b-9461-8ffec824c793', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--439035f2-408e-4b10-b1c6-f6f6194c658f-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'longest-reigning monarchs England consecutive years'}, 'id': 'call_a9a56b9a8a884037b68fcb', 'type': 'tool_call'}] usage_metadata={'input_tokens': 441, 'output_tokens': 33, 'total_tokens': 474, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'longest-reigning monarchs England consecutive years[0m'
+查询向量是：Given a search query, retrieve relevant passages:longest-reigning monarchs England consecutive years
+📊 Retrieval Stats: Dense(200) + Sparse(200) -> Merged(393)
+📚 [WikiRetriever] 返回 393 docs (Sent to Re-ranker).
+🧾 Top-1 Preview: Titile: "2017 Stanley Cup playoffs"
+Content: "ending the NHL's longest active playoff streak at 25 consecutive seasons; the streak was also tied for the third-longest streak in NHL history. The longes...
+--- 🤖 Entering Sub-Answer Generation Node ---
+Re-ranking 393 docs...
+
+❌ Error processing sample 1: name 'target_device' is not defined
+  1%|▍                                                              | 2/300 [00:13<30:45,  6.19s/it]--- 🧠 Entering Re_Strategist Node ---
+[1mMode: Initial Planning[0m
+[1mRe_strategist_node:[0m
+ ['Identify the national football teams that have won the FIFA World Cup and determine their number of titles', 'Compare the total number of World Cup victories among all teams to identify the team with the most titles']
+--- 🔍 Entering Query Generator Node ---
+[1mFormulating query for step 1[0m: 'Identify the national football teams that have won the FIFA World Cup and determine their number of titles'
+[1mquery_generator_node:[0m
+content='' additional_kwargs={'tool_calls': [{'id': 'call_d2d22cf73133424d8a3c16', 'function': {'arguments': '{"query": "National football teams with FIFA World Cup titles and their number of victories"}', 'name': 'retriever_wikipedia_knowledge'}, 'type': 'function', 'index': 0}], 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 36, 'prompt_tokens': 428, 'total_tokens': 464, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-8b', 'system_fingerprint': None, 'id': 'chatcmpl-d53ee207-35de-9552-9495-59bf28f05dd9', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run--5bcf9480-572a-4a13-8da0-433a1f48fb9e-0' tool_calls=[{'name': 'retriever_wikipedia_knowledge', 'args': {'query': 'National football teams with FIFA World Cup titles and their number of victories'}, 'id': 'call_d2d22cf73133424d8a3c16', 'type': 'tool_call'}] usage_metadata={'input_tokens': 428, 'output_tokens': 36, 'total_tokens': 464, 'input_token_details': {}, 'output_token_details': {}}
+[1m
+🔎 [WikiRetriever] Searching for: 'National football teams with FIFA World Cup titles and their number of victories[0m'
+查询向量是：Given a search query, retrieve relevant passages:National football teams with FIFA World Cup titles and their number of victories
+📊 Retrieval Stats: Dense(200) + Sparse(200) -> Merged(396)
+📚 [WikiRetriever] 返回 396 docs (Sent to Re-ranker).
+🧾 Top-1 Preview: Titile: "Rice Owls"
+Content: "08 and TCU 09. In 2013, 2014, 2015 the Rice women's swimming team sent multiple swimmers to the NCAA Women's Division I Swimming and Diving Championships hosted in Indian...
+  1%|▍                                                              | 2/300 [00:16<40:42,  8.20s/it]

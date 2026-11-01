@@ -1,0 +1,877 @@
+[
+    {
+        "id": "test_7701",
+        "question": "Manchester by the Sea is a town.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_2977",
+        "question": "In a Lonely Place has a script based on a 1980 mystery novel.",
+        "golden_answers": [
+            "REFUTES",
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_9475",
+        "question": "Atlanta metropolitan area is located in north Georgia.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_4976",
+        "question": "Uranium-235 was discovered five years before 1935.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_3280",
+        "question": "Pearl Jam is a rock band.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_6718",
+        "question": "Faye Resnick writes.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_4345",
+        "question": "Due Date was shot in space.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_8735",
+        "question": "Richard Rodney Bennett did the soundtrack of Far from the Madding Crowd.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_4016",
+        "question": "The Chagatai language was a Cyrillic language.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_10422",
+        "question": "There is a comedy, it is called Sausage Party.",
+        "golden_answers": [
+            "SUPPORTS",
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_8164",
+        "question": "The Washington Monument is made of wood.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_5802",
+        "question": "Temple Grandin was directed by Mick Jackson in 2008.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_6813",
+        "question": "Lee Daniels directed a movie based off the book \"Push.\"",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_8639",
+        "question": "The 2003 NCAA Division I Men's Basketball Tournament was triple-elimination.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_10086",
+        "question": "There exists a English-language television show that goes by the name of The Little Prince (2015 film).",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_3573",
+        "question": "XHamster fails to produce a reality series.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_5071",
+        "question": "Japan national football team is incapable of being one of the most successful teams in Asia.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_8910",
+        "question": "Nawaz Sharif has no record in politics.",
+        "golden_answers": [
+            "REFUTES",
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_5410",
+        "question": "Emperor Norton has not inspired literary characters.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_8509",
+        "question": "Jack Lowden was incapable of having an award-winning four-year stage career.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_1223",
+        "question": "Knocked Up grossed $259 million worldwide.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_3381",
+        "question": "Liam Neeson has been nominated for a British Academy of Film and Television Arts Award for Best Actor.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_7676",
+        "question": "I Want to Know What Love Is is listed in Rolling Stone.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_2430",
+        "question": "Alice Cooper was born on July 3rd, 1922.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_8709",
+        "question": "Johnny Van Zant still performs with Lynyrd Skynyrd.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_3483",
+        "question": "Brick (film) was written by Rian Johnson.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_6748",
+        "question": "I Want to Know What Love Is has always been kept off Rolling Stone's lists.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_958",
+        "question": "Harold Macmillan was a fish.",
+        "golden_answers": [
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES",
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_5725",
+        "question": "Pearl (Steven Universe) is a fictional alien being.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_10300",
+        "question": "There is not a type of storm that goes by the name of A thunderstorm.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_6825",
+        "question": "Vampire Academy is only a book.",
+        "golden_answers": [
+            "REFUTES",
+            "REFUTES",
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_7633",
+        "question": "The Burj Khalifa contains zero escalators.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_2034",
+        "question": "Match Point explores exclusively the role of misfortune in life.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_2276",
+        "question": "Brazzers is based in Italy.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_5359",
+        "question": "Vedic Sanskrit is a language.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_6394",
+        "question": "Bonaire is one of the three BES islands in the Caribbean.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_5420",
+        "question": "Chris Bosh is incapable of playing in the National Basketball Association.",
+        "golden_answers": [
+            "REFUTES",
+            "REFUTES",
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_5657",
+        "question": "Sweet Home Alabama is an epic novel that was written in reply to two songs from Neil Young's album Harvest.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_3295",
+        "question": "Eva Mendes is a lawyer.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_5332",
+        "question": "Clueless (film) was followed by books.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_6992",
+        "question": "Annie Lenox has released released zero albums.",
+        "golden_answers": [
+            "REFUTES",
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_6789",
+        "question": "LinkedIn is available in 24 cities as of 2013.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_5184",
+        "question": "The House of the Spirits is about the life of a young man named Frank during the military dictatorship in Morocco.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_9301",
+        "question": "Pearl (Steven Universe) is a magical gemstone.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_3507",
+        "question": "Topman has outlets in six cities and towns in Ireland.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_6667",
+        "question": "Night of the Living Dead was not originally directed by George A. Romero.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "REFUTES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "test_3753",
+        "question": "The Chagatai language was a trade language.",
+        "golden_answers": [
+            "REFUTES"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_3350",
+        "question": "Varsity Blues (film) was filmed with a $16 million budget.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_663",
+        "question": "Camden, New Jersey is the home of a school that was founded as the South Jersey Law School in 1926.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "NOT ENOUGH INFO",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "test_3689",
+        "question": "Ingushetia was established in the early 1990s.",
+        "golden_answers": [
+            "SUPPORTS"
+        ],
+        "output": {
+            "pred": "SUPPORTS",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    }
+]

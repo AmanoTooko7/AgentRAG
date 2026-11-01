@@ -1,0 +1,42 @@
+{"id": "dev_1951", "question": "Living monastically is done by monks.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_5234", "question": "Sonny Bono was alive and well on January 6, 1998.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8233", "question": "Musala is 2,925 meters.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_8385", "question": "Faye Resnick works in interior design.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_1681", "question": "Wilhelmina Slater is portrayed in a period romance television series.", "pred": "Error", "gold": ["SUPPORTS"]}
+{"id": "dev_3658", "question": "The New York City Landmarks Preservation Commission consists of 11 commissioners.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_9847", "question": "Matthew Vaughn is in the film industry.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_10182", "question": "Vera Wang is not a fashion designer from the United States.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_9118", "question": "Pearl (Steven Universe) exists as a magical gemstone.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_6891", "question": "Gaius Julius Caesar was a politician.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_9380", "question": "Ann Biderman was denied American citizenship.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_8975", "question": "Estelle Getty was an actress.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS", "SUPPORTS", "SUPPORTS"]}
+{"id": "dev_8042", "question": "Absinthe has psychoactive properties that are exaggerated.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_9609", "question": "The Punisher stars Jon Bernthal as the comic book character of the same title.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_7226", "question": "Lee Daniels received a nomination for Best Director.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_3931", "question": "Tremont Street Subway originally served several closely spaced stations.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_41", "question": "Jayasudha is an actor that stars in Daag.", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_10063", "question": "The House of the Spirits is about the life of a young lady named Clara during the military authoritarian in pig", "pred": "NOT ENOUGH INFO", "gold": ["REFUTES"]}
+{"id": "dev_1322", "question": "Due Date was shot in the United States.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_1814", "question": "Stan Beeman is a fictional setting.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_4706", "question": "Sleipnir is a fish.", "pred": "Error", "gold": ["REFUTES"]}
+{"id": "dev_1606", "question": "Johnny Galecki has appeared in just one American sitcom.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_7367", "question": "The Selma and Montgomery marches were part of a broader voting rights movement throughout the American North.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_188", "question": "Moonlight's filming began in 1815.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_8032", "question": "Sands Hotel and Casino started as a casino with 200 rooms.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_5148", "question": "Buffy the Vampire Slayer is unaffiliated with Joss Whedon.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_3444", "question": "Victoria Palace Theatre is in Oxford Street.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_6508", "question": "Foot Locker is a retailer.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4120", "question": "Fred Armisen is a frog.", "pred": "REFUTES", "gold": ["REFUTES", "REFUTES", "REFUTES", "REFUTES", "REFUTES"]}
+{"id": "dev_5696", "question": "Pitch Perfect 2 centers on a fictional educational institution.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS"]}
+{"id": "dev_5843", "question": "Serotonin causes neuromodulation.", "pred": "SUPPORTS", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_6166", "question": "Betsy Hodges became the mayor of Minneapolis in 2014.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8414", "question": "Caleb McLaughlin is involved with creative work.", "pred": "NOT ENOUGH INFO", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_1250", "question": "Ann Richards was the Governor of Texas for one year.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_5577", "question": "You Only Live Twice was directed by a German man.", "pred": "REFUTES", "gold": ["REFUTES"]}
+{"id": "dev_1469", "question": "Osamu Tezuka's mother only had to erase notes in his notebook.", "pred": "SUPPORTS", "gold": ["REFUTES"]}
+{"id": "dev_9133", "question": "Ice-T signed to Sire Records in 1987.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_8815", "question": "Robinson Crusoe on Mars was produced by Paramount Pictures.", "pred": "REFUTES", "gold": ["SUPPORTS", "SUPPORTS"]}
+{"id": "dev_4786", "question": "Earl Scruggs was born on January 6th, 1924.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_4712", "question": "Jamaica is the place where Island Records was founded.", "pred": "REFUTES", "gold": ["SUPPORTS"]}
+{"id": "dev_7494", "question": "Grease possessed a musical soundtrack.", "pred": "SUPPORTS", "gold": ["SUPPORTS"]}
+{"id": "dev_2308", "question": "Wilhelmina Slater is portrayed in a comedy-drama television series.", "pred": "Error", "gold": ["SUPPORTS"]}

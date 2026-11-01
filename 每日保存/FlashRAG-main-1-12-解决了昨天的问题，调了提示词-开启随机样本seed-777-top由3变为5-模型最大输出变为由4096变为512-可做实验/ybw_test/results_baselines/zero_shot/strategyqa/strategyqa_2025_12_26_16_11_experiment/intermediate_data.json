@@ -1,0 +1,241 @@
+[
+    {
+        "id": "train_487",
+        "question": "Is dopamine snorted nasally by drug users?",
+        "golden_answers": [
+            "no"
+        ],
+        "metadata": {
+            "term": "Dopamine",
+            "description": "chemical compound",
+            "facts": [
+                "Dopamine is a hormone and a neurotransmitter.",
+                "Neurotransmitters are produced endogenously by the body and are not consumed externally."
+            ],
+            "decomposition": [
+                "What kind of substance is dopamine?",
+                "Are #1 usually taken through the nose by drug users?"
+            ],
+            "evidence": [
+                [
+                    [
+                        [
+                            "Dopamine-6"
+                        ]
+                    ],
+                    [
+                        [
+                            "Dopamine-15"
+                        ]
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "Dopamine-1"
+                        ]
+                    ],
+                    [
+                        "operation"
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "Dopamine-1"
+                        ]
+                    ],
+                    [
+                        "operation"
+                    ]
+                ]
+            ]
+        },
+        "output": {
+            "pred": "NO",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "train_1308",
+        "question": "Should a Celiac sufferer avoid spaghetti?",
+        "golden_answers": [
+            "yes"
+        ],
+        "metadata": {
+            "term": "Spaghetti",
+            "description": "Type of pasta",
+            "facts": [
+                "Celiac is a disease in which the body cannot process gluten.",
+                "Gluten is a protein found in wheat.",
+                "Spaghetti is made with milled wheat and water."
+            ],
+            "decomposition": [
+                "What food ingredients should people with celiac disease avoid?",
+                "What ingredients make up spaghetti?",
+                "Is #2 listed in #1?"
+            ],
+            "evidence": [
+                [
+                    [
+                        [
+                            "Coeliac disease-2"
+                        ]
+                    ],
+                    [
+                        [
+                            "Spaghetti-1"
+                        ]
+                    ],
+                    [
+                        "operation"
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "Coeliac disease-2"
+                        ]
+                    ],
+                    [
+                        [
+                            "Spaghetti-1"
+                        ]
+                    ],
+                    [
+                        "operation"
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "Coeliac disease-36"
+                        ]
+                    ],
+                    [
+                        [
+                            "Spaghetti-1"
+                        ]
+                    ],
+                    [
+                        "operation"
+                    ]
+                ]
+            ]
+        },
+        "output": {
+            "pred": "YES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "train_2058",
+        "question": "Would a honey badger's dentures be different from a wolverine's?",
+        "golden_answers": [
+            "yes"
+        ],
+        "metadata": {
+            "term": "Honey badger",
+            "description": "species of mammal",
+            "facts": [
+                "Dentures are false teeth that resemble the wearer's natural teeth",
+                "Honey badgers and wolverines are physically very similar, but they can be differentiated by their dentition."
+            ],
+            "decomposition": [
+                "What subfamily does the honey badger belong to?",
+                "What subfamily does the wolverine belong to?",
+                "What helps distinguish #1 from #2?",
+                "Does #3 include dental shape?"
+            ],
+            "evidence": [
+                [
+                    [
+                        [
+                            "Honey badger-2"
+                        ]
+                    ],
+                    [
+                        [
+                            "Wolverine-1"
+                        ]
+                    ],
+                    [
+                        [
+                            "Honey badger-15"
+                        ],
+                        "no_evidence"
+                    ],
+                    [
+                        "operation"
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "Honey badger-2"
+                        ]
+                    ],
+                    [
+                        [
+                            "Wolverine-1"
+                        ]
+                    ],
+                    [
+                        [
+                            "Honey badger-15"
+                        ]
+                    ],
+                    [
+                        [
+                            "Wolverine-9"
+                        ],
+                        "operation"
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "Honey badger-6"
+                        ]
+                    ],
+                    [
+                        [
+                            "Wolverine-1"
+                        ],
+                        "no_evidence"
+                    ],
+                    [
+                        [
+                            "Honey badger-15",
+                            "Wolverine-14"
+                        ],
+                        "no_evidence"
+                    ],
+                    [
+                        [
+                            "Honey badger-15"
+                        ],
+                        "no_evidence",
+                        "operation"
+                    ]
+                ]
+            ]
+        },
+        "output": {
+            "pred": "YES",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    }
+]

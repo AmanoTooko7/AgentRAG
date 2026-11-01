@@ -1,0 +1,1949 @@
+[
+    {
+        "id": "dev_7701",
+        "question": "Who is the father-in-law of Basilina?",
+        "golden_answers": [
+            "Constantius Chlorus",
+            "Flavius Valerius Constantius"
+        ],
+        "metadata": {
+            "type": "inference",
+            "supporting_facts": {
+                "title": [
+                    "Basilina",
+                    "Julius Constantius"
+                ],
+                "sent_id": [
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Harry Smith (athlete)",
+                    "Barthold A. Butenschøn Sr.",
+                    "Basilina",
+                    "Peter Burroughs",
+                    "John Adams (merchant)",
+                    "Ludwig von Westphalen",
+                    "Ogawa Mataji",
+                    "James Armour (Master mason)",
+                    "John Vernou Bouvier III",
+                    "Julius Constantius"
+                ],
+                "content": [
+                    [
+                        "Harry James Smith( July 30, 1888 – November 20, 1962) was an American long- distance runner.",
+                        "He was most notable for competing in the 1912 Olympics in Stockholm.",
+                        "He was also the father of Hart wrestling family matriarch Helen Hart and the father- in- law of Stu Hart."
+                    ],
+                    [
+                        "Hans Barthold Andresen Butenschøn( 27 December 1877 – 28 November 1971) was a Norwegian businessperson.",
+                        "He was born in Kristiania as a son of Nils August Andresen Butenschøn and Hanna Butenschøn, and grandson of Nicolay Andresen.",
+                        "Together with Mabel Anette Plahte( 1877 – 1973, a daughter of Frithjof M. Plahte) he had the son Hans Barthold Andresen Butenschøn Jr. and was through him the father- in- law of Ragnhild Butenschøn and grandfather of Peter Butenschøn.",
+                        "Through his daughter Marie Claudine he was the father- in- law of Joakim Lehmkuhl, through his daughter Mabel Anette he was the father- in- law of Harald Astrup( a son of Sigurd Astrup) and through his daughter Nini Augusta he was the father- in- law of Ernst Torp.",
+                        "He took commerce school and agricultural school.",
+                        "He was hired in the family company N. A. Andresen& Co, and became a co-owner in 1910.",
+                        "He eventually became chief executive officer.",
+                        "The bank changed its name to Andresens Bank in 1913 and merged with Bergens Kreditbank in 1920.",
+                        "The merger was dissolved later in the 1920s.",
+                        "He was also a landowner, owning Nedre Skøyen farm and a lot of land in Enebakk.",
+                        "He chaired the board of Nydalens Compagnie from 1926, having not been a board member before that.",
+                        "He also chaired the supervisory council of Forsikringsselskapet Viking and Nedre Glommen salgsforening, and was a supervisory council member of Filharmonisk Selskap.",
+                        "He was a member of the gentlemen's club SK Fram since 1890, and was proclaimed a lifetime member in 1964.",
+                        "He was buried in Enebakk."
+                    ],
+                    [
+                        "Basilina (died 332) was the wife of Julius Constantius and the mother of Roman Emperor Julian, who in her honour gave the name \"Basilinopolis\" to a city in Bithynia",
+                        "(modern Pazarköy near Gemlik, in Turkey)."
+                    ],
+                    [
+                        "Peter Burroughs( born 27 January 1947) is a British television and film actor, the director of Willow Management.",
+                        "He is the father- in- law of actor and TV presenter Warwick Davis."
+                    ],
+                    [
+                        "John Adams( 1672 or 1673 – 1745) was an American- born Canadian merchant and member of the Nova Scotia Council.",
+                        "He was the father- in- law of Henry Newton( politician)."
+                    ],
+                    [
+                        "Johann Ludwig von Westphalen( 11 July 1770 – 3 March 1842) was a liberal Prussian civil servant and the father- in- law of Karl Marx."
+                    ],
+                    [
+                        "Viscount was a general in the early Imperial Japanese Army.",
+                        "He was also the father- in- law of Field Marshal Gen Sugiyama."
+                    ],
+                    [
+                        "James Armour (15 January 1730 – 20 September 1798) was a master mason and father of Jean Armour, and therefore the father-in-law of the poet Robert Burns."
+                    ],
+                    [
+                        "John Vernou\" Black Jack\" Bouvier III( May 19, 1891 – August 3, 1957) was an American Wall Street stockbroker and socialite.",
+                        "He was the father of First Lady Jacqueline Kennedy Onassis and of socialite Lee Radziwill, and was the father- in- law of John F. Kennedy."
+                    ],
+                    [
+                        "Julius Constantius (died September 337) was a politician of the Roman Empire and a member of the Constantinian dynasty, being a son of Emperor Constantius Chlorus and his second wife Flavia Maximiana Theodora, a younger half-brother of Emperor Constantine the Great and the father of Emperor Julian."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Unknown",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_2977",
+        "question": "Where was the performer of song How Do You Sleep? (John Lennon Song) born?",
+        "golden_answers": [
+            "City of Liverpool",
+            "Liverpool"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "How Do You Sleep? (John Lennon song)",
+                    "John Lennon"
+                ],
+                "sent_id": [
+                    0,
+                    4
+                ]
+            },
+            "context": {
+                "title": [
+                    "Steel and Glass",
+                    "John Lennon",
+                    "Do You Sleep?",
+                    "How Do You Sleep? (Sam Smith song)",
+                    "How Do You Sleep? (John Lennon song)",
+                    "Now (Joywave song)",
+                    "How Do You Sleep? (Jesse McCartney song)",
+                    "Billy Milano",
+                    "Del Davis (singer)",
+                    "How Do You Do It?"
+                ],
+                "content": [
+                    [
+                        "\" Steel and Glass\" is a song written and performed by John Lennon, released on his 1974 album\" Walls and Bridges\".",
+                        "A dark folk song, it has been interpreted as an attack on Lennon's former business manager Allen Klein.",
+                        "The song contains a lick performed by violins and horns in the chorus that's reminiscent of Lennon's song\" How Do You Sleep?\", an attack on his former Beatles bandmate Paul McCartney."
+                    ],
+                    [
+                        "John Winston Ono Lennon (born John Winston Lennon, 9 October 19408 December 1980) was an English singer, songwriter and peace activist who gained worldwide fame as the founder, co-lead vocalist, and rhythm guitarist of the Beatles.",
+                        "His songwriting partnership with Paul McCartney remains the most successful in history.",
+                        "In 1969, he started the Plastic Ono Band with his second wife, Yoko Ono.",
+                        "After the Beatles disbanded in 1970, Lennon continued as a solo artist.",
+                        "Born in Liverpool, Lennon became involved in the skiffle craze as a teenager.",
+                        "In 1957, he formed his first band, the Quarrymen, which evolved into the Beatles in 1960.",
+                        "He was initially the group's de facto leader, a role gradually ceded to McCartney.",
+                        "Starting in 1967, Lennon's lyrics began to espouse a pacifist message, and some of his songs were soon adopted as anthems by the anti-war movement and the larger counterculture.",
+                        "From 1968 to 1972, he produced more than a dozen records with Ono, including a trilogy of avant-garde albums, his first solo LP \"John Lennon/Plastic Ono Band\", and the international top 10 singles \"Give Peace a ChanceInstant Karma!Imagine\" and \"Happy Xmas (War Is Over)\".",
+                        "Lennon was known for the rebellious nature and acerbic wit in his music, writing, drawings, on film and in interviews.",
+                        "He was controversial through his political and peace activism.",
+                        "After moving to New York City in 1971, his criticism of the Vietnam War resulted in a three-year attempt by the Nixon administration to deport him.",
+                        "In 1975, Lennon disengaged from the music business to raise his infant son Sean, and in 1980, returned with the Ono collaboration \"Double Fantasy\".",
+                        "He was shot and killed in the archway of his Manhattan apartment building three weeks after the album's release.",
+                        "By 2018, Lennon's solo equivalent album sales had exceeded 72 million units worldwide.",
+                        "In 2002, Lennon was voted eighth in a BBC poll of the 100 Greatest Britons, and in 2008, \"Rolling Stone\" ranked him the fifth-greatest singer of all time.",
+                        "In 1987, he was inducted into the Songwriters Hall of Fame.",
+                        "Lennon was inducted into the Rock and Roll Hall of Fame twice, as a member of the Beatles in 1988 and as a solo artist in 1994."
+                    ],
+                    [
+                        "\" Do You Sleep?\" is a song by Lisa Loeb& Nine Stories.",
+                        "It was released in September 1995 as the third single from their debut album,\" Tails\".",
+                        "It reached number 18 on the US\" Billboard\" Hot 100 and number eight on Canada's\" RPM\" Top Singles chart, becoming their last top- twenty hit in both countries, although Loeb would earn another top- twenty single as a solo artist with\" I Do\" two years later.",
+                        "Outside North America,\" Do You Sleep?\" reached the top 50 in Australia, Iceland and the United Kingdom."
+                    ],
+                    [
+                        "\" How Do You Sleep?\" is a song by English singer Sam Smith, released on 19 July 2019.",
+                        "Smith co-wrote the song with Savan Kotecha, Max Martin and Ilya, the latter of whom produced the song."
+                    ],
+                    [
+                        "\"How Do You Sleep?\" is a song by English rock musician John Lennon from his 1971 album \"Imagine\".",
+                        "The song makes angry and scathing remarks aimed at his former Beatles bandmate and songwriting partner, Paul McCartney.",
+                        "Lennon wrote the song in response to what he perceived as personal slights by McCartney on the latter's \"Ram\" album.",
+                        "The track includes a slide guitar solo played by George Harrison and was co-produced by Lennon, Phil Spector and Yoko Ono."
+                    ],
+                    [
+                        "\" Now\" is a song by American indie rock band Joywave.",
+                        "It was released as the fourth single from their debut studio album\" How Do You Feel Now?\" on July 24, 2015.",
+                        "It also appears on their second extended play\" How Do You Feel? Now\" peaked at number 27 on the\" Billboard\" Alternative Songs chart."
+                    ],
+                    [
+                        "\" How Do You Sleep?\" is the third single from Jesse McCartney's third studio album,\" Departure\".",
+                        "The song was released on January 20, 2009."
+                    ],
+                    [
+                        "Billy Milano is a Bronx- born heavy metal musician now based in Austin, Texas.",
+                        "He is the singer and- occasionally- guitarist and bassist of crossover thrash band M.O.D., and he was also the singer of its predecessor, Stormtroopers of Death.",
+                        "He was also the singer of United Forces, which also featured his Stormtroopers of Death bandmate Dan Lilker."
+                    ],
+                    [
+                        "Del Davis is a reggae singer of the 1970s.",
+                        "His cover of\" World Without Love\" was featured on\" Mellow Dubmarine\".",
+                        "His 1972 single\" Sugarloaf Hill\" was included on the\" Trojan Carnival Box Set\" compilation album and was rated as one of the album's highlights by AllMusic.",
+                        "His reggae version of\" World Without Love\" appeared on the album\" A Reggae Tribute To The Beatles\", and his version of the Gerry and the Pacemakers hit song\" How Do You Do It?\" was released as a duet with Jackie Edwards."
+                    ],
+                    [
+                        "\" How Do You Do It?\" was the debut single by Liverpudlian band Gerry and the Pacemakers.",
+                        "The song reached number one in the UK Singles Chart on 11 April 1963, where it stayed for three weeks."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Liverpool",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_11931",
+        "question": "What is the date of death of Vlatko Vuković's father?",
+        "golden_answers": [
+            "1359"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Vlatko Vuković",
+                    "Vuk Kosača"
+                ],
+                "sent_id": [
+                    1,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Etan Boritzer",
+                    "Vuk Kosača",
+                    "Bill Smith (footballer, born 1897)",
+                    "Harry Johnson (wrestler)",
+                    "Vlatko Vuković",
+                    "Albert Thompson (footballer, born 1912)",
+                    "Theodred II (Bishop of Elmham)",
+                    "Harry Wainwright (footballer)",
+                    "Hrana Vuković",
+                    "Thomas Scott (diver)"
+                ],
+                "content": [
+                    [
+                        "Etan Boritzer( born 1950) is an American writer of children ’s literature who is best known for his book\" What is God?\" first published in 1989.",
+                        "His best selling\" What is?\" illustrated children's book series on character education and difficult subjects for children is a popular teaching guide for parents, teachers and child- life professionals.",
+                        "Boritzer gained national critical acclaim after\" What is God?\" was published in 1989 although the book has caused controversy from religious fundamentalists for its universalist views.",
+                        "The other current books in the\" What is?\" series include",
+                        "What is Love?,",
+                        "What is Death?,",
+                        "What is Beautiful?,",
+                        "What is Funny?,",
+                        "What is Right?,",
+                        "What is Peace?,",
+                        "What is Money?,",
+                        "What is Dreaming?,",
+                        "What is a Friend?,",
+                        "What is True?,",
+                        "What is a Family?,",
+                        "What is a Feeling?\"",
+                        "The series is now also translated into 15 languages.",
+                        "Boritzer was first published in 1963 at the age of 13 when he wrote an essay in his English class at Wade Junior High School in the Bronx, New York on the assassination of John F. Kennedy.",
+                        "His essay was included in a special anthology by New York City public school children compiled and published by the New York City Department of Education.",
+                        "Boritzer now lives in Venice, California and maintains his publishing office there also.",
+                        "He has helped numerous other authors to get published through\" How to Get Your Book Published!\" programs.",
+                        "Boritzer is also a yoga teacher who teaches regular classes locally and guest- teaches nationally.",
+                        "He is also recognized nationally as an erudite speaker on\" The Teachings of the Buddha.\""
+                    ],
+                    [
+                        "Vuk (Cyrillic: Вук; 1317–1359), also called \"Hran\", was a powerful magnate in service to the Serbian king Stefan Dušan (r. 1331–55).",
+                        "Vuk was the progenitor of the Kosača family, later influential in the Kingdom of Bosnia in the late 14th- and first half of the 15th century.",
+                        "Ragusan chronicler Mavro Orbini (1563–1614), write that Vuk was born in 1317, as son of an unnamed \"knezcountknyaz\") from Rudine.",
+                        "After an incident during the two families' hunting trip in Upper Drina, where both had possessions, in which Branko Rastislalić lost his life sometime after 1351, Vuk, being responsible for Branko's death, fled to Hungary.",
+                        "After reconciling with the relatives of Branko, he joined (or returned to) the court of Emperor Stefan Dušan.",
+                        "Nevertheless, a member of the Rastislalić family eventually took revenge on Vuk, and murdered him in Rudine in 1359.",
+                        "Vuk distinguished himself in the military of the emperor, for which he was awarded land around Rudine, which was located somewhere in Upper Drina area, in eastern Bosnia (present-day Bosnia and Herzegovina).",
+                        "Vuk's son, Vlatko (1388–d. 1392), was a celebrated military commander in the service of",
+                        "Bosnian king Tvrtko I. He also had another son, Hranja."
+                    ],
+                    [
+                        "William Thomas Smith( born 9 April 1897, date of death unknown) was an English professional footballer."
+                    ],
+                    [
+                        "Harry Johnson( 1903- date of death unknown) was an English wrestler."
+                    ],
+                    [
+                        "Vlatko Vuković Kosača (died 1392) was a 14th-century Bosnian nobleman, duke of duchy of Hum, Grand Duke of Bosnia  and one of the best military commanders of King Tvrtko I, for whom he governed Hum (part of modern-day Herzegovina), which was part of the Banate of Bosnia and later Kingdom of Bosnia.",
+                        "Vlatko was probably a son of duke Vuk Kosača, often regarded as founder of the Kosača noble family."
+                    ],
+                    [
+                        "Albert Thompson( born 1912, date of death unknown) was a Welsh footballer."
+                    ],
+                    [
+                        "Theodred II was a medieval Bishop of Elmham.",
+                        "The date of Theodred's consecration unknown, but the date of his death was sometime between 995 and 997."
+                    ],
+                    [
+                        "Harry Wainwright( born 1899; date of death unknown) was an English footballer."
+                    ],
+                    [
+                        "Hrana Vuković (1370 – 15 March 1435) was a Bosnian magnate who ruled the area between Neretva and Drina rivers in Bosnia with the title \"Grand Duke of Bosnia\" prior to 1380.",
+                        "He was a father of Sandalj Hranić and brother of Vlatko Vuković.",
+                        "After his death, he was succeeded by Vlatko Vuković as a head of Vuković-Kosača family, and Hrvoje Vukčić as a Grand Duke of Bosnia."
+                    ],
+                    [
+                        "Thomas Scott( 1907- date of death unknown) was an English diver."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Unknown; the date of death of Vlatko Vuković's father could not be determined from the available information.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_9475",
+        "question": "Who is Prince Albert Of Schleswig-Holstein-Sonderburg-Glücksburg's paternal grandfather?",
+        "golden_answers": [
+            "Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Glücksburg"
+        ],
+        "metadata": {
+            "type": "inference",
+            "supporting_facts": {
+                "title": [
+                    "Prince Albert of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Friedrich, Duke of Schleswig-Holstein-Sonderburg-Glücksburg"
+                ],
+                "sent_id": [
+                    0,
+                    1
+                ]
+            },
+            "context": {
+                "title": [
+                    "Karl, Duke of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Princess Ortrud of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Prince Julius of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Prince Albert of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Friedrich Ferdinand, Duke of Schleswig-Holstein",
+                    "Princess Alexandra Victoria of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Augusta of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Princess Karoline Mathilde of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Friedrich, Duke of Schleswig-Holstein-Sonderburg-Glücksburg",
+                    "Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Glücksburg"
+                ],
+                "content": [
+                    [
+                        "Karl of Schleswig -Holstein- Sonderburg- Glücksburg( 30 September 1813 at Gottorp in Schleswig, Duchy of Schleswig – 24 October 1878 at Luisenlund, Glücksburg, in Schleswig- Holstein, Prussia) was the second Duke of Schleswig- Holstein- Sonderburg- Glücksburg.",
+                        "Karl was the eldest son of Friedrich Wilhelm, Duke of Schleswig- Holstein- Sonderburg- Glücksburg and Princess Louise Caroline of Hesse- Kassel and an elder brother of Christian IX of Denmark.",
+                        "Karl became Duke of Schleswig- Holstein- Sonderburg- Glücksburg upon his father's death on 27 February 1831."
+                    ],
+                    [
+                        "Princess Ortrud of Schleswig- Holstein- Sonderburg- Glücksburg(\" Ortrud Prinzessin zu Schleswig- Holstein- Sonderburg- Glücksburg\"; Full given names:\" Ortrud Bertha Adelheid Hedwig\"),( 19 December 1925 – 6 February 1980) was a Princess and a member of the House of Schleswig- Holstein- Sonderburg- Glücksburg by birth, and through her marriage to Prince Ernest Augustus of Hanover( 1914 – 1987), a member of the House of Hanover."
+                    ],
+                    [
+                        "Prince Julius of Schleswig-Holstein- Sonderburg- Glücksburg( 14 October 1824, Gottorp, Schleswig, Duchy of Schleswig – 1 June 1903, Itzehoe, Schleswig- Holstein, Germany) was the eighth of the ten children of Friedrich Wilhelm, Duke of Schleswig- Holstein- Sonderburg- Glücksburg and Princess Louise Caroline of Hesse- Kassel."
+                    ],
+                    [
+                        "Prince Albert of Schleswig-Holstein-Sonderburg-Glücksburg (15 March 1863, Kiel, Duchy of Holstein – 23 April 1948, Glücksburg, Schleswig-Holstein, Germany) was the fifth and youngest child of Friedrich, Duke of Schleswig-Holstein-Sonderburg-Glücksburg and his wife Princess Adelheid of Schaumburg-Lippe and was a nephew of Christian IX of Denmark.",
+                        "Albert was the grandfather of Ernst August, Prince of Hanover through his daughter Princess Ortrud of Schleswig-Holstein-Sonderburg-Glücksburg.",
+                        "Albert was recognized by a family compact of 1904 as possessing rights of succession to the Grand Duchy of Oldenburg in the event of the extinction of the reigning Grand Ducal line."
+                    ],
+                    [
+                        "Friedrich Ferdinand of Schleswig- Holstein- Sonderburg- Glücksburg( 12 October 1855 – 21 January 1934) was the fourth Duke of Schleswig- Holstein- Sonderburg- Glücksburg and became Duke of Schleswig- Holstein in 1931."
+                    ],
+                    [
+                        "Princess Alexandra Victoria of Schleswig-Holstein- Sonderburg- Glücksburg( 21 April 1887 – 15 April 1957) was a daughter of Friedrich Ferdinand, Duke of Schleswig- Holstein and his wife Princess Karoline Mathilde of Schleswig- Holstein- Sonderburg- Augustenburg."
+                    ],
+                    [
+                        "Princess Augusta of Schleswig-Holstein- Sonderburg- Glücksburg( 27 June 1633 – 26 May 1701) was a Danish- German princess of the senior Glücksburg line of the Duke of Schleswig- Holstein.",
+                        "She was the first Duchess of Augustenborg by marriage.",
+                        "Augustenborg palace, and as a consequence the nearby town, were named in honor of her.",
+                        "The great- granddaughter of king Christian III of Denmark, she was the third daughter, eighth by birth, of Philip, Duke of Schleswig- Holstein- Sonderburg- Glücksburg and Princess Sophia Hedwig of Saxe- Lauenburg.",
+                        "She was sister of Sophia Dorothea of Schleswig- Holstein- Sonderburg- Glücksburg"
+                    ],
+                    [
+                        "Princess Karoline Mathilde of Schleswig- Holstein- Sonderburg- Glücksburg( Viktoria- Irene Adelheid Auguste Alberta Feodora Karoline Mathilde of Schleswig -Holstein- Sonderburg- Glücksburg; 11 May 1894 – 28 January 1972) was a member of the House of Schleswig- Holstein- Sonderburg- Glücksburg and Princess of Schleswig- Holstein- Sonderburg- Glücksburg by birth and a member of the House of Solms Baruth and Countess of Solms Baruth through her marriage to Count Hans of Solms- Baruth."
+                    ],
+                    [
+                        "Friedrich of Schleswig-Holstein-Sonderburg-Glücksburg (23 October 1814 in Schleswig, Duchy of Schleswig – 27 November 1885 in Luisenlund, Schleswig-Holstein, Prussia) was the third Duke of Schleswig-Holstein-Sonderburg-Glücksburg.",
+                        "Friedrich was the second-eldest son of Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Glücksburg and Princess Louise Caroline of Hesse-Kassel and an elder brother of Christian IX of Denmark.",
+                        "Friedrich inherited the title of Duke of Schleswig-Holstein-Sonderburg-Glücksburg upon his childless brother Karl's death on 14 October 1878."
+                    ],
+                    [
+                        "Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Glücksburg (4 January 1785 – 17 February 1831) inherited the title of Duke of Schleswig-Holstein-Sonderburg-Beck in 1816.",
+                        "He subsequently changed his title to Duke of Schleswig-Holstein-Sonderburg-Glücksburg in 1825 and founded a line that includes the Royal Houses of Denmark, Greece, Norway, and the Commonwealth realms."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Glücksburg",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_4976",
+        "question": "Where was the place of death of the director of film Earth (1957 Film)?",
+        "golden_answers": [
+            "Sredez",
+            "Sofia",
+            "Serdica",
+            "Sofija"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Earth (1957 film)",
+                    "Zahari Zhandov"
+                ],
+                "sent_id": [
+                    0,
+                    2
+                ]
+            },
+            "context": {
+                "title": [
+                    "Peter Levin",
+                    "Jesse E. Hobson",
+                    "Dana Blankstein",
+                    "Olav Aaraas",
+                    "Mark Linfield",
+                    "Brian Kennedy (gallery director)",
+                    "Ian Barry (director)",
+                    "Earth (1957 film)",
+                    "S. N. Mathur",
+                    "Zahari Zhandov"
+                ],
+                "content": [
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+                        "Prior to SRI, he was the director of the Armour Research Foundation."
+                    ],
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ],
+                    [
+                        "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+                        "He was born in Fredrikstad.",
+                        "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+                        "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+                    ],
+                    [
+                        "Mark Linfield is a British writer, producer and director of nature documentaries for cinema and television.",
+                        "He is best known for his work with the BBC Natural History Unit as a producer of two episodes of the television series\" Planet Earth\"( 2006) and as writer and co-director of the associated feature film\" Earth\"( 2007)."
+                    ],
+                    [
+                        "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+                        "He is currently the director of the Peabody Essex Museum.",
+                        "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+                        "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Earth  is a 1957 Bulgarian drama film directed by Zahari Zhandov.",
+                        "It was entered into the 1957 Cannes Film Festival."
+                    ],
+                    [
+                        "S.N. Mathur was the Director of the Indian Intelligence Bureau between September 1975 and February 1980.",
+                        "He was also the Director General of Police in Punjab."
+                    ],
+                    [
+                        "Zahari Zhandov  (1 June 1911 – 2 February 1998) was a Bulgarian film director, script writer and cinematographer.",
+                        "He was born on 1 June 1911 in the city of Rousse.",
+                        "At first he studied mathematics and then administrative sciences at Free University of Political and Economic Sciences, today UNWE in Sofia.",
+                        "His debut in film-making was with the a short documentary \"One Day in SofiaEdin den v Sofia\", 1946).",
+                        "Later he came to direct films like \"Shibil\" (1968)",
+                        ", \"Birds Come",
+                        "Flying to UsPtitzi dolitat\", 1971) and",
+                        "\"The Master of BoyanaBoyanskiyat maystor\", 1981).",
+                        "Zhandov got a Golden palm nomination at the Cannes Film Festival in 1957 for the film \"EarthZemya\").",
+                        "In 1969 he was a member of the jury at the 6th Moscow International Film Festival.",
+                        "He died on 2 February 1998 in Sofia."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Information not found",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_3280",
+        "question": "Where was the place of death of Christiane Eberhardine Of Brandenburg-Bayreuth's husband?",
+        "golden_answers": [
+            "Warszawa",
+            "Varsovie",
+            "Varšava",
+            "Warsaw",
+            "Varsó",
+            "Warschau",
+            "Varshava",
+            "Varsovia",
+            "Varšuva",
+            "Varshe",
+            "Varsavia"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Christiane Eberhardine of Brandenburg-Bayreuth",
+                    "Augustus II the Strong"
+                ],
+                "sent_id": [
+                    0,
+                    10
+                ]
+            },
+            "context": {
+                "title": [
+                    "Christian Ernst, Margrave of Brandenburg-Bayreuth",
+                    "Erdmann August, Hereditary Prince of Brandenburg-Bayreuth",
+                    "Christian, Margrave of Brandenburg-Bayreuth",
+                    "George Frederick Charles, Margrave of Brandenburg-Bayreuth",
+                    "Christiane Eberhardine of Brandenburg-Bayreuth",
+                    "Augustus II the Strong",
+                    "Christian Heinrich, Margrave of Brandenburg-Bayreuth-Kulmbach",
+                    "Frederick Christian, Margrave of Brandenburg-Bayreuth",
+                    "Frederick, Margrave of Brandenburg-Bayreuth",
+                    "George William, Margrave of Brandenburg-Bayreuth"
+                ],
+                "content": [
+                    [
+                        "Christian Ernst of Brandenburg-Bayreuth (6 August 1644 in Bayreuth – 20 May 1712 in Erlangen) was a member of the House of Hohenzollern and Margrave of Brandenburg-Bayreuth.",
+                        "He was the only son of Erdmann August, Hereditary Margrave (\"Erbmarkgraf\") of Brandenburg-Bayreuth, by his wife and first cousin, Sophie of Brandenburg-Ansbach.",
+                        "The death of his father (6 February 1651) made Christian Ernst the new heir to the margraviate of Bayreuth.",
+                        "At the age of ten, he succeeded his grandfather Christian as margrave when he died on 30 May 1655.",
+                        "His uncle Georg Albrecht acted as regent until 1664, when Christian Ernst was declared an adult and assumed the government of his principality."
+                    ],
+                    [
+                        "Erdmann August of Brandenburg- Bayreuth( b. Bayreuth, 8 October",
+                        "1615- d. Hof, 6 February 1651), was a member of the House of Hohenzollern and Hereditary Margrave( German:\" Erbmarkgraf\") of Brandenburg- Bayreuth.",
+                        "He was the seventh of the nine children of Christian, Margrave of Brandenburg- Bayreuth by his wife, Marie of Prussia.",
+                        "In fact, he was the third- born son but the only one to survive into adulthood; his two older brothers Georg Frederick( b. and d. 1608) and Christian Ernst( b. 1613- d. 1614) died long before his own birth.",
+                        "In Ansbach on 8 December 1641, Erdmann August married the Margravine Sophie of Brandenburg- Ansbach, who was also his first cousin( daughter of Joachim Ernst, Margrave of Brandenburg- Ansbach, his father's brother).",
+                        "They had only one son: Sophie died on 3 December 1646.",
+                        "Erdmann August himself died four years later, aged thirty- five, in the middle of the preparations of his wedding with Sophie Agnes of Mecklenburg- Schwerin.",
+                        "Because he predeceased his father, his son Christian Ernst succeeded as Margrave of Brandenburg- Bayreuth in 1655."
+                    ],
+                    [
+                        "Christian, Margrave of Brandenburg- Bayreuth( 30 January 1581 in Cölln – 30 May 1655 in Bayreuth) was a member of the House of Hohenzollern and Margrave of Brandenburg- Kulmbach( later renamed\" Brandenburg- Bayreuth\").",
+                        "He was the eldest of eleven children born to John George, Elector of Brandenburg by his third wife Princess Elisabeth of Anhalt- Zerbst."
+                    ],
+                    [
+                        "George Frederick Charles, Margrave of Brandenburg- Bayreuth( 19 June 1688 at Oberzulzbürg Castle, near Mühlhausen – 17 May 1735 in Bayreuth), was a German prince, member of the House of Hohenzollern, nominal Margrave of Brandenburg- Bayreuth- Kulmbach( 1708 – 35) and Margrave of Brandenburg- Bayreuth( 1726–35)."
+                    ],
+                    [
+                        "Christiane Eberhardine of Brandenburg-Bayreuth (19 December 1671 – 4 September 1727) was Electress of Saxony from 1694 to 1727 (her death) and titular Queen of the Polish–Lithuanian Commonwealth from 1697 to 1727 by marriage to Augustus II the Strong.",
+                        "Not once throughout the whole of her thirty-year queenship did she set foot in Poland, instead living in Saxony in self-imposed exile.",
+                        "Born a German margravine, she was called \"Sachsens BetsäuleSaxony's pillar of prayer\", by her Protestant subjects for her refusal to convert to Catholicism and her loyalty to the Protestant faith.",
+                        "Despite the allegiance of Christiane Eberhardine and her mother-in-law, Anna Sophie of Denmark, to Lutheranism, her husband and son, later Augustus III, both became Catholics, ensuring Catholic succession in the Albertine lands after a century-and-a-half."
+                    ],
+                    [
+                        "Augustus II the Strong (12 May 16701 February 1733), also known in Saxony as Frederick Augustus I, was Elector of Saxony from 1697, Imperial Vicar and elected King of Poland and Grand Duke of Lithuania",
+                        "in the years 1697–1706 and from 1709 until his death in 1733.",
+                        "He was succeeded by his son, Augustus III of Poland.",
+                        "Augustus' great physical strength earned him the nicknames \"the Strongthe Saxon Hercules\" and \"Iron-Hand\".",
+                        "He liked to show that he lived up to his name by breaking horseshoes with his bare hands and engaging in fox tossing by holding the end of his sling with just one finger while two of the strongest men in his court held the other end.",
+                        "He is also notable for fathering a very large number of children.",
+                        "In order to be elected King of the Polish–Lithuanian Commonwealth, Augustus converted to Roman Catholicism.",
+                        "As a Catholic, he received the Order of the Golden Fleece from the Holy Roman Emperor.",
+                        "As Elector of Saxony, he is perhaps best remembered as a patron of the arts and architecture.",
+                        "He established the Saxon capital of Dresden as a major cultural centre, attracting artists from across Europe to his court.",
+                        "Augustus also amassed an impressive art collection and built lavish baroque palaces in Dresden and Warsaw.",
+                        "His reigns brought Poland some troubled times.",
+                        "He led the Polish–Lithuanian Commonwealth in the Great Northern War, which allowed the Russian Empire to strengthen its influence in Europe, especially within Poland.",
+                        "His main pursuit was bolstering royal power in the Commonwealth, characterized by broad decentralization in comparison with other European monarchies.",
+                        "He tried to accomplish this goal using foreign powers and thus destabilized the state.",
+                        "Augustus ruled Poland with an interval; in 1704 the Swedes installed nobleman Stanisław Leszczyński as king, who officially reigned from 1706 to 1709 and after Augustus' death in 1733 which sparked the War of the Polish Succession.",
+                        "He was buried in Poland's royal Wawel Cathedral in Kraków, but his heart rests in the Dresden Cathedral."
+                    ],
+                    [
+                        "Christian Heinrich of Brandenburg-Bayreuth-Kulmbach (Bayreuth, 29 July 1661 – Weferlingen, 5 April 1708), was a German prince and member of the House of Hohenzollern and nominal Margrave of Brandenburg-Bayreuth-Kulmbach."
+                    ],
+                    [
+                        "Frederick Christian of Brandenburg- Bayreuth( 17 July 1708 in Weferlingen – 20 January 1769 in Bayreuth), was a member of the House of Hohenzollern and Margrave of Brandenburg- Bayreuth."
+                    ],
+                    [
+                        "Frederick, Margrave of Brandenburg- Bayreuth( May 10, 1711 in Weferlingen – February 26, 1763 in Bayreuth), was a member of the House of Hohenzollern and Margrave of Brandenburg- Bayreuth.",
+                        "He was the eldest son of Georg Frederick Karl, nominal Margrave of Brandenburg- Bayreuth- Kulmbach, by his wife Dorothea of Schleswig- Holstein- Sonderburg- Beck."
+                    ],
+                    [
+                        "George William of Brandenburg- Bayreuth( German:\" Georg Wilhelm\"; 26 November 1678 in Bayreuth – 18 December 1726 in Bayreuth) was a member of the House of Hohenzollern and Margrave of Brandenburg- Bayreuth."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Information not found",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_11854",
+        "question": "Which film came out first, The Human Goddess or The Day Of The Wolves?",
+        "golden_answers": [
+            "The Day Of The Wolves",
+            "The Day of the Wolves",
+            "Day of the Wolves"
+        ],
+        "metadata": {
+            "type": "comparison",
+            "supporting_facts": {
+                "title": [
+                    "The Human Goddess",
+                    "The Day of the Wolves"
+                ],
+                "sent_id": [
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Valley of the Wolves: Palestine",
+                    "Valley of the Wolves (disambiguation)",
+                    "The Day of the Beast (disambiguation)",
+                    "The Human Goddess",
+                    "The Day of the Owl (film)",
+                    "The Day of the Wolves",
+                    "Valley of the Wolves: Homeland",
+                    "Zhēngyuè",
+                    "O Dia do Galo",
+                    "Feeding the Wolves"
+                ],
+                "content": [
+                    [
+                        "Valley of the Wolves: Palestine is a 2011 Turkish action film directed by Zübeyr Şaşmaz and starring Necati Şaşmaz, Nur Fettahoğlu and Erdal Beşikçioğlu.",
+                        "The story revolves around a Turkish commando team which goes to Israel on a rampage of revenge to track down the Israeli military commander responsible for the Gaza flotilla raid.",
+                        "It is part of the\" Valley of the Wolves\" media franchise, based on the Turkish television series of the same name, and a sequel to( 2006) and( 2008).",
+                        "The film, which went on nationwide general release across Turkey on, was at the time the most expensive Turkish films ever made.",
+                        "\" Valley of the Wolves: Palestine\" was criticized for being anti-Israeli and inflammatory."
+                    ],
+                    [
+                        "Valley of the Wolves may refer to:"
+                    ],
+                    [
+                        "The Day of the Beast may refer to:"
+                    ],
+                    [
+                        "The Human Goddess( Chinese: 仙女下凡,\" Sin Lui Ha Fan\") is a 1972 Hong Kong fantasy film comedy directed by Ho Heng Hua.",
+                        "Lee Ching stars as an alluring fairy goddess who is irresistible to the opposite sex.",
+                        "She is able to manipulate men to achieve her goals, and finds a man who is in charge of an orphanage."
+                    ],
+                    [
+                        "The Day of the Owl is a 1968 film directed by Damiano Damiani."
+                    ],
+                    [
+                        "The Day of the Wolves is a 1971 heist movie starring Richard Egan and directed, written and produced by Ferde Grofe Jr. the son of the renowned composer who had previously worked in the Philippine film industry.",
+                        "It was the first movie to be made on location in the new town of Lake Havasu City, Arizona.",
+                        "This was the last feature film made by actress Martha Hyer and was also the last film made by actor Percy Helton who died about five months after filming wrapped( Helton's last released film was Legend of the Northwest, released in 1978 but made in the 1960s and shelved for a decade)."
+                    ],
+                    [
+                        "Valley of the Wolves: Homeland is a film of the Turkish TV serial media franchise\" Valley of the Wolves\".",
+                        "The story is about the Turkish coup d'état attempt."
+                    ],
+                    [
+                        "Zhēngyuè is the first month of the year in the Chinese calendar.",
+                        "In general, the Vernal Showers are in Zhēngyuè.",
+                        "The name comes from the annual morale-building rite  in ancient China.",
+                        "Zhēngyuè 1 is the day of the rooster; Zhēngyuè 2 is the day of the dog; Zhēngyuè 3 is the day of the pig; Zhēngyuè 4 is the day of the goat; Zhēngyuè 5 is the day of the ox; Zhēngyuè 6 is the day of the horse; Zhēngyuè 7 is the day of the human."
+                    ],
+                    [
+                        "O Dia do Galo( The Day of Galo) is a 2014 Brazilian documentary film about the 2013 Copa Libertadores Finals.",
+                        "The film follows five supporters of Brazilian football club Atlético Mineiro in the day of the final match of the competition.",
+                        "It was released in Brazilian theatres in 24 July 2015."
+                    ],
+                    [
+                        "Feeding the Wolves may refer to:"
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Unable to determine based on available information.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_6718",
+        "question": "What nationality is Simonida's mother?",
+        "golden_answers": [
+            " Heraclius",
+            "Byzantine Empire",
+            "Eastern Roman Empire",
+            "Roman Empire",
+            "Byzantium",
+            "Romania"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Simonida",
+                    "Irene of Montferrat"
+                ],
+                "sent_id": [
+                    3,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Ali Rahuma",
+                    "Irene of Montferrat",
+                    "Simonida",
+                    "Nayelly Hernández",
+                    "Rumbold of Mechelen",
+                    "Baglan Mailybayev",
+                    "Eleni Gabre-Madhin",
+                    "Khalid al-Habib",
+                    "Roberto Savio",
+                    "Fulco"
+                ],
+                "content": [
+                    [
+                        "Ali Khalifa Rahuma( born May 16, 1982) is a Libyan football midfielder who's nationality is Libyan.",
+                        "He currently plays for Al- Ittihad, and is a member of the Libya national football team."
+                    ],
+                    [
+                        "Yolande of Montferrat (– 1317 in Constantinople) (also known as Violante, then Empress Irene) was the second wife of Andronikos II Palaiologos and thus empress of the Byzantine Empire.",
+                        "She was the heir of the Margraviate of Montferrat.",
+                        "Born in Casale, she was daughter of William VII, Marquess of Montferrat and his second wife Beatrice of Castile.",
+                        "Her maternal grandparents were King Alfonso X of Castile and his wife Violante of Aragon.",
+                        "Yolande (variation of Violante) was named after her grandmother.",
+                        "In 1284, Andronikos II, a widower by his first marriage with Anna of Hungary, married Yolanda (who was renamed Eirene as Empress).",
+                        "She and Andronikos II were distant cousins, both being descendants of Andronikos Doukas Angelos (ca. 1122-1185).",
+                        "With her, Eirene brought the Montferrat rights to the kingdom of Thessalonica, a dominion that, despite having been conquered half-a-century before Eirene's birth by the Byzantine state of Epirus, was still claimed by its short-lived (1204–1224) Montferrat royal dynasty.",
+                        "It was later proven that the Italian Montferrat had no living male heirs of the Aleramici dynasty, and Eirene's sons were entitled to inherit it upon the 1305 death of Eirene's brother John I, Marquess of Montferrat.",
+                        "The marriage produced the following children:\nEirene's stepson, Michael IX Palaiologos was intended to succeed her husband as emperor, but ultimately it was Michael's son Andronikos III Palaiologos, who became the successor instead of Michael.",
+                        "This was largely due to the work Eirene did to ensure some power and property to her own offspring.",
+                        "Eirene left Constantinople in 1303 and settled in Thessaloniki.",
+                        "She set her own court in the city and controlled her own finances and foreign policy until her death fourteen years later.",
+                        "Nicephorus Gregoras portrayed her as an ambitious and arrogant leader in his historical writings."
+                    ],
+                    [
+                        "Simonida Nemanjić (c. 1294 – after 1336), born Simonis Palaiologina",
+                        "(sr.",
+                        "Симонида Палеолог, \"Simonida Paleolog\"), was a Byzantine princess and queen consort of the Kingdom of Serbia as the fourth wife of Serbian king Stefan Milutin (r. 1282–1321).",
+                        "She was a daughter of the Byzantine Emperor Andronikos II Palaiologos (r. 1282–1328) and Irene of Montferrat.",
+                        "In Medieval Serbia Simonida is best remembered as a patron of the Arts, Music and Literature."
+                    ],
+                    [
+                        "Nayelly Hernández( born 23 February 1986) is a former Mexican female professional squash player.",
+                        "She has represented Mexico internationally in several international competitions including the Central American and Caribbean Games, Pan American Games, Women's World Team Squash Championships.",
+                        "Nayelly achieved her highest career ranking of 57 in October 2011 during the 2011 PSA World Tour.",
+                        "Her husband Chris Walker whose nationality is English is also a professional squash player.",
+                        "She joined the Trinity College in 2008 as the first Mexican female to join a US college for squash and graduated in 2010."
+                    ],
+                    [
+                        "Saint Rumbold( or\" RumoldRomuold\") was an Irish or Scottish Christian missionary, although his true nationality is not known for certain.",
+                        "He was martyred near Mechelen by two men, whom he had denounced for their evil ways.",
+                        "Saint Rumbold's feast day is celebrated by the Roman Catholic Church, and Western Rite Orthodox Churches, on 24 June; and it is celebrated in Ireland on 3 July.",
+                        "He is the patron saint of Mechelen, where St. Rumbold's Cathedral possesses an elaborate golden shrine on its high altar, containing relics attributed to the saint.",
+                        "It is rumoured that his remains are buried inside the cathedral.",
+                        "Twenty- five paintings in the choir illustrate his life."
+                    ],
+                    [
+                        "Baglan Mailybayev( in Kazakh Бағлан Асаубайұлы Майлыбаев) was born on 20 May 1975 in Zhambyl region, Kazakhstan.",
+                        "His nationality is Kazakh.",
+                        "He is a politician of the Republic of Kazakhstan, Deputy Head of the Presidential Administration of the Republic of Kazakhstan, Doctor of Law( 2002)( under the supervision of Professor Zimanov S.Z.- scientific advisor and academician of National Academy of Sciences of the Republic of Kazakhstan) and Ph.D. in Political Science( 1998)."
+                    ],
+                    [
+                        "Eleni Zaude Gabre- Madhin, an Ethiopian economist with Swiss nationality, is a former Chief Executive Officer of the Ethiopia Commodity Exchange( ECX).",
+                        "She has had many years of experience working on agricultural markets – particularly in Sub- Saharan Africa – and has held senior positions in the World Bank, the International Food Policy Research Institute( Washington), and United Nations( Geneva)."
+                    ],
+                    [
+                        "Khalid al- Habib also believed to use the nom de guerre Khalid al Harbi is an Al- Qaeda leader who has overseen Al- Qaeda operations in Afghanistan.",
+                        "In 2005 it was reported that al- Habib died in a US missile strike on the Pakistani village of Damadola though it is unclear whether this is the case as Pakistani officials have claimed that no Al- Qaeda leaders died in the attack.",
+                        "al- Habib's nationality is not clear with sources claiming he may be Egyptian or Moroccan."
+                    ],
+                    [
+                        "Roberto Savio( born in Rome, Italy, but also holding Argentine nationality) is a journalist, communication expert, political commentator, activist for social and climate justice and advocate of global governance.",
+                        "He has spent most of his career with Inter Press Service( IPS), the news agency which he founded in 1964 along with Argentine journalist Pablo Piacentini.",
+                        "Savio studied Economics at the University of Parma, followed by post -graduate courses in Development Economics under Gunnar Myrdal, History of Art and International Law in Rome.",
+                        "He started his professional career as a research assistant in International Law at the University of Parma."
+                    ],
+                    [
+                        "Fulco was the first known missionary Bishop of Estonia.",
+                        "He was appointed in 1165 by Eskil, the Danish Archbishop of Lund.",
+                        "Before his appointment, Fulco was a Benedictine monk in the abbey of Moutier- la- Celle, near Troyes in France.",
+                        "His nationality is not known.",
+                        "After his appointment, Fulco appears in sources only once.",
+                        "In 1171, Pope Alexander III asked the Archbishop of Trondheim to assign an Estonian monk Nicolaus living in Stavanger to go to Fulco's assistance.",
+                        "No further information survives about Fulco's work in Estonia, or whether he ever even got there."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Unknown",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_12406",
+        "question": "Where did the director of film Milan (1946 Film) die?",
+        "golden_answers": [
+            "Kolkata",
+            "Calcutta",
+            "City of Palaces",
+            "City of Processions",
+            "City of joy"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Milan (1946 film)",
+                    "Nitin Bose"
+                ],
+                "sent_id": [
+                    0,
+                    1
+                ]
+            },
+            "context": {
+                "title": [
+                    "Jesse E. Hobson",
+                    "Nitin Bose",
+                    "Milan (1946 film)",
+                    "Brian Kennedy (gallery director)",
+                    "Olav Aaraas",
+                    "S. N. Mathur",
+                    "Peter Levin",
+                    "Ian Barry (director)",
+                    "Noukadubi (1947 film)",
+                    "Dana Blankstein"
+                ],
+                "content": [
+                    [
+                        "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+                        "Prior to SRI, he was the director of the Armour Research Foundation."
+                    ],
+                    [
+                        "Nitin Bose (26 April 1897 – 14 April 1986) was an Indian film director, cinematographer and screenwriter of the nation's film industry.",
+                        "He was born in Calcutta and died in the same city.",
+                        "In the 1930s and early 1940s, he worked with New Theatres, who made bilingual movies: in both Bengali and Hindi.",
+                        "Later, he moved to Bombay and directed under the banners of Bombay Talkies and Filmistan.",
+                        "The first use of playback singing in Indian films occurred in films directed by Bose in 1935:",
+                        "first in \"Bhagya Chakra\", a Bengali film, and later the same year in its Hindi remake, \"Dhoop Chhaon\".",
+                        "His most well-known work is \"Ganga Jamuna\"."
+                    ],
+                    [
+                        "Milan  is a 1946 Hindi drama film directed by Nitin Bose.",
+                        "The film starred Dilip Kumar, Mira Misra, Ranjana, Pahari Sanyal and Moni Chatterjee.",
+                        "It was an adaptation of Rabindranath Tagore's Bengali story \"Noukadubi\" (The Wreck).",
+                        "The screenplay adaptation was done by Sajanikanta Das with dialogues translated into Hindi by Pyare Lal Santoshi.",
+                        "The film's music was composed by Anil Biswas and the lyrics written by Pyare Lal Santoshi and Arzu Lakhnavi.",
+                        "The story revolves around a young law student who is forced into an arranged marriage though he is in love with somebody else.",
+                        "Following the wedding the drama focuses on the bride's mistaken identity and the search for her husband."
+                    ],
+                    [
+                        "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+                        "He is currently the director of the Peabody Essex Museum.",
+                        "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+                        "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+                    ],
+                    [
+                        "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+                        "He was born in Fredrikstad.",
+                        "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+                        "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+                    ],
+                    [
+                        "S.N. Mathur was the Director of the Indian Intelligence Bureau between September 1975 and February 1980.",
+                        "He was also the Director General of Police in Punjab."
+                    ],
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Noukadubi( Bengali: নৌকাডুবি, English: Boat wreck) is a Bengali drama film directed by Nitin Bose based on a 1906 novel with the same name of Rabindranath Tagore.",
+                        "This film was released on 19 September 1947 under the banner of Bombay Talkies.",
+                        "This is a remake of 1946 Hindi film Milan made by the director Nitin Bose where Dilip Kumar starring in the lead role."
+                    ],
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Information not found in the available sources.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_11741",
+        "question": "Where did the director of film Spicy Love Soup graduate from?",
+        "golden_answers": [
+            "Central Academy of Drama",
+            "Central Drama Academy",
+            "Central Drama College",
+            "Zhōngyāng Xìjù Xuéyuàn",
+            "Zhong Xi",
+            "Zhongxi"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Spicy Love Soup",
+                    "Zhang Yang (director)"
+                ],
+                "sent_id": [
+                    0,
+                    2
+                ]
+            },
+            "context": {
+                "title": [
+                    "Peter Levin",
+                    "Ian Barry (director)",
+                    "Zhang Yang (director)",
+                    "Driverless (film)",
+                    "Cai Shangjun",
+                    "A Beautiful New World",
+                    "Now Where Did the 7th Company Get to?",
+                    "Dana Blankstein",
+                    "Spicy Love Soup",
+                    "The Seventh Company Outdoors"
+                ],
+                "content": [
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Zhang Yang (born 1967) is a Chinese film director, screenwriter, and occasional actor.",
+                        "He is the son of film director, Zhang Huaxun.",
+                        "Zhang grew up in Beijing, studied until 1988 at Sun Yat-sen University in Guangdong, from which he graduated with a degree in Chinese literature, and then went to the Central Academy of Drama, graduating in 1992."
+                    ],
+                    [
+                        "Driverless is a 2010 Chinese romance film directed by Zhang Yang and starring Liu Ye, Ruby Lin, Gao Yuanyuan, Li Xiaoran, Chen Jianbin and Wang Luodan.",
+                        "Director Zhang Yang says that this movie is an updated version of his 1997 film\" Spicy Love Soup\", and it presents love stories set in our current\" material era.\"",
+                        "It is composed of three separate stories in modern society.",
+                        "The complicated relationships of the main characters in each story present\" not beautiful but real life.\""
+                    ],
+                    [
+                        "Cai Shangjun is a Chinese film director and screenwriter.",
+                        "Cai graduated from the Central Academy of Drama in 1992.",
+                        "Since then, his major work has been that of a professional screenwriter.",
+                        "Cai was part of the team, along with Zhang Yang, Diao Yi'nan, and Liu Fendou, that co-wrote the screenplays for two of Zhang's films:\" Spicy Love Soup\"( 1997) and\" Shower\"( 1999).",
+                        "Cai also cowrote a script for Zhang's\" Sunflower\"( 2005).",
+                        "In 2007, Cai directed his first film,\" The Red Awn\", which won the FIPRESCI Prize at the 2007 Pusan International Film Festival.",
+                        "In 2011, Cai won the Silver Lion for the Best Director at the 68th Venice International Film Festival with the film\" People Mountain People Sea\"."
+                    ],
+                    [
+                        "A Beautiful New World is a 1999 Chinese comedy film directed by Shi Runjiu.",
+                        "The film, Shi's first( he had previously served as an assistant director for Lu Yue's\" Mr. Zhao\"), was co-produced by Xi'an Film Studio and the independent Imar Film Company.",
+                        "It was Imar Film's second production, after 1997's\" Spicy Love Soup\".",
+                        "Set in Shanghai, the film stars Jiang Wu and Tao Hong as a mismatched pair.",
+                        "Taiwanese pop stars Richie Jen and Wu Bai are cast in minor roles."
+                    ],
+                    [
+                        "Now Where Did the 7th Company Get To? is a 1973 French- Italian comedy war film directed by Robert Lamoureux.",
+                        "The film portrays the adventures of a French Army squad lost somewhere on the front in May 1940 during the Battle of France."
+                    ],
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ],
+                    [
+                        "Spicy Love Soup  is a 1997 Chinese film directed by Zhang Yang and written by Zhang, Liu Fendou, Cai Shangjun, and Diao Yi'nan based on a story by Zhang and Peter Loehr.",
+                        "\"Spicy Love Soup\" was produced by Loehr's Imar Film Company, Xi'an Film Studio, and Taiwanese financing.",
+                        "The film is Zhang's directorial debut and would prove to be a launching pad for those both in front and behind the cameras.",
+                        "Screenwriters Cai Shangjun (\"The Red Awn\") and Diao Yi'nan (\"UniformNight Train\")",
+                        "have since gone on to direct their own films, while Liu Fendou has expanded into both directing (\"Green Hat\") and film production (Zhang Yibai's \"Spring Subway\").",
+                        "The cast is also notable for the debuts of two of China's most popular actresses, Gao Yuanyuan and Xu Jinglei.",
+                        "The film is an anthology of sorts, and tells its story of love and life in modern Beijing through a series of six vignettes.",
+                        "\"Spicy Love Soup\" was, in addition, the first film in mainland China to see a simultaneous release of a soundtrack, consisting largely of contemporary pop songs."
+                    ],
+                    [
+                        "The Seventh Company Outdoors is a 1977 French comedy film directed by Robert Lamoureux.",
+                        "It is a sequel to Now Where Did the 7th Company Get to ?."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Zhang Yang",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_12429",
+        "question": "Where was the director of film The Strange Case Of Mary Page born?",
+        "golden_answers": [
+            "Frederick, MD",
+            "Frederick",
+            "Frederick, Maryland"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "The Strange Case of Mary Page",
+                    "J. Charles Haydon"
+                ],
+                "sent_id": [
+                    0,
+                    4
+                ]
+            },
+            "context": {
+                "title": [
+                    "The Strange Case of the End of Civilization as We Know It",
+                    "J. Charles Haydon",
+                    "The Strange Case of the Man and the Beast",
+                    "Emma Tennant",
+                    "Morning Call (film)",
+                    "Mike Muscat",
+                    "The Strange Case of Mary Page",
+                    "Edge of Sanity (film)",
+                    "The Strange Case of Dr. Meade",
+                    "The Strange Case of Wilhelm Reich"
+                ],
+                "content": [
+                    [
+                        "The Strange Case of the End of Civilisation as We Know",
+                        "It is a 1977 comedy directed by Joseph McGrath and starring John Cleese.",
+                        "It is a low- budget spoof of the Sherlock Holmes detective series, as well as the mystery genre in general."
+                    ],
+                    [
+                        "James Charles Haydon (March 27, 1875 – October 15, 1943) was an American film director, actor and screenwriter of the silent film era.",
+                        "He directed twelve films between 1914 and 1920.",
+                        "He also appeared in five films between 1912 and 1914.",
+                        "He played the Wizard in \"His Majesty, the Scarecrow of Oz\".",
+                        "He was born in Frederick, Maryland and died in Baltimore, Maryland."
+                    ],
+                    [
+                        "The Strange Case of the Man and the Beast( Spanish: El Extraño caso del hombre y la bestia) is a 1951 Argentine film."
+                    ],
+                    [
+                        "Emma Christina Tennant FRSL( 20 October 1937 – 21 January 2017) was a British novelist and editor.",
+                        "She was known for a postmodern approach to her fiction, which is often imbued with fantasy or magic.",
+                        "Several of her novels give a feminist or dreamlike twist to classic stories such as\" Two Women of London: The Strange Case of Ms Jekyll and Mrs Hyde\"( from Robert Louis Stevenson ’s\" The Strange Case of Dr. Jekyll and Mr. Hyde\").",
+                        "She also published work under the name Catherine Aydy."
+                    ],
+                    [
+                        "Morning Call( U.S. title: The Strange Case of Dr. Manning) is a 1957 British thriller film, directed by Arthur Crabtree and starring Greta Gynt and Ron Randell."
+                    ],
+                    [
+                        "Mike Muscat( born May 22, 1952, in Fort Bragg, North Carolina) is an American actor.",
+                        "He has played an assortment roles in various television shows, including\" Totally Outrageous Behavior\" and\" The Strange Case of Dr. Jekyll and Mr. Hyde\"."
+                    ],
+                    [
+                        "The Strange Case of Mary Page is a 1916 American drama film serial directed by J. Charles Haydon.",
+                        "The film is considered to be lost."
+                    ],
+                    [
+                        "Edge of Sanity is a 1989 American horror film directed by Gérard Kikoïne and starring Anthony Perkins.",
+                        "It mixes elements of\" The Strange Case of Dr Jekyll and Mr Hyde\" with those of tales of Jack the Ripper."
+                    ],
+                    [
+                        "The Strange Case of Dr. Meade is a 1938 American drama film directed by Lewis D. Collins and starring Jack Holt, Beverly Roberts and Noah Beery Jr."
+                    ],
+                    [
+                        "The Strange Case of Wilhelm Reich is a 2013 Austrian film about Wilhelm Reich directed by Antonin Svoboda and starring Klaus Maria Brandauer as Reich."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Information not found",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_4345",
+        "question": "Where did the director of film Quarantine 2: Terminal graduate from?",
+        "golden_answers": [
+            "Yale",
+            "Yale College",
+            "Yale University",
+            "Collegiate School"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Quarantine 2: Terminal",
+                    "John Pogue"
+                ],
+                "sent_id": [
+                    2,
+                    1
+                ]
+            },
+            "context": {
+                "title": [
+                    "Brian Kennedy (gallery director)",
+                    "Now Where Did the 7th Company Get to?",
+                    "John Pogue",
+                    "The Seventh Company Outdoors",
+                    "Quarantine 2: Terminal",
+                    "Dana Blankstein",
+                    "Jason Moore (director)",
+                    "Olav Aaraas",
+                    "Peter Levin",
+                    "Ian Barry (director)"
+                ],
+                "content": [
+                    [
+                        "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+                        "He is currently the director of the Peabody Essex Museum.",
+                        "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+                        "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+                    ],
+                    [
+                        "Now Where Did the 7th Company Get To? is a 1973 French- Italian comedy war film directed by Robert Lamoureux.",
+                        "The film portrays the adventures of a French Army squad lost somewhere on the front in May 1940 during the Battle of France."
+                    ],
+                    [
+                        "John Pogue is an American film writer, producer, and director.",
+                        "He is an alumnus of Yale University."
+                    ],
+                    [
+                        "The Seventh Company Outdoors is a 1977 French comedy film directed by Robert Lamoureux.",
+                        "It is a sequel to Now Where Did the 7th Company Get to ?."
+                    ],
+                    [
+                        "Quarantine 2:",
+                        "Terminal is a 2011 American horror film and a sequel to the 2008 film, \"Quarantine\".",
+                        "It was written and directed by John Pogue and produced by Marc Brienstock.",
+                        "The film stars Mercedes Mason, Josh Cooke and Mattie Liptak and revolves around a mutated rabies infection outbreak in a quarantined airport and taking place the same night and nearly same time as the events of the first film.",
+                        "Although the first film was a remake of the Spanish film \"RECQuarantine 2\" has no relation to any of the \"REC\" films and has an entirely different plot and setting."
+                    ],
+                    [
+                        "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+                        "She is a film director, and an Israeli culture entrepreneur."
+                    ],
+                    [
+                        "Jason Moore( born October 22, 1970) is an American director of film, theatre and television."
+                    ],
+                    [
+                        "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+                        "He was born in Fredrikstad.",
+                        "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+                        "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+                    ],
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Information not found",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_8735",
+        "question": "Who is Joyce Gemayel's father-in-law?",
+        "golden_answers": [
+            "Pierre Gemayel"
+        ],
+        "metadata": {
+            "type": "inference",
+            "supporting_facts": {
+                "title": [
+                    "Joyce Gemayel",
+                    "Amine Gemayel"
+                ],
+                "sent_id": [
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "James Armour (Master mason)",
+                    "Bill Dundee",
+                    "Barthold A. Butenschøn Sr.",
+                    "Peter Burroughs",
+                    "John Adams (merchant)",
+                    "Ogawa Mataji",
+                    "Joyce Gemayel",
+                    "Mohammad Ilyas (cricketer)",
+                    "Amine Gemayel",
+                    "Ludwig von Westphalen"
+                ],
+                "content": [
+                    [
+                        "James Armour (15 January 1730 – 20 September 1798) was a master mason and father of Jean Armour, and therefore the father-in-law of the poet Robert Burns."
+                    ],
+                    [
+                        "William\" Bill\" Cruickshanks( born 24 October 1943) is a Scottish born- Australian professional wrestler and author better known by his stage name Bill Dundee.",
+                        "Cruickshanks is the father of Jamie Dundee and the father- in- law of wrestler Bobby Eaton."
+                    ],
+                    [
+                        "Hans Barthold Andresen Butenschøn( 27 December 1877 – 28 November 1971) was a Norwegian businessperson.",
+                        "He was born in Kristiania as a son of Nils August Andresen Butenschøn and Hanna Butenschøn, and grandson of Nicolay Andresen.",
+                        "Together with Mabel Anette Plahte( 1877 – 1973, a daughter of Frithjof M. Plahte) he had the son Hans Barthold Andresen Butenschøn Jr. and was through him the father- in- law of Ragnhild Butenschøn and grandfather of Peter Butenschøn.",
+                        "Through his daughter Marie Claudine he was the father- in- law of Joakim Lehmkuhl, through his daughter Mabel Anette he was the father- in- law of Harald Astrup( a son of Sigurd Astrup) and through his daughter Nini Augusta he was the father- in- law of Ernst Torp.",
+                        "He took commerce school and agricultural school.",
+                        "He was hired in the family company N. A. Andresen& Co, and became a co-owner in 1910.",
+                        "He eventually became chief executive officer.",
+                        "The bank changed its name to Andresens Bank in 1913 and merged with Bergens Kreditbank in 1920.",
+                        "The merger was dissolved later in the 1920s.",
+                        "He was also a landowner, owning Nedre Skøyen farm and a lot of land in Enebakk.",
+                        "He chaired the board of Nydalens Compagnie from 1926, having not been a board member before that.",
+                        "He also chaired the supervisory council of Forsikringsselskapet Viking and Nedre Glommen salgsforening, and was a supervisory council member of Filharmonisk Selskap.",
+                        "He was a member of the gentlemen's club SK Fram since 1890, and was proclaimed a lifetime member in 1964.",
+                        "He was buried in Enebakk."
+                    ],
+                    [
+                        "Peter Burroughs( born 27 January 1947) is a British television and film actor, the director of Willow Management.",
+                        "He is the father- in- law of actor and TV presenter Warwick Davis."
+                    ],
+                    [
+                        "John Adams( 1672 or 1673 – 1745) was an American- born Canadian merchant and member of the Nova Scotia Council.",
+                        "He was the father- in- law of Henry Newton( politician)."
+                    ],
+                    [
+                        "Viscount was a general in the early Imperial Japanese Army.",
+                        "He was also the father- in- law of Field Marshal Gen Sugiyama."
+                    ],
+                    [
+                        "Joyce Gemayel  (born Joyce Tyan) is the wife of former President of Lebanon, Amine Gemayel (1982–1988), and mother of the assassinated politician Pierre Amine Gemayel, and Samy Gemayel."
+                    ],
+                    [
+                        "Mohammad Ilyas Mahmood( born March 19, 1946, Lahore, Punjab) is a former Pakistani cricketer who played in ten Tests from 1964 to 1969.",
+                        "He is the father- in- law of Imran Farhat."
+                    ],
+                    [
+                        "Amine Pierre Gemayel (born 22 January 1942) is a Lebanese politician who was President of Lebanon from 1982 to 1988 and was the leader of Kataeb Party.",
+                        "Gemayel was elected to the presidency by the National Assembly on 21 September 1982, in place of his brother Bachir Gemayel who had been elected the previous month but had been assassinated before taking office."
+                    ],
+                    [
+                        "Johann Ludwig von Westphalen( 11 July 1770 – 3 March 1842) was a liberal Prussian civil servant and the father- in- law of Karl Marx."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Unknown",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_4016",
+        "question": "Are Jean Joseph Victor Génissieu and Gabrielle Dorziat from the same country?",
+        "golden_answers": [
+            "yes"
+        ],
+        "metadata": {
+            "type": "comparison",
+            "supporting_facts": {
+                "title": [
+                    "Jean Joseph Victor Génissieu",
+                    "Gabrielle Dorziat"
+                ],
+                "sent_id": [
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Jean-Joseph Benjamin-Constant",
+                    "Jean Joseph Dussault",
+                    "Jean Joseph Victor Génissieu",
+                    "Jimmy Jean-Joseph",
+                    "Joseph Victor von Scheffel",
+                    "Jacques Higelin",
+                    "François-Joseph-Victor Broussais",
+                    "Jean-Joseph Sue (1760–1830)",
+                    "Gabrielle Dorziat",
+                    "Joe Fascione"
+                ],
+                "content": [
+                    [
+                        "Jean- Joseph Benjamin- Constant( also known as Benjamin Constant), born Jean- Joseph Constant( 10 June 1845 – 26 May 1902), was a French painter and etcher best known for his Oriental subjects and portraits."
+                    ],
+                    [
+                        "Jean Joseph Dussault( 1769 –1824) was a French librarian, journalist and literary critic."
+                    ],
+                    [
+                        "Jean Joseph Victor Génissieu( 29 October 1749 – 27 October 1804) was a French lawyer and politician who was in turn president of the National Convention, Minister of Justice and president of the Council of Five Hundred during the French Revolution."
+                    ],
+                    [
+                        "Jimmy Jean- Joseph( born 15 October 1972 in Saint- Esprit, Martinique) is a former French athlete who specialised in the 800 meters.",
+                        "Jean- Joseph competed at the 1996 Summer Olympics"
+                    ],
+                    [
+                        "Joseph Victor von Scheffel( 16 February 1826 – 9 April 1886) was a German poet and novelist."
+                    ],
+                    [
+                        "Jacques Joseph Victor Higelin( 18 October 1940 – 6 April 2018) was a French pop singer who rose to prominence in the early 1970s."
+                    ],
+                    [
+                        "François- Joseph-Victor Broussais( 17 December 1772, St Malo – 17 November 1838, Vitry- sur- Seine) was a French physician."
+                    ],
+                    [
+                        "Jean-Joseph",
+                        "Sue  or Jean-Joseph Sue (son)  was a French physician and surgeon during the Napoleonic Era.",
+                        "He was the father of Eugène Sue."
+                    ],
+                    [
+                        "Gabrielle Dorziat( 1880–1979) was a French stage and film actress.",
+                        "Dorziat was a fashion trend setter in Paris and helped popularize the designs of Coco Chanel.",
+                        "The Théâtre Gabrielle- Dorziat in Épernay, France is named for her."
+                    ],
+                    [
+                        "Joseph Victor Fascione (5 February 1945 – 5 February 2019) was a Scottish footballer who played as a Winger."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Yes, they are both from France.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_10422",
+        "question": "Which film has the director born first, The Dog And The Diamonds or The Crooked Road?",
+        "golden_answers": [
+            "The Dog And The Diamonds",
+            "The Dog and the Diamonds",
+            "Dog and the Diamonds"
+        ],
+        "metadata": {
+            "type": "bridge_comparison",
+            "supporting_facts": {
+                "title": [
+                    "The Dog and the Diamonds",
+                    "The Crooked Road",
+                    "Ralph Thomas",
+                    "Don Chaffey"
+                ],
+                "sent_id": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Claudine de Culam",
+                    "The Crooked Road",
+                    "Henry Moore (cricketer)",
+                    "Wale Adebanwi",
+                    "Claude Weisz",
+                    "Ralph Thomas",
+                    "The Dog and the Diamonds",
+                    "Don Chaffey",
+                    "The Crooked Road (1940 film)",
+                    "The Crooked Trail"
+                ],
+                "content": [
+                    [
+                        "Claudine de Culam (1584/1585 – 1601) was a sixteen-year-old girl who was tried and hanged for the act of bestiality with a dog in Rognon, France.",
+                        "The judge appointed female assistants in order to put the dog and the girl to the test.",
+                        "As the women undressed Claudine, the dog attempted to mount her.",
+                        "On the basis of this evidence both the dog and the young woman were strangled to death, their bodies burned and their ashes scattered 'that as little trace as possible might remain to remind mankind of their monstrous deeds.'"
+                    ],
+                    [
+                        "The Crooked Road is a 1965 British film directed and co-written by Don Chaffey.",
+                        "It stars Robert Ryan and Janet Munro.",
+                        "The film is based on the 1957 novel\" The Big Story\" by Morris West."
+                    ],
+                    [
+                        "Henry Walter Moore( 1849 – 20 August 1916) was an English- born first- class cricketer who spent most of his life in New Zealand."
+                    ],
+                    [
+                        "Wale Adebanwi( born 1969) is a Nigerian- born first Black Rhodes Professor at St Antony's College, Oxford."
+                    ],
+                    [
+                        "Claude Weisz is a French film director born in Paris."
+                    ],
+                    [
+                        "Ralph Philip Thomas MC( 10 August 1915 – 17 March 2001) was an English film director.",
+                        "He is perhaps best remembered for directing the\" Doctor\" series of films.",
+                        "His brother, Gerald Thomas, was also a film director, probably best remembered for the\" Carry On...\" film series, and his son is the Academy Award- winning film producer, Jeremy Thomas.",
+                        "He cast the actor James Robertson Justice in many of his films.",
+                        "Thomas often worked with the producer Betty E. Box, who was married to\" Carry On\" producer Peter Rogers.",
+                        "Thomas was a nephew of producer Victor Saville."
+                    ],
+                    [
+                        "The Dog and the Diamonds is a 1953 British family drama film directed by Ralph Thomas and starring Kathleen Harrison, George Coulouris, and Geoffrey Sumner."
+                    ],
+                    [
+                        "Donald Chaffey (5 August 1917 – 13 November 1990) was a British film director, writer, producer, and art director.",
+                        "Chaffey's film career began as an art director in 1947, and his directorial debut was in 1953.",
+                        "He remained active in the industry until his death in 1990 from heart failure.",
+                        "His 1973 film \"Charley One-Eye\" was entered into the 24th Berlin International Film Festival",
+                        "He is chiefly known for his fantasy films, which include \"Jason and the Argonauts\" (1963), \"The Three Lives of Thomasina\" (1963), \"One Million Years B.C.\" (1966), \"The Viking Queen\" (1967), \"Creatures the World Forgot\" (1971), \"Pete's Dragon\" (1977), and \"C.H.O.M.P.S.\" (1979), his final feature film.",
+                        "Concurrent with his theatrically released films, Chaffey directed numerous British television series episodes, including several for \"The PrisonerDanger Man\", and \"The Avengers\".",
+                        "From the 1980s until his death, all of his work was in American made-for-TV movies, and in such TV series as \"Fantasy IslandStingrayMacGyverVega$T. J. HookerMatt Houston\" and \"Charlie's Angels\"."
+                    ],
+                    [
+                        "The Crooked Road is a 1940 American drama film directed by Phil Rosen and written by Richard Blake, Joseph Krumgold and Garnett Weston.",
+                        "The film stars Edmund Lowe, Irene Hervey, Henry Wilcoxon, Paul Fix, Arthur Loft and Claire Carleton.",
+                        "The film was released on May 10, 1940, by Republic Pictures."
+                    ],
+                    [
+                        "The Crooked Trail is a 1936 American film directed by S. Roy Luby."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "The Dog And The Diamonds",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_12046",
+        "question": "What nationality is Honoré V, Prince Of Monaco's mother?",
+        "golden_answers": [
+            "Republic of France",
+            "French",
+            "FRA",
+            "FR",
+            "🇫🇷",
+            "République française",
+            "French Republic",
+            "La France",
+            "France",
+            "fr"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Honoré V, Prince of Monaco",
+                    "Louise d'Aumont"
+                ],
+                "sent_id": [
+                    1,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Louise d'Aumont",
+                    "Pomellina Fregoso",
+                    "Chevalier de Grimaldi",
+                    "Princess Stéphanie of Monaco",
+                    "Princess Charlotte, Duchess of Valentinois",
+                    "Robert Calcagno",
+                    "Honoré V, Prince of Monaco",
+                    "Antoinette de Mérode",
+                    "Claudine, Lady of Monaco",
+                    "Prince Joseph of Monaco"
+                ],
+                "content": [
+                    [
+                        "Louise d'Aumont, \"duchesse d'Aumont, duchesse Mazarin et de La Meilleraye\" (Louise Félicité Victoire; 22 October 1759 in Paris – 13 December 1826 in Paris) was a French Duchess, and a Princess of Monaco by marriage to Honoré IV, Prince of Monaco."
+                    ],
+                    [
+                        "Pomellina Fregoso( 1387/88 in Genoa – 1468 in Monaco) was Lady Consort of Monaco by marriage to Jean I, Lord of Monaco, and the mother of Lord Catalan.",
+                        "She served as regent of Monaco several times during the absence of her husband, as well as between 1457 and March 1458, as the guardian of her granddaughter Claudine, Lady of Monaco.",
+                        "She was thus the first woman to rule Monaco."
+                    ],
+                    [
+                        "Antoine Grimaldi, le Chevalier [de] Grimaldi, (Paris, 2 October 1697 – Monaco, 28 November 1784) was the de facto ruler of Monaco between 1732 and 1784.",
+                        "An illegitimate son of Antonio I of Monaco and the dancer Élisabeth Dufort (named \"Babé\"), he was recognized by his father in 1715.",
+                        "The Chevalier de Grimaldi became governor-general of Monaco on 20 May 1732, when his brother-in-law Jacques I, Prince of Monaco and his young nephew Honoré III, Prince of Monaco moved to Hôtel Matignon in Paris and remained there, even after the proclamation in 1734 of Honoré as Prince of Monaco.",
+                        "This situation remained the same for half a century until Antoine's death in 1784, when Honoré III was already 64 years old.",
+                        "Antoine Grimaldi was an able regent.",
+                        "For example, he succeeded in keeping Monaco out of the War of the Austrian Succession (1740–1748).",
+                        "He never married and died on 28 November 1784.",
+                        "His remains were moved in 1966 to the Apse of the Monaco Cathedral."
+                    ],
+                    [
+                        "Princess Stéphanie of Monaco, Countess of Polignac( Stéphanie Marie Elisabeth Grimaldi; born 1 February 1965) is the youngest child of Rainier III, Prince of Monaco, and the American actress Grace Kelly.",
+                        "She is the younger sister of Albert II, Prince of Monaco, and Caroline, Princess of Hanover.",
+                        "Currently 14th in the line of succession to the Monegasque throne, she has been a singer, swimwear designer and fashion model."
+                    ],
+                    [
+                        "Princess Charlotte of Monaco, Duchess of Valentinois( Charlotte Louise Juliette Grimaldi; 30 September 1898 – 15 November 1977), was the daughter of Louis II, Prince of Monaco, and the mother of Rainier III, Prince of Monaco.",
+                        "From 1922 until 1944, she was the Hereditary Princess of Monaco, heir presumptive to the throne."
+                    ],
+                    [
+                        "Robert Calcagno born 26 June 1960 is a Monegasque politician and leader who is CEO of the Oceanographic Institute",
+                        "Foundation Albert I, Prince of Monaco.\nRobert Calcagno has held ministerial posts in the government of the Principality of Monaco between 2006 and 2009.",
+                        "He now leads the Oceanographic Museum of Monaco and the Maison des océans in Paris",
+                        "His commitment to the protection of the oceans, to a better balance between Humankind and Nature and, on a broader level, his involvement in the economic, social and international life of the Principality of Monaco, have made him one of the key players in the policies of H.S.H. Prince Albert II of Monaco."
+                    ],
+                    [
+                        "Honoré V (13 May/14 May 1778, in Paris – 2 October 1841, in Paris) was Prince of Monaco and Duke of Valentinois.",
+                        "He was born Honoré Gabriel Grimaldi, the first son of Honoré IV of Monaco and Louise d'Aumont."
+                    ],
+                    [
+                        "Antoinette de Merode (Antoinette Ghislaine; 28 September 1828 – 10 February 1864), was the Princess of Monaco by marriage to Charles III, Prince of Monaco."
+                    ],
+                    [
+                        "Claudine or Claudia( – 19 November 1515) was Lady regnant of Monaco between 1457 and 1458, and the Lady consort of Monaco by marriage to Lord Lambert of Monaco."
+                    ],
+                    [
+                        "Prince Joseph of Monaco( Joseph",
+                        "Marie Jerôme Honoré; 10 September 1763 – 28 June 1816) was a Monagasque prince and brother of Honoré IV, Prince of Monaco.",
+                        "Her served as regent of Monaco on behalf of his brother in 1814- 1815."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "French",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_8164",
+        "question": "Which film has the director who died later, Her Country'S Call or How Moscha Came Back?",
+        "golden_answers": [
+            "Her Country'S Call",
+            "Her Country's Call"
+        ],
+        "metadata": {
+            "type": "bridge_comparison",
+            "supporting_facts": {
+                "title": [
+                    "Her Country's Call",
+                    "How Moscha Came Back",
+                    "Lloyd Ingraham",
+                    "Phillips Smalley"
+                ],
+                "sent_id": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Drew Esocoff",
+                    "G. Marthandan",
+                    "Lloyd Ingraham",
+                    "Phillips Smalley",
+                    "How Moscha Came Back",
+                    "Elliot Silverstein",
+                    "Abhishek Saxena",
+                    "Brian Kennedy (gallery director)",
+                    "Her Country's Call",
+                    "Ben Palmer"
+                ],
+                "content": [
+                    [
+                        "Drew Esocoff( born c. 1957) is an American television sports director, who as of 2006 has been the director of NBC Sunday Night Football."
+                    ],
+                    [
+                        "G. Marthandan is an Indian film director who works in Malayalam cinema."
+                    ],
+                    [
+                        "Lloyd Chauncey Ingraham( November 30, 1874 – April 4, 1956) was an American film actor and director."
+                    ],
+                    [
+                        "Wendell Phillips Smalley (August 7, 1865 – May 2, 1939) was an American silent film director and actor."
+                    ],
+                    [
+                        "How Moscha Came Back is a 1914 silent film comedy short directed by Phillips Smalley.",
+                        "It was produced by the Crystal Film Company and distributed through Universal Film Manufacturing Company.",
+                        "The film survives in the Library of Congress collection."
+                    ],
+                    [
+                        "Elliot Silverstein( born August 3, 1927, in Boston, Massachusetts) is an American director, who is best known for being the director of the movie\" Cat Ballou\"( 1965)."
+                    ],
+                    [
+                        "Abhishek Saxena is an Indian Bollywood and Punjabi film director who directed the movie Phullu.",
+                        "The Phullu movie was released in theaters on 16 June 2017, in which film Sharib Hashmi is the lead role.",
+                        "Apart from these, he has also directed Patiala Dreamz, this is a Punjabi film.",
+                        "This film was screened in cinemas in 2014."
+                    ],
+                    [
+                        "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+                        "He is currently the director of the Peabody Essex Museum.",
+                        "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+                        "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+                    ],
+                    [
+                        "Her Country's Call is a 1917 American silent drama film directed by Lloyd Ingraham.",
+                        "The film is the final installment in a series a films written by Abraham Lincoln impersonator Benjamin Chapin.",
+                        "The film starred Mary Miles Minter, George Periolat, and Allan Forrest.",
+                        "The film's writer, Benjamin Chapin, also appeared as Abraham Lincoln.",
+                        "It is presumed to be a lost film."
+                    ],
+                    [
+                        "Ben Palmer is a British film and television director who is known for being the director of\" Bo' Selecta\" and\" The Inbetweeners\"."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Information not found",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_5802",
+        "question": "Where was the mother of Archduchess Maria Theresa Of Austria (1862–1933) born?",
+        "golden_answers": [
+            "Naples",
+            "Napoletani a Milano",
+            "Neapolis",
+            "Napoli"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Archduchess Maria Theresa of Austria (1862–1933)",
+                    "Princess Maria Immaculata of Bourbon-Two Sicilies (1844–1899)"
+                ],
+                "sent_id": [
+                    2,
+                    2
+                ]
+            },
+            "context": {
+                "title": [
+                    "Archduchess Elisabeth Amalie of Austria",
+                    "Archduchess Maria Carolina of Austria (1740–1741)",
+                    "Maria Theresa of Austria-Este (1849–1919)",
+                    "Archduchess Maria Annunciata of Austria",
+                    "Archduchess Maria Theresa of Austria (1762–1770)",
+                    "Archduchess Maria Elisabeth of Austria (1737–1740)",
+                    "Archduchess Maria Theresa of Austria (1862–1933)",
+                    "Archduchess Maria Theresa of Austria-Este (1817–1886)",
+                    "Princess Maria Immaculata of Bourbon-Two Sicilies (1844–1899)",
+                    "Archduchess Maria Theresa of Austria (1845–1927)"
+                ],
+                "content": [
+                    [
+                        "Archduchess Elisabeth Amalie of Austria (7 July 1878 – 13 March 1960) was a daughter of Archduke Karl Ludwig of Austria and his third wife Infanta Maria Theresa of Portugal.",
+                        "She was the mother of Franz Joseph II, Prince of Liechtenstein, and the paternal grandmother of Hans-Adam II, Prince of Liechtenstein."
+                    ],
+                    [
+                        "Archduchess Maria Carolina of Austria (",
+                        "Maria Carolina Ernestina Antonia Johanna Josefa; 12 January 1740 – 25 January 1741), was the third child and daughter of Archduchess Maria Theresa of Austria, later Holy Roman Empress and Duke Francis of Lorraine."
+                    ],
+                    [
+                        "Maria Theresa of Austria-Este (Maria Theresa Henriette Dorothee; 2 July 1849 – 3 February 1919) was the last Queen of Bavaria.",
+                        "She was the daughter and only child of Archduke Ferdinand of Austria-Este and his wife, Archduchess Elisabeth of Austria."
+                    ],
+                    [
+                        "Archduchess Maria Annunciata of Austria (13 July 1876 – 8 April 1961) was a daughter of Archduke Karl Ludwig of Austria and his third wife, Infanta Maria Theresa of Portugal.",
+                        "She was Princess-Abbess of the Theresian Royal and Imperial Ladies Chapter of the Castle of Prague (1894–1918)."
+                    ],
+                    [
+                        "Archduchess Maria Theresa of Austria (20 March 176223 January 1770) was a daughter of Joseph II, Holy Roman Emperor, and his first wife, Isabella of Parma."
+                    ],
+                    [
+                        "Archduchess Maria Elisabeth of Austria( Full name( German):\" Maria Elisabeth Amalia Antonia Josefa Gabriele Johanna Agathe\"; 5 February 1737 – 7 June 1740), was the eldest child and daughter of Archduchess Maria Theresa of Austria, later Queen of Hungary and Bohemia, and Duke Francis of Lorraine, later Francis I, Holy Roman Emperor."
+                    ],
+                    [
+                        "Archduchess Maria Theresa of Austria  (18 September 1862, Alt-Bunzlau, Bohemia, Austrian Empire –",
+                        "10 May 1933, Schloss Saybusch, Saybusch, Poland) was a member of the House of Habsburg-Tuscany and Archduchess of Austria, Princess of Tuscany by birth.",
+                        "Maria Theresia was the eldest child and eldest daughter of Archduke Karl Salvator of Austria and his wife, Princess Maria Immaculata of Bourbon-Two Sicilies."
+                    ],
+                    [
+                        "Archduchess Maria Theresa of Austria-Este  (14 July 1817, Modena, Duchy of Modena and Reggio – 25 March 1886, Gorizia, Austria–Hungary) was a member of the House of Austria-Este and Archduchess of Austria, Princess of Hungary, Bohemia, and Modena by birth.",
+                        "Henri was disputedly King of France and Navarre from 2 to 9 August 1830 and afterwards the Legitimist pretender to the throne of France from 1844 to 1883.",
+                        "Maria Theresa was the eldest child of Francis IV, Duke of Modena and his niece-wife Maria Beatrice of Savoy."
+                    ],
+                    [
+                        "Princess Maria Immaculata of Bourbon-Two Sicilies (Full Italian name: \"Maria Immacolata Clementina, Principessa di Borbone delle",
+                        "Due Sicilie\")",
+                        "(14 April 1844, Naples, Kingdom of the Two Sicilies – 18 February 1899, Vienna, Austria) was fifth child and second-eldest daughter of Ferdinand II of the Two Sicilies and his wife Maria Theresa of Austria.",
+                        "Through her marriage to Archduke Karl Salvator of Austria, Maria Immaculata became an Austrian Archduchess."
+                    ],
+                    [
+                        "Archduchess Maria Theresa of Austria (15 July 1845 – 8 October 1927) was a member of the Austrian house of Habsburg-Lorraine."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Naples, Kingdom of the Two Sicilies",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0
+            }
+        }
+    },
+    {
+        "id": "dev_6813",
+        "question": "Do director of film Ithemba and director of film Oklahoma Blues share the same nationality?",
+        "golden_answers": [
+            "yes"
+        ],
+        "metadata": {
+            "type": "bridge_comparison",
+            "supporting_facts": {
+                "title": [
+                    "IThemba",
+                    "Oklahoma Blues",
+                    "Elinor Burkett",
+                    "Lambert Hillyer"
+                ],
+                "sent_id": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Peter Levin",
+                    "Hanro Smitsman",
+                    "Ian Barry (director)",
+                    "Elinor Burkett",
+                    "Oklahoma Blues",
+                    "Ben Cura",
+                    "Brian Johnson (special effects artist)",
+                    "Jason Moore (director)",
+                    "IThemba",
+                    "Lambert Hillyer"
+                ],
+                "content": [
+                    [
+                        "Peter Levin is an American director of film, television and theatre."
+                    ],
+                    [
+                        "Hanro Smitsman, born in 1967 in Breda( Netherlands), is a writer and director of film and television."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        "Elinor Burkett( born October 9, 1946) is an American journalist, author, film producer, and documentary director.",
+                        "A film produced by her,\" Music by Prudence\", won the 2009 Academy Award for Best Documentary( Short Subject) on March 7, 2010."
+                    ],
+                    [
+                        "Oklahoma Blues is a 1948 American Western film directed by Lambert Hillyer and written by Bennett Cohen.",
+                        "The film stars Jimmy Wakely, Dub Taylor, Virginia Belmont, I. Stanford Jolley, Zon Murray and George J. Lewis.",
+                        "The film was released on March 28, 1948, by Monogram Pictures."
+                    ],
+                    [
+                        "Ben Cura( born 30 September 1988) is a British- Argentine actor and director of film, television and theatre."
+                    ],
+                    [
+                        "Brian Johnson( born 1939 or 1940) is a British designer and director of film and television special effects."
+                    ],
+                    [
+                        "Jason Moore( born October 22, 1970) is an American director of film, theatre and television."
+                    ],
+                    [
+                        "iThemba is a feature-length documentary film shot in Zimbabwe, directed and produced by Elinor Burkett and produced by Errol Webber, who also shot and edited the film.",
+                        "It premiered at the International Documentary Film Festival Amsterdam in November 2010.",
+                        "The film follows the members of the Zimbabwean band Liyana, a group of eight musicians with physical disabilities who navigate a country where many of their neighbors consider them to be cursed.",
+                        "The funny and talented young people take viewers with them as they travel across the city of Bulawayo and into remote villages, to rural bottle shops and urban marketplaces, inside the huts of traditional healers and the neighborhoods of the urban poor – into an Africa rarely seen by outsiders, a place where tradition is not necessarily gentle, where it threatens to trap the unfortunate, and where a few fight back.",
+                        "Meet Marvelous Mbulo, the lady-killing lead singer, whose wit provides the film's heart.",
+                        "Listen to Prudence Mabhena, Liyana's musical heart.",
+                        "And travel Zimbabwe with the wise-cracking Energy Maburutse, whose humor belies the seriousness of his situation.",
+                        "The film is filled with an endless flow of the band's jokes and satire and their amazing Afro-fusion melodies, most composed by members of Liyana.",
+                        "Shot during and in the wake of the Zimbabwean presidential election, 2008 and the country's economic meltdown by an American, Zimbabwean and Jamaican team, the film unfolds against the backdrop of enormous political tension and the daily struggle to find a bank that actually had cash, to buy food although the store shelves were empty, and to navigate streets pocked with wheelchair-mangling potholes."
+                    ],
+                    [
+                        "Lambert Harwood Hillyer( July 8, 1893 – July 5, 1969) was an American film director and screenwriter."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "No",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    },
+    {
+        "id": "dev_8639",
+        "question": "What is the place of birth of the director of film Ruben Blades Is Not My Name?",
+        "golden_answers": [
+            "Panama City",
+            "Panamá"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Ruben Blades Is Not My Name",
+                    "Abner Benaim"
+                ],
+                "sent_id": [
+                    0,
+                    0
+                ]
+            },
+            "context": {
+                "title": [
+                    "Cornelius McLoughlin",
+                    "Michiko Godai",
+                    "Not My Life",
+                    "Anri",
+                    "Ruben Blades Is Not My Name",
+                    "Blades (film)",
+                    "Abner Benaim",
+                    "Ian Barry (director)",
+                    "Meiko Nakahara",
+                    "Robby Ameen"
+                ],
+                "content": [
+                    [
+                        "Cornelius Frederic McLoughlin, Chief of the Name, born 11 July 1897."
+                    ],
+                    [
+                        ", real name( born on September 22, 1952 in Yokohama, Kanagawa) is a Japanese actress."
+                    ],
+                    [
+                        "Not My Life is a 2011 American independent documentary film about human trafficking and contemporary slavery.",
+                        "The film was written, produced, and directed by Robert Bilheimer, who had been asked to make the film by Antonio Maria Costa, executive director of the United Nations Office on Drugs and Crime.",
+                        "Bilheimer planned\" Not My Life\" as the second installment in a trilogy, the first being\" A Closer Walk\" and the third being the unproduced\" Take Me Home\".",
+                        "The title\" Not My Life\" came from a June 2009 interview with Molly Melching, founder of Tostan, who said that many people deny the reality of contemporary slavery because it is an uncomfortable truth, saying,\" No, this is not my life.\"",
+                        "Filming of\" Not My Life\" took four years to complete, and documented human trafficking in 13 countries: Albania, Brazil, Cambodia, Egypt, Ghana, Guatemala, India, Italy, Nepal, Romania, Senegal, Uganda, and the United States.",
+                        "The first and last scenes of the film take place in Ghana, and show children who are forced to fish in Lake Volta for 14 hours a day.",
+                        "The film also depicts sex trafficking victims, some of whom are only five or six years old.",
+                        "Fifty people are interviewed in the film, including investigative journalist Paul Radu of Bucharest, Katherine Chon of the Polaris Project, and Iana Matei of Reaching Out Romania.",
+                        "Don Brewster of Agape International Missions says that all of the girls they have rescued from child sex tourism in Cambodia identify Americans as the clients who were the most abusive to them.",
+                        "The film was dedicated to Richard Young, its cinematographer and co-director, after he died in December 2010.",
+                        "It had its premiere the following month at the Lincoln Center for the Performing Arts in New York City.",
+                        "The narration was completely rerecorded in 2011, replacing Ashley Judd's voice with that of Glenn Close.",
+                        "The version of the film that was aired by CNN International as part of the CNN Freedom Project was shorter than the version shown at the premiere.",
+                        "In 2014, a re-edited version of the film was released.",
+                        "\" Not My Life\" addresses many forms of slavery, including the military use of children in Uganda, involuntary servitude in the United States, forced begging and garbage picking in India, sex trafficking in Europe and Southeast Asia, and other kinds of child abuse.",
+                        "The film also focuses on the people and organizations engaged in working against human trafficking.",
+                        "The film asserts that most victims of human trafficking are children.",
+                        "Actress Lucy Liu said that people who watch\" Not My Lifewill be shocked to find[ human trafficking] is happening in America.\"",
+                        "Lucy Popescu of Cine Vue criticized the film for focusing on the victims, arguing that the perpetrators of trafficking should have been dealt with more prominently.",
+                        "\" Not My Life\" was named Best World Documentary at the Harlem International Film Festival in September 2012."
+                    ],
+                    [
+                        ", real name( born August 31, 1961), is a Japanese pop singer- songwriter, born in Yamato, Kanagawa Prefecture, Japan."
+                    ],
+                    [
+                        "Ruben Blades Is Not My Name  is a 2018 Panamanian documentary film directed by Abner Benaim.",
+                        "It was selected as the Panamanian entry for the Best Foreign Language Film at the 91st Academy Awards, but it was not nominated."
+                    ],
+                    [
+                        "Blades is an American 1989 horror film directed by Thomas R. Rondinella and distributed by Troma Entertainment."
+                    ],
+                    [
+                        "Abner Benaim (Panamá, 1971) is a Panamanian film director, producer, screenwriter and plastic artist."
+                    ],
+                    [
+                        "Ian Barry is an Australian director of film and TV."
+                    ],
+                    [
+                        ", real name( born May 8, 1959 in Chiba Prefecture), is a Japanese singer and composer."
+                    ],
+                    [
+                        "Robby Ameen (born December 7, 1960) is an American drummer, composer, bandleader, and educator who resides in New York City.",
+                        "Although he is of Lebanese origin, Ameen is best known for the unique and powerful Afro-Cuban style he has created.",
+                        "He is regarded as one of the world's most prominent drummers in the area of Latin Jazz.",
+                        "In 1985 he became a member of Ruben Blades’ Seis del Solar band.",
+                        "Other long-term band memberships include Dave Valentin, Conrad Herwig’s “Latin Side of… All Stars\", Kip Hanrahan, and Jack Bruce and the Cuicoland Express.",
+                        "In 2011 Ameen won a Latin Grammy for best Salsa record with Ruben Blades and Seis del Solar, “Todos Vuelven Live, Vol. 1 and 2.”",
+                        "As a sideman he has recorded on other Grammy winning records including Ruben Blades and Seis del Solar’s “Escenas” and Brian Lynch’s “Simpatico”.",
+                        "In 2012, Ameen was the subject of an episode of the Emmy Award-winning Detroit Public Television series “Arab American Stories”."
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Information not found",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    }
+]

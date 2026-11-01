@@ -1,0 +1,113 @@
+[
+    {
+        "id": "dev_1951",
+        "question": "Where did Dürrüaden Kadın's husband die?",
+        "golden_answers": [
+            "Constantinople"
+        ],
+        "metadata": {
+            "type": "compositional",
+            "supporting_facts": {
+                "title": [
+                    "Dürrüaden Kadın",
+                    "Mehmed V"
+                ],
+                "sent_id": [
+                    0,
+                    8
+                ]
+            },
+            "context": {
+                "title": [
+                    "Where Was I",
+                    "Place of origin",
+                    "Beaulieu-sur-Loire",
+                    "Motherland (disambiguation)",
+                    "Place of birth",
+                    "Mehmed V",
+                    "Dürrüaden Kadın",
+                    "Valley of Death",
+                    "Sennedjem",
+                    "Dance of Death (disambiguation)"
+                ],
+                "content": [
+                    [
+                        "\" Where Was I?\" may refer to:"
+                    ],
+                    [
+                        "In Switzerland, the place of origin( literally\" home place\" or\" citizen place\") denotes where a Swiss citizen has their municipal citizenship.",
+                        "It is not to be confused with the place of birth or place of residence, although two or all three of these locations may be identical depending on the person's circumstances."
+                    ],
+                    [
+                        "Beaulieu- sur- Loire is a commune in the Loiret department in north -central France.",
+                        "It is also the place of death of Jacques MacDonald, a French general who served in the Napoleonic Wars"
+                    ],
+                    [
+                        "Motherland is the place of one's birth, the place of one's ancestors, or the place of origin of an ethnic group.",
+                        "Motherland may also refer to:"
+                    ],
+                    [
+                        "The place of birth( POB) or birthplace is the place where a person was born.",
+                        "This place is often used in legal documents, together with name and date of birth, to uniquely identify a person.",
+                        "As a general rule with respect to passports, the place of birth is determined to be the country that currently has\" sovereignty\" over the actual place of birth, regardless of when the birth actually occurred.",
+                        "The place of birth is not necessarily the place where the parents of the new baby live.",
+                        "If the baby is born in a hospital in another place, that place is the place of birth.",
+                        "In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth.",
+                        "Some countries place less or no importance on the place of birth, instead using alternative geographical characteristics for the purpose of identity documents.",
+                        "For example, Sweden has used the concept of\" födelsehemortdomicile of birth\") since 1947.",
+                        "This means that the domicile of the baby's mother is the registered place of birth.",
+                        "The location of the maternity ward or other physical birthplace is considered unimportant.",
+                        "Similarly, Switzerland uses the concept of\" Heimatortlieu d'origineluogo d'origineplace of origin\" in German, French and Italian respectively).",
+                        "A child born to Swiss parents is automatically assigned the place of origin of the parent with the same last name, so the child either gets their mother's or father's place of origin.",
+                        "A child born to one Swiss parent and one foreign parent acquires the place of origin of their Swiss parent.",
+                        "In a Swiss passport and identity card, the holder's place of origin is stated, not their place of birth.",
+                        "In some countries( primarily in the Americas), the place of birth automatically determines the nationality of the baby, a practice often referred to by the Latin phrase\" jus soli\".",
+                        "Almost all countries outside the Americas instead attribute nationality based on the nationality( ies) of the baby's parents( referred to as\" jus sanguinis\").",
+                        "There can be some confusion regarding the place of birth if the birth takes place in an unusual way: when babies are born on an airplane or at sea, difficulties can arise.",
+                        "The place of birth of such a person depends on the law of the countries involved, which include the nationality of the plane or ship, the nationality( ies) of the parents and/ or the location of the plane or ship( if the birth occurs in the territorial waters or airspace of a country).",
+                        "Some administrative forms may request the applicant's\" country of birth\".",
+                        "It is important to determine from the requester whether the information requested refers to the applicant's\" place of birth\" or\" nationality at birth\".",
+                        "For US citizens born abroad who under the US Constitution acquire US citizenship at the time of birth, the nationality at birth will be USA( American), while the place of birth would be the country in which the actual birth takes place."
+                    ],
+                    [
+                        "Mehmed V Reşâd",
+                        "(Ottoman Turkish:",
+                        "محمد خامس",
+                        "\"Meḥmed-",
+                        "i ẖâmis\", or)",
+                        "(2 November 1844 – 3 July 1918) reigned as the 35th and penultimate Ottoman Sultan .",
+                        "He was the son of Sultan Abdulmejid I.",
+                        "He was succeeded by his half-brother Mehmed VI.",
+                        "His nine-year reign was marked by the cession of the Empire's North African territories and the Dodecanese Islands, including Rhodes, in the Italo-Turkish War, the traumatic loss of almost all of the Empire's European territories west of Constantinople (now Istanbul) in the First Balkan War, and the entry of the Empire into World War I\nin 1914, which would ultimately lead to the end of the Ottoman Empire."
+                    ],
+                    [
+                        "Dürrüaden Kadın (born Hatice Voçibe; 16 May 1860 – 17 October 1909) was the third wife of Sultan Mehmed V of the Ottoman Empire."
+                    ],
+                    [
+                        "Valley of Death may refer to:"
+                    ],
+                    [
+                        "The Ancient Egyptian artisan Sennedjem lived in Set Maat( translated as\" The Place of Truth\"), contemporary Deir el- Medina, on the west bank of the Nile, opposite Thebes, during the reigns of Seti I and Ramesses II.",
+                        "Sennedjem had the title\" Servant in the Place of Truth\".",
+                        "He was buried along with his wife, Iyneferti, and family in a tomb in the village necropolis.",
+                        "His tomb was discovered January 31, 1886.",
+                        "When Sennedjem's tomb was found, in it there was regular furniture from his home, including a stool and a bed, which he actually used when he was alive.",
+                        "His titles included Servant in the Place of Truth, meaning that he worked on the excavation and decoration of the nearby royal tombs."
+                    ],
+                    [
+                        "Dance of Death, also called\" Danse Macabre\", is a late- medieval allegory of the universality of death.",
+                        "Dance of Death or The Dance of Death may also refer to:"
+                    ]
+                ]
+            }
+        },
+        "output": {
+            "pred": "Topkapı Palace",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0
+            }
+        }
+    }
+]

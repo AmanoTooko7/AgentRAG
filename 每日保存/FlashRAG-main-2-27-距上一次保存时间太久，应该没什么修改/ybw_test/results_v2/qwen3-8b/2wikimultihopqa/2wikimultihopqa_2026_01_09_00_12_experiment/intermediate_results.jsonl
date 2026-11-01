@@ -1,0 +1,10 @@
+{"id": "dev_0", "question": "Who is the mother of the director of film Polish-Russian War (Film)?", "pred": "NOT FOUND", "gold": ["Małgorzata Braunek"]}
+{"id": "dev_1", "question": "Which film came out first, Blind Shaft or The Mask Of Fu Manchu?", "pred": "The Mask Of Fu Manchu", "gold": ["The Mask Of Fu Manchu", "Mask of Fu Manchu", "The Mask of Fu Manchu"]}
+{"id": "dev_2", "question": "When did John V, Prince Of Anhalt-Zerbst's father die?", "pred": "NOT FOUND", "gold": ["12 June 1516"]}
+{"id": "dev_3", "question": "What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?", "pred": "NOT FOUND", "gold": ["Myanmar Motion Picture Academy Awards"]}
+{"id": "dev_4", "question": "Where was the director of film Ronnie Rocket born?", "pred": "NOT FOUND", "gold": ["Missoula", "Missoula, Montana"]}
+{"id": "dev_5", "question": "Who is Charles Bretagne Marie De La Trémoille's paternal grandfather?", "pred": "Louis II", "gold": ["Charles Armand René de La Trémoille", "Charles Armand Rene de La Tremoille"]}
+{"id": "dev_6", "question": "Where was the father of Ștefan I. Nenițescu born?", "pred": "NOT FOUND", "gold": ["Galac", "Galaţi", "Galati", "Galatz", "Galați"]}
+{"id": "dev_7", "question": "Are North Marion High School (Oregon) and Seoul High School both located in the same country?", "pred": "no", "gold": ["no"]}
+{"id": "dev_8", "question": "Which film has the director who was born later, El Extraño Viaje or Love In Pawn?", "pred": "Love In Pawn", "gold": ["El extraño viaje", "Extraño viaje", "El Extraño Viaje"]}
+{"id": "dev_9", "question": "Who is the maternal grandfather of Antiochus X Eusebes?", "pred": "Antiochus VIII Grypus", "gold": ["Ptolemy IX Soter", "Lathyros", "Ptolemy 09", "Ptolemy IX Lathyros", "Ptolemy IX Soter II"]}
