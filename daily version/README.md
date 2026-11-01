@@ -4,9 +4,9 @@
 
 | 日期 | 文件 / 版本 |
 | --- | --- |
-| 2026-07-27 | [7-27-英文版-修改了伪代码部分及正文中的说明.docx](./7-27-%E8%8B%B1%E6%96%87%E7%89%88-%E4%BF%AE%E6%94%B9%E4%BA%86%E4%BC%AA%E4%BB%A3%E7%A0%81%E9%83%A8%E5%88%86%E5%8F%8A%E6%AD%A3%E6%96%87%E4%B8%AD%E7%9A%84%E8%AF%B4%E6%98%8E.docx) |
-| 2026-07-23 | [7-23-RSA-RAG Bridging the Plan-Execution Gap in Multi-hop Reasoning via Role-Specialized Agentic RAG.docx](./7-23-RSA-RAG%20Bridging%20the%20Plan-Execution%20Gap%20in%20Multi-hop%20Reasoning%20via%20Role-Specialized%20Agentic%20RAG.docx) |
-| 2026-06-21 | [6-21-RSA-RAG：基于角色专用智能体检索增强生成弥合多跳推理中的规划-执行鸿沟.docx](./6-21-RSA-RAG%EF%BC%9A%E5%9F%BA%E4%BA%8E%E8%A7%92%E8%89%B2%E4%B8%93%E7%94%A8%E6%99%BA%E8%83%BD%E4%BD%93%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90%E5%BC%A5%E5%90%88%E5%A4%9A%E8%B7%B3%E6%8E%A8%E7%90%86%E4%B8%AD%E7%9A%84%E8%A7%84%E5%88%92-%E6%89%A7%E8%A1%8C%E9%B8%BF%E6%B2%9F.docx) |
+| 2026-07-27 | [7-27-英文版-修改了伪代码部分及正文中的说明.docx](./papers-encrypted.zip) |
+| 2026-07-23 | [7-23-RSA-RAG Bridging the Plan-Execution Gap in Multi-hop Reasoning via Role-Specialized Agentic RAG.docx](./papers-encrypted.zip) |
+| 2026-06-21 | [6-21-RSA-RAG：基于角色专用智能体检索增强生成弥合多跳推理中的规划-执行鸿沟.docx](./papers-encrypted.zip) |
 | 2026-03-06 | [FlashRAG-main-3-6微调](./FlashRAG-main-3-6%E5%BE%AE%E8%B0%83) |
 | 2026-03-06 | [V2_Py_project-3-6微调](./V2_Py_project-3-6%E5%BE%AE%E8%B0%83) |
 | 2026-03-05 | [FlashRAG-main-3-5加了跑消融实验的程序-但是还有点问题，具体看思路-实现情况.ini文件](./FlashRAG-main-3-5%E5%8A%A0%E4%BA%86%E8%B7%91%E6%B6%88%E8%9E%8D%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%A8%8B%E5%BA%8F-%E4%BD%86%E6%98%AF%E8%BF%98%E6%9C%89%E7%82%B9%E9%97%AE%E9%A2%98%EF%BC%8C%E5%85%B7%E4%BD%93%E7%9C%8B%E6%80%9D%E8%B7%AF-%E5%AE%9E%E7%8E%B0%E6%83%85%E5%86%B5.ini%E6%96%87%E4%BB%B6) |
@@ -88,6 +88,10 @@
 | 2025-09-11 | [AgentRAG_Simple_9-11_跑通了整个实验_但未优化.ipynb](./AgentRAG_Simple_9-11_%E8%B7%91%E9%80%9A%E4%BA%86%E6%95%B4%E4%B8%AA%E5%AE%9E%E9%AA%8C_%E4%BD%86%E6%9C%AA%E4%BC%98%E5%8C%96.ipynb) |
 | 2025-09-04 | [AgentRAG_Simple_9-4_完成整个系统_但未优化未测试是否运行.ipynb](./AgentRAG_Simple_9-4_%E5%AE%8C%E6%88%90%E6%95%B4%E4%B8%AA%E7%B3%BB%E7%BB%9F_%E4%BD%86%E6%9C%AA%E4%BC%98%E5%8C%96%E6%9C%AA%E6%B5%8B%E8%AF%95%E6%98%AF%E5%90%A6%E8%BF%90%E8%A1%8C.ipynb) |
 | 2025-09-03 | [AgentRAG_Simple_9-3.ipynb](./AgentRAG_Simple_9-3.ipynb) |
+
+## 加密论文
+
+三篇论文合并保存在 [papers-encrypted.zip](./papers-encrypted.zip)，采用 AES-256 加密。下载后使用支持 AES 加密 ZIP 的工具（如 7-Zip）输入密码解压。上方三个论文条目均指向此加密包。
 
 ## 未标注版本日期
 
