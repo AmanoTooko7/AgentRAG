@@ -15,9 +15,9 @@ This project is answering single question running by `main-singleQ.py`, but you 
 4. Regarding the models mentioned in second and third points above you can download at [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2); [bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3).
 
 ## Sundry
-1. LLM can use `ollama` or `vllm` for local runing, our `vllm` version is `0.14.1`.
-2. Our system ofen use `llama3-8b-instruct` so sometime encounter `No tool calls generated` in `Query_generator_agent`, within the `Query_generator_agent` function, code can be rewritten to force a database lookup for each query generated.
-3.This process of development using Google AI Studio Gemini.
+  1. LLM can use `ollama` or `vllm` for local runing, our `vllm` version is `0.14.1`.
+  2. Our system ofen use `llama3-8b-instruct` so sometime encounter `No tool calls generated` in `Query_generator_agent`, within the `Query_generator_agent` function, code can be rewritten to force a database lookup for each query generated.
+  3.This process of development using Google AI Studio Gemini.
 
 
 
