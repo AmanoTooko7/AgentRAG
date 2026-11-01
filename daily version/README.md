@@ -89,9 +89,6 @@
 | 2025-09-04 | [AgentRAG_Simple_9-4_完成整个系统_但未优化未测试是否运行.ipynb](./AgentRAG_Simple_9-4_%E5%AE%8C%E6%88%90%E6%95%B4%E4%B8%AA%E7%B3%BB%E7%BB%9F_%E4%BD%86%E6%9C%AA%E4%BC%98%E5%8C%96%E6%9C%AA%E6%B5%8B%E8%AF%95%E6%98%AF%E5%90%A6%E8%BF%90%E8%A1%8C.ipynb) |
 | 2025-09-03 | [AgentRAG_Simple_9-3.ipynb](./AgentRAG_Simple_9-3.ipynb) |
 
-## 加密论文
-
-三篇论文合并保存在 [papers-encrypted.zip](./papers-encrypted.zip)，采用 AES-256 加密。下载后使用支持 AES 加密 ZIP 的工具（如 7-Zip）输入密码解压。上方三个论文条目均指向此加密包。
 
 ## 未标注版本日期
 
